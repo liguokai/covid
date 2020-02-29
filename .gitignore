@@ -41,7 +41,6 @@ ad.js
 /plugins/
 /.babelrc
 /.eslintrc
-/README.md
 /.npmignore
 /.eslintignore
 /.editorconfig
