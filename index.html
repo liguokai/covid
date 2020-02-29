@@ -48,8 +48,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <div class="row mb-2">
             <div class="col-sm-6">
               <div class="tab-selector">
-                <span class="active"><a href="covid-report.hml">COVID-19 status</a></span>
-                <span><a href="covid_report_2.html">COVID-19 vs. SARS</a></span>
+                <span class="active"><a href="index.html">COVID-19 status</a></span>
+                <span><a href="index2.html">COVID-19 vs. SARS</a></span>
               </div>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -139,7 +139,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </section>
             <section class="col-xl-2 col-md-4 connectedSortable order-md-0 ">
               <!-- Confirmed Cases -->
-              <div class="card bg-dark ot-card-lg">
+              <div class="card bg-dark ot-card-lg p-0">
                 <div class="card-header">
                   <div class="card-title">
                     <p class="m-0">Confirmed Cases by</p>Country/Region
@@ -147,6 +147,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </div>
                 <div class="card-body table-responsive">
                   <table class="table table-head-fixed text-nowrap table-hover case-table">
+                    <thead><th width="50%"></th><th></th></thead>
                     <tbody id="total-confirmed-by-country">
                       <tr class="active" data-country="global">
                         <td id="global-confirmed">0</td>
