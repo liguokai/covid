@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Coronavirus COVID-19 Glboal Cases by OpenText</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="dist/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/ot.css" type="text/css"/>
+</head>
+
+<body class="layout-top-nav">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand-md navbar-dark bg-black border-bottom-0">
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        <a href="www.opentext.com">
+          <img src="dist/img/opentext/img_OT_logo.png" alt="OpenText Logo"
+               class="brand-image">
+        </a>
+        <span
+          class="brand-text text-lg text-white-50 d-none d-md-inline-block"><span class="text-white">Coronavirus COVID-19 Global Cases</span> Powered by Magellan</span>
+      </div>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <section class="content-wrapper bg-black">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <div class="tab-selector">
+              <span><a href="covid_report.html">COVID-19 status</a></span>
+              <span class="active"><a href="covid_report_2.html">COVID-19 vs. SARS</a></span>
+            </div>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <div class="row">
+          <section class="col-md-2 connectedSortable">
+            <!-- Confirmed Cases -->
+            <div class="card bg-dark ot-card-lg sars-selector">
+              <div class="card-header">
+                <div class="card-title text-bold">
+                  <p class="m-0">COVID-19 vs. SARS-02</p>by Country / Region
+                </div>
+              </div>
+              <div class="card-body country-panel">
+                <p class="active" data-country="Global">Global</p>
+                <p data-country="China">China</p>
+                <p data-country="Singapore">Singapore</p>
+                <p data-country="South Korea">South Korea</p>
+                <p data-country="Italy">Italy</p>
+                <p data-country="Hong Kong">Hong Kong</p>
+              </div>
+
+            </div>
+          </section>
+          <section class="col-md-5 connectedSortable">
+            <!-- Line chart -->
+            <div class="card bg-dark ot-card-chart">
+				<div class="card-header">
+                <h3 class="card-title"><p id="report1-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Confirmed cased</h3>
+              </div>
+			
+              <div id="report-1" class="card-body">
+                <div id='container1' class="table-responsive"
+                     style='margin-top: -45px; border-width: 0px;border-style: solid;'>
+                </div>
+              </div>
+              <!-- /.card-body-->
+            </div>
+            <!-- /.card -->
+            <div class="card bg-dark ot-card-chart">
+				<div class="card-header">
+                <h3 class="card-title"><p id="report2-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Death Rate</h3>
+              </div>
+				
+              <div class="card-body">
+                <div id='container2' class="table-responsive" style='border-width: 0px; border-style: solid;'>
+                </div>
+              </div>
+              <!-- /.card-body-->
+            </div>
+          </section>
+          <section class="col-md-5 connectedSortable">
+            <!-- Line chart -->
+            <div class="card bg-dark ot-card-chart">
+				<div class="card-header">
+					<h3 class="card-title"><p id="report3-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Confirmed (Logarithmic)</h3>
+				  </div>
+              <div class="card-body">
+                <div id='container3' class="table-responsive" style='border-width: 0px; border-style: solid;'>
+                </div>
+              </div>
+              <!-- /.card-body-->
+            </div>
+            <!-- /.card -->
+            <!-- Line chart -->
+            <div class="card bg-dark ot-card-chart">
+			
+				<div class="card-header">
+                <h3 class="card-title"><p id="report4-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Recovery Rate</h3>
+              </div>
+			
+              <div class="card-body">
+                <div id='container4' class="table-responsive" style='border-width: 0px; border-style: solid;'>
+                </div>
+              </div>
+              <!-- /.card-body-->
+            </div>
+            <!-- /.card -->
+          </section>
+        </div>
+      </div>
+      <!-- ./container-fluid -->
+    </section>
+    <!-- Main Footer -->
+    <footer class="main-footer bg-black border-top-0">
+      <div class="container-fluid">
+        <div class="d-sm-inline text-white-50">
+          Last updated 21 April, 2020  11:52 PM EST
+        </div>
+        <p class="source-links text-white-50">
+          Sources:  <a href="#">WHO</a><a href="#">CDC</a><a href="#">ECDC</a><a href="#">NHC</a>
+        </p>
+      </div>
+    </footer>
+    <!-- /.container-fluid -->
+  </section>
+  <!-- /.content -->
+  <!-- /.content-wrapper -->
+
+
+
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="dist/plugins/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap 4 -->
+<script src="dist/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="dist/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+
+<!-- Page script -->
+<script>
+
+  $(".table-responsive").overlayScrollbars({});
+
+</script>
+
+<script type='text/javascript' language='JavaScript' src='http://116.49.64.251:8700/iportal/jsapi'></script>
+
+<script type='text/javascript'>
+  var country_region_val = "Global";
+  actuate.load('viewer');
+  var reqOps = new actuate.RequestOptions();
+  reqOps.setRepositoryType('Enterprise');
+  reqOps.setVolume('Default Volume');
+  reqOps.setCustomParameters({});
+  actuate.initialize('http://116.49.64.251:8700/iportal/', reqOps == undefined ? null : reqOps, 'Administrator','', myInit);
+
+  function myInit() {
+    viewer1 = new actuate.Viewer('container1');
+    w = jQuery("#report-1").innerWidth() - 40;
+    h = jQuery("#report-1").innerHeight();
+    viewer1.setSize(w, h);
+
+    viewer1.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/1_Covid vs SARS_Confirmed2.rptdesign');
+    var parameterValueMap = {p_COVIDCountry:country_region_val,p_SARSCountry2:country_region_val}
+    var parameterValues = [];
+    for (
+      var key in parameterValueMap) {
+      var param = new actuate.viewer.impl.ParameterValue();
+      param.setName(key);
+      if (parameterValueMap[key] != null) {
+        param.setValue(parameterValueMap[key]);
+      } else {
+        param.setValueIsNull(true);
+      }
+      parameterValues.push(param);
+    }
+    viewer1.setParameterValues(parameterValues);
+    var options = new actuate.viewer.UIOptions();
+    options.enableToolBar(false);
+    viewer1.setUIOptions(options);
+    viewer1.submit();
+
+    viewer2 = new actuate.Viewer('container2');
+    viewer2.setSize(w, h);
+    viewer2.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/2_Covid vs SARS_ConfirmedLog2.rptdesign');
+    viewer2.setParameterValues(parameterValues);
+    var options2 = new actuate.viewer.UIOptions();
+    options2.enableToolBar(false);
+    viewer2.setUIOptions(options2);
+    viewer2.submit();
+
+
+    viewer3 = new actuate.Viewer('container3');
+    viewer3.setSize(w, h);
+    viewer3.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/3_Covid vs SARS_DeathRate2.rptdesign');
+    viewer3.setParameterValues(parameterValues);
+    var options3 = new actuate.viewer.UIOptions();
+    options3.enableToolBar(false);
+    viewer3.setUIOptions(options2);
+    viewer3.submit();
+
+    viewer4 = new actuate.Viewer('container4');
+    viewer4.setSize(w, h);
+    viewer4.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/4_Covid vs SARS_RecoveryRate2.rptdesign');
+    viewer4.setParameterValues(parameterValues);
+    var options4 = new actuate.viewer.UIOptions();
+    options4.enableToolBar(false);
+    viewer4.setUIOptions(options4);
+    viewer4.submit();
+  }
+
+  function updateParam(param){
+    country_region_val = param;
+    myInit();
+  }
+  
+  
+  function updateTitle(country){
+  
+  if(country = 'Global')
+	{
+		jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+		jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+		jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+		jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+		
+	}else{
+		jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
+		jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
+		jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
+		jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
+	}
+  
+  }
+  
+
+  jQuery(window).resize(function () {
+  
+    myInit();
+	
+  });
+
+  jQuery(function(){
+  
+	
+    jQuery("p[data-country]").on('click',function(event){
+      event.preventDefault();
+      var $this = $(this);
+      var country = $this.data('country');
+      jQuery("p.active").removeClass("active");
+      $this.addClass("active");
+	  
+	  
+	  updateTitle(country);
+      updateParam(country);
+    })
+  });
+
+</script>
+</body>
+
+</html>
