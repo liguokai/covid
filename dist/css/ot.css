@@ -180,6 +180,10 @@ tr.active {
     height: 500px;
   }
 
+  .sars-selector{
+    min-height: 350px;
+    height: 350px;
+  }
   .tab-selector span {
     margin-right: 5px;
   }

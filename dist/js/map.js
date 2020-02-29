@@ -34,44 +34,52 @@ var dataInitialized = false;
 var map = null;
 
 // get the container id
+var $globalConfirmed = $('#global-confirmed');
 
-var $totalConfirmed = $('.total-confirmed');
+var $totalConfirmed = $('#total-confirmed');
 var $totalDeaths = $('#total-deaths');
 var $totalRecovered = $('#total-recovered');
 
 var $countryTbody = $('#total-confirmed-by-country');
 var $stateTbody = $('#total-confirmed-by-state');
 
+var $totalConfirmedTbody = $('#total-confirmed-body');
 var $totalDeathsTbody = $('#total-deaths-body');
 var $totalRecoveredTbody = $('#total-recovered-body');
 
-// $countryTbody.on('click', 'tr', function (event) {
+$countryTbody.on('click', 'tr', function (event) {
+	event.preventDefault();
+	var $this = $(this);
+	var countryId = $this.data('country');
+	
+	if (countryId == 'global' || $this.hasClass('active')) {
+		unselectCountry(countryId);
+	} else {
+		selectCountry(countryId);
+	}
+ 	myInit(country);
+});
+
+$('.state-cases-header .close').on('click', function (event) {
+	$('#world-map').show();
+	$('#state-cases').hide();
+})
+// $stateTbody.on('click', 'tr', function (event) {
 // 	event.preventDefault();
 // 	var $this = $(this);
 // 	var country = $this.data('country');
-// 	console.log('Country', country, 'clicked');
+// 	var state = $this.data('state');
+	
+// 	//alert(country);
+	
+// 	myInit(country);
+	
 // 	if ($this.hasClass('active')) {
-// 		unselectCountry(country);
+// 		unselectState(country, state);
 // 	} else {
-// 		selectCountry(country);
+// 		selectState(country, state);
 // 	}
 // });
-$stateTbody.on('click', 'tr', function (event) {
-	event.preventDefault();
-	var $this = $(this);
-	var country = $this.data('country');
-	var state = $this.data('state');
-	
-	//alert(country);
-	
-	myInit(country);
-	
-	if ($this.hasClass('active')) {
-		unselectState(country, state);
-	} else {
-		selectState(country, state);
-	}
-});
 
 // $totalDeathsTbody.on('click', 'tr', function (event) {
 // 	event.preventDefault();
@@ -87,57 +95,131 @@ $stateTbody.on('click', 'tr', function (event) {
 // 	var state = $this.data('state');
 // });
 
-// function selectCountry(id) {
-// 	console.log('selectCountry()', 'country', id);
-
-// 	// shoq/hide data in table
-// 	$countryTbody.children('tr').removeClass('active');
-// 	$countryTbody.children('tr[data-country="' + id + '"]').addClass('active');
-
-// 	$stateTbody.children('tr').removeClass('active');
-
-// 	$totalDeathsTbody.children('tr').hide();
-// 	$totalDeathsTbody.children('tr[data-country="' + id + '"]').show();
-
-// 	$totalRecoveredTbody.children('tr').hide();
-// 	$totalRecoveredTbody.children('tr[data-country="' + id + '"]').show();
-// }
-
-// function unselectCountry(id) {
-// 	$countryTbody.children('tr').removeClass('active');
-// 	$totalDeathsTbody.children('tr').show();
-// 	$totalRecoveredTbody.children('tr').show();
-// }
-
-function selectState(countryId, stateId) {
-	if (!countryId || !stateId) {
-		return;
-	}
-	// scroll to lat,long
-	var state = global.states[countryId + '___' + stateId];
-	var latLng = new google.maps.LatLng(state.lat, state.lng);
-    map.panTo(latLng);
+function selectCountry(countryId) {
+	console.log('selectCountry()', 'country', countryId);
 
 	// shoq/hide data in table
-	// $countryTbody.children('tr').removeClass('active');
+	$countryTbody.children('tr').removeClass('active');
+	$countryTbody.children('tr[data-country="' + countryId + '"]').addClass('active');
 
-	$stateTbody.children('tr').removeClass('active');
-	$stateTbody.children('tr[data-country="' + countryId + '"][data-state="' + stateId + '"]').addClass('active');
+	// scroll to lat,long
+	var country = global.countries[countryId];
+
+	var largestConfirmedCase = 0;
+	var largestState = '';
+	for (var i in global.countries[countryId].states) {
+		var stateId = global.countries[countryId].states[i];
+		var state = global.states[countryId + '___' + stateId];
+		if (state.cases.confirmed > largestConfirmedCase) {
+			largestConfirmedCase = state.cases.confirmed;
+			largestState = stateId;
+		}
+	}
+
+	console.log('largestState', largestState);
+
+	var state = global.states[countryId + '___' + largestState];
+	var latLng = new google.maps.LatLng(state.lat, state.lng);
+	map.panTo(latLng);
+
+	$totalConfirmed.text(Number(country.cases.confirmed + '').toLocaleString());
+	$totalDeaths.text(Number(country.cases.deaths + '').toLocaleString());
+	$totalRecovered.text(Number(country.cases.recovered + '').toLocaleString());
+
+	// $stateTbody.children('tr').removeClass('active');
 
 	// $totalDeathsTbody.children('tr').hide();
-	// $totalDeathsTbody.children('tr[data-country="' + country + '"][data-state="' + state + '"]').show();
+	// $totalDeathsTbody.children('tr[data-country="' + id + '"]').show();
 
 	// $totalRecoveredTbody.children('tr').hide();
-	// $totalRecoveredTbody.children('tr[data-country="' + country + '"][data-state="' + state + '"]').show();
+	// $totalRecoveredTbody.children('tr[data-country="' + id + '"]').show();
+	
+	var statesArray = Object.keys(global.states).map(key => global.states[key]);
+	var statesByConfirmed = _.filter(statesArray, function (state) { return state.country === countryId; });
+	statesByConfirmed = _.sortBy(statesByConfirmed, ['cases.confirmed', 'name']).reverse();
+	
+	$totalConfirmedTbody.html('');
+	for (var key in statesByConfirmed) {
+		var state = statesByConfirmed[key];
+		$('<tr data-country="' + state.country + '" data-state="' + state.name + '">'
+			+ '<td>' + (state.name == '' ? '' : '<strong>' + state.name + '</strong><br/>') + state.country + '</td>'
+			+ '<td class="text-danger">' + Number(state.cases.confirmed + '').toLocaleString() + '</td>'
+			+ '</tr>'
+		).appendTo($totalConfirmedTbody);
+
+		console.log(state.name, state.lat, state.lng);
+	};
+
+	var statesByDeaths = _.filter(statesArray, function (state) { return state.country === countryId; });
+	statesByDeaths = _.sortBy(statesByDeaths, ['cases.deaths', 'name']).reverse();
+	$totalDeathsTbody.html('');
+	for (var key in statesByDeaths) {
+		var state = statesByDeaths[key];
+		$('<tr data-country="' + state.country + '" data-state="' + state.name + '">'
+			+ '<td>' + (state.name == '' ? '' : '<strong>' + state.name + '</strong><br/>') + state.country + '</td>'
+			+ '<td>' + Number(state.cases.deaths + '').toLocaleString() + '</td>'
+			+ '</tr>'
+			+ '</td></tr>'
+		).appendTo($totalDeathsTbody);
+	};
+
+	var statesByRecovered = _.filter(statesArray, function (state) { return state.country === countryId; });
+	statesByRecovered = _.sortBy(statesByRecovered, ['cases.recovered', 'name']).reverse();
+	$totalRecoveredTbody.html('');
+	for (var key in statesByRecovered) {
+		var state = statesByRecovered[key];
+		$('<tr data-country="' + state.country + '" data-state="' + state.name + '">'
+		+ '<td>' + (state.name == '' ? '' : '<strong>' + state.name + '</strong><br/>') + state.country + '</td>'
+			+ '<td class="text-success">' + Number(state.cases.recovered + '').toLocaleString() + '</td>'
+			+ '</tr>'
+		).appendTo($totalRecoveredTbody);
+	};
 }
 
-function unselectState(country, state) {
-	$stateTbody.children('tr').removeClass('active');
+function unselectCountry(id) {
+	$countryTbody.children('tr').removeClass('active');
+	$countryTbody.children('tr:first').addClass('active');
+	
+	$totalConfirmed.text(Number(global.cases.confirmed + '').toLocaleString());
+	$totalDeaths.text(Number(global.cases.deaths + '').toLocaleString());
+	$totalRecovered.text(Number(global.cases.recovered + '').toLocaleString());
 
+	$totalConfirmedTbody.html('');
+	$totalDeathsTbody.html('');
+	$totalRecoveredTbody.html('');
 	// $totalDeathsTbody.children('tr').show();
-
 	// $totalRecoveredTbody.children('tr').show();
 }
+
+// function selectState(countryId, stateId) {
+// 	if (!countryId || !stateId) {
+// 		return;
+// 	}
+// 	// scroll to lat,long
+// 	var state = global.states[countryId + '___' + stateId];
+// 	var latLng = new google.maps.LatLng(state.lat, state.lng);
+//     map.panTo(latLng);
+
+// 	// shoq/hide data in table
+// 	// $countryTbody.children('tr').removeClass('active');
+
+// 	$stateTbody.children('tr').removeClass('active');
+// 	$stateTbody.children('tr[data-country="' + countryId + '"][data-state="' + stateId + '"]').addClass('active');
+
+// 	// $totalDeathsTbody.children('tr').hide();
+// 	// $totalDeathsTbody.children('tr[data-country="' + country + '"][data-state="' + state + '"]').show();
+
+// 	// $totalRecoveredTbody.children('tr').hide();
+// 	// $totalRecoveredTbody.children('tr[data-country="' + country + '"][data-state="' + state + '"]').show();
+// }
+
+// function unselectState(country, state) {
+// 	$stateTbody.children('tr').removeClass('active');
+
+// 	// $totalDeathsTbody.children('tr').show();
+
+// 	// $totalRecoveredTbody.children('tr').show();
+// }
 
 function onDataReterived(data) {
 	$(data).find('row').each(function () {
@@ -192,56 +274,22 @@ function onDataReterived(data) {
 }
 
 function renderTable() {
+	$globalConfirmed.text(Number(global.cases.confirmed + '').toLocaleString());
 	$totalConfirmed.text(Number(global.cases.confirmed + '').toLocaleString());
 	$totalDeaths.text(Number(global.cases.deaths + '').toLocaleString());
 	$totalRecovered.text(Number(global.cases.recovered + '').toLocaleString());
 
-	// var countriesArray = Object.keys(global.countries).map(key => global.countries[key]);
-	// var countriesByConfirmed = _.sortBy(countriesArray, ['cases.confirmed', 'name']).reverse();
-	// for (var key in countriesByConfirmed) {
-	// 	var country = countriesByConfirmed[key];
-	// 	$('<tr data-country="' + country.name + '"><td><span class="text-danger text-lg text-bold">'
-	// 		+ Number(country.cases.confirmed + '').toLocaleString()
-	// 		+ '</span>&nbsp;<span class="text-region">'
-	// 		+ country.name
-	// 		+ '</span></td></tr>'
-	// 	).appendTo($countryTbody);
-	// };
+	var countriesArray = Object.keys(global.countries).map(key => global.countries[key]);
+	var countriesByConfirmed = _.sortBy(countriesArray, ['cases.confirmed', 'name']).reverse();
+	for (var key in countriesByConfirmed) {
+		var country = countriesByConfirmed[key];
 
-	var statesArray = Object.keys(global.states).map(key => global.states[key]);
-	var statesByConfirmed = _.sortBy(statesArray, ['cases.confirmed', 'name']).reverse();
-	for (var key in statesByConfirmed) {
-		var state = statesByConfirmed[key];
-		$('<tr data-country="' + state.country + '" data-state="' + state.name + '">'
-			+ '<td>' + Number(state.cases.confirmed + '').toLocaleString() + '</td>'
-			+ '<td>' + state.name + '&nbsp;' + state.country + '</td>'
+		$('<tr data-country="' + country.name + '"">'
+			+ '<td>' + Number(country.cases.confirmed + '').toLocaleString() + '</td>'
+			+ '<td>' + country.name + '</td>'
 			+ '</tr>'
-		).appendTo($stateTbody);
-
-		console.log(state.name, state.lat, state.lng);
+		).appendTo($countryTbody);
 	};
-
-	// var statesByDeaths = _.filter(statesArray, function (state) { return state.cases.deaths > 0; });
-	// statesByDeaths = _.sortBy(statesByDeaths, ['cases.deaths', 'name']).reverse();
-	// for (var key in statesByDeaths) {
-	// 	var state = statesByDeaths[key];
-	// 	$('<tr data-country="' + state.country + '" data-state="' + state.name + '"><td>'
-	// 		+ '<div><span class="text-danger text-lg text-bold">' + Number(state.cases.deaths + '').toLocaleString() + '</span>&nbsp;<span class="text-danger">deaths</span></div>'
-	// 		+ '<div><span class="text-bold">' + state.name + '</span>&nbsp;<span class="text-region">' + state.country + '</span></div>'
-	// 		+ '</td></tr>'
-	// 	).appendTo($totalDeathsTbody);
-	// };
-
-	// var statesByRecovered = _.filter(statesArray, function (state) { return state.cases.recovered > 0; });
-	// statesByRecovered = _.sortBy(statesByRecovered, ['cases.recovered', 'name']).reverse();
-	// for (var key in statesByRecovered) {
-	// 	var state = statesByRecovered[key];
-	// 	$('<tr data-country="' + state.country + '" data-state="' + state.name + '"><td>'
-	// 		+ '<div><span class="text-success text-lg text-bold">' + Number(state.cases.recovered + '').toLocaleString() + '</span>&nbsp;<span class="text-success">recovered</span></div>'
-	// 		+ '<div><span class="text-bold">' + state.name + '</span>&nbsp;<span class="text-region">' + state.country + '</span></div>'
-	// 		+ '</td></tr>'
-	// 	).appendTo($totalRecoveredTbody);
-	// };
 }
 
 var polling = setInterval(function () {
@@ -275,10 +323,10 @@ function initMap() {
 // create the map
 function createMap(id) {
 	var options = {
-		zoom: 3,
+		zoom: 4,
 		styles: styles,
 		gestureHandling: 'greedy',
-		center: new google.maps.LatLng(34.4131804, 86.0414497),
+		center: new google.maps.LatLng(30.9756, 112.2707),
 		//scrollwheel : false,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		navigationControlOptions: {
@@ -334,23 +382,29 @@ var CHINA_MULTIPLIER = 1500;
 function createMarkerInfoWindow(map, marker, state) {
 	console.log('createMarkerInfoWindow()', '...', state.country, state.name);
 
-	// create the popup info window for each marker
-	var contentString = '<div class="state-marker"><h3>' + (state.name == '' ? state.country : state.name + '&nbsp;(' + state.country + ')') + '&nbsp;</h3><br>';
-	contentString += '<b>Confirmed : </b>' + state.cases.confirmed + '<br>'
-	contentString += '<b>Recovered : </b>' + state.cases.recovered + '<br>'
-	contentString += '<b>Deaths : </b>' + state.cases.deaths + '</div>'
+	// // create the popup info window for each marker
+	// var contentString = '<div class="state-marker"><h3>' + (state.name == '' ? state.country : state.name + '&nbsp;(' + state.country + ')') + '&nbsp;</h3><br>';
+	// contentString += '<b>Confirmed : </b>' + state.cases.confirmed + '<br>'
+	// contentString += '<b>Recovered : </b>' + state.cases.recovered + '<br>'
+	// contentString += '<b>Deaths : </b>' + state.cases.deaths + '</div>'
 
-	var infowindow = new google.maps.InfoWindow({
-		content: contentString
-	});
+	// var infowindow = new google.maps.InfoWindow({
+	// 	content: contentString
+	// });
 	
 	google.maps.event.addListener(marker, 'click', function (e) {
-		if (lastInfowindow != null) {
-			lastInfowindow.close();
-		}
+		console.log('click', state.name);
+		// if (lastInfowindow != null) {
+		// 	lastInfowindow.close();
+		// }
 
-		infowindow.open(map, marker);
+		// infowindow.open(map, marker);
 
-		lastInfowindow = infowindow;
+		// lastInfowindow = infowindow;
+
+		selectCountry(state.country);
+
+		$('#world-map').hide();
+		$('#state-cases').show();
 	});
 }

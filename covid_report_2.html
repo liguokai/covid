@@ -47,8 +47,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="row mb-2">
           <div class="col-sm-6">
             <div class="tab-selector">
-              <span><a href="covid_report_7.html">COVID-19 status</a></span>
-              <span class="active"><a href="covid_report_5_2.html">COVID-19 vs. SARS</a></span>
+              <span><a href="covid_report.html">COVID-19 status</a></span>
+              <span class="active"><a href="covid_report_2.html">COVID-19 vs. SARS</a></span>
             </div>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -63,10 +63,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="row">
           <section class="col-md-2 connectedSortable">
             <!-- Confirmed Cases -->
-            <div class="card bg-dark ot-card-lg">
+            <div class="card bg-dark ot-card-lg sars-selector">
               <div class="card-header">
                 <div class="card-title text-bold">
-                  <p class="m-0">COVID-19 vs. SARS-02</p>by Country/Region
+                  <p class="m-0">COVID-19 vs. SARS-02</p>by Country / Region
                 </div>
               </div>
               <div class="card-body country-panel">
@@ -83,6 +83,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <section class="col-md-5 connectedSortable">
             <!-- Line chart -->
             <div class="card bg-dark ot-card-chart">
+				<div class="card-header">
+                <h3 class="card-title"><p id="report1-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Confirmed cased</h3>
+              </div>
+			
               <div id="report-1" class="card-body">
                 <div id='container1' class="table-responsive"
                      style='margin-top: -45px; border-width: 0px;border-style: solid;'>
@@ -92,6 +96,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.card -->
             <div class="card bg-dark ot-card-chart">
+				<div class="card-header">
+                <h3 class="card-title"><p id="report2-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Death Rate</h3>
+              </div>
+				
               <div class="card-body">
                 <div id='container2' class="table-responsive" style='border-width: 0px; border-style: solid;'>
                 </div>
@@ -102,6 +110,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <section class="col-md-5 connectedSortable">
             <!-- Line chart -->
             <div class="card bg-dark ot-card-chart">
+				<div class="card-header">
+					<h3 class="card-title"><p id="report3-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Confirmed (Logarithmic)</h3>
+				  </div>
               <div class="card-body">
                 <div id='container3' class="table-responsive" style='border-width: 0px; border-style: solid;'>
                 </div>
@@ -111,6 +122,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- /.card -->
             <!-- Line chart -->
             <div class="card bg-dark ot-card-chart">
+			
+				<div class="card-header">
+                <h3 class="card-title"><p id="report4-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Recovery Rate</h3>
+              </div>
+			
               <div class="card-body">
                 <div id='container4' class="table-responsive" style='border-width: 0px; border-style: solid;'>
                 </div>
@@ -123,27 +139,24 @@ scratch. This page gets rid of all links and provides the needed markup only.
       </div>
       <!-- ./container-fluid -->
     </section>
-
+    <!-- Main Footer -->
+    <footer class="main-footer bg-black border-top-0">
+      <div class="container-fluid">
+        <div class="d-sm-inline text-white-50">
+          Last updated 21 April, 2020  11:52 PM EST
+        </div>
+        <p class="source-links text-white-50">
+          Sources:  <a href="#">WHO</a><a href="#">CDC</a><a href="#">ECDC</a><a href="#">NHC</a>
+        </p>
+      </div>
+    </footer>
     <!-- /.container-fluid -->
   </section>
   <!-- /.content -->
   <!-- /.content-wrapper -->
 
 
-  <!-- Main Footer -->
-  <footer class="main-footer bg-dark border-top-0">
-    <div class="container">
-      <!-- To the right -->
-      <div class="float-right d-none d-sm-inline">
-        <span>Last Updated at (M/D/YYYY)</span>
-        <span>2/24/2020 20:44:00 p.m.</span>
-      </div>
-      <!-- Default to the left -->
-      <p>
-        <strong>Copyright &copy; 2020 <a href="https://www.opentext.com">OpenText</a>.</strong> All rights reserved.
-      </p>
-    </div>
-  </footer>
+
 </div>
 <!-- ./wrapper -->
 
@@ -177,7 +190,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script type='text/javascript' language='JavaScript' src='http://116.49.64.251:8700/iportal/jsapi'></script>
 
 <script type='text/javascript'>
-  var country_region_val = "China";
+  var country_region_val = "Global";
   actuate.load('viewer');
   var reqOps = new actuate.RequestOptions();
   reqOps.setRepositoryType('Enterprise');
@@ -188,10 +201,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   function myInit() {
     viewer1 = new actuate.Viewer('container1');
     w = jQuery("#report-1").innerWidth() - 40;
-    h = jQuery("#report-1").innerHeight() - 40;
+    h = jQuery("#report-1").innerHeight();
     viewer1.setSize(w, h);
 
-    viewer1.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/1_Covid vs SARS_Confirmed.rptdesign');
+    viewer1.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/1_Covid vs SARS_Confirmed2.rptdesign');
     var parameterValueMap = {p_COVIDCountry:country_region_val,p_SARSCountry2:country_region_val}
     var parameterValues = [];
     for (
@@ -213,7 +226,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     viewer2 = new actuate.Viewer('container2');
     viewer2.setSize(w, h);
-    viewer2.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/2_Covid vs SARS_ConfirmedLog.rptdesign');
+    viewer2.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/2_Covid vs SARS_ConfirmedLog2.rptdesign');
     viewer2.setParameterValues(parameterValues);
     var options2 = new actuate.viewer.UIOptions();
     options2.enableToolBar(false);
@@ -223,7 +236,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     viewer3 = new actuate.Viewer('container3');
     viewer3.setSize(w, h);
-    viewer3.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/3_Covid vs SARS_DeathRate.rptdesign');
+    viewer3.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/3_Covid vs SARS_DeathRate2.rptdesign');
     viewer3.setParameterValues(parameterValues);
     var options3 = new actuate.viewer.UIOptions();
     options3.enableToolBar(false);
@@ -232,7 +245,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     viewer4 = new actuate.Viewer('container4');
     viewer4.setSize(w, h);
-    viewer4.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/Covid vs SARS_RecoveryRate.rptdesign');
+    viewer4.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/4_Covid vs SARS_RecoveryRate2.rptdesign');
     viewer4.setParameterValues(parameterValues);
     var options4 = new actuate.viewer.UIOptions();
     options4.enableToolBar(false);
@@ -244,18 +257,45 @@ scratch. This page gets rid of all links and provides the needed markup only.
     country_region_val = param;
     myInit();
   }
+  
+  
+  function updateTitle(country){
+  
+  if(country = 'Global')
+	{
+		jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+		jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+		jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+		jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+		
+	}else{
+		jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
+		jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
+		jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
+		jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
+	}
+  
+  }
+  
 
   jQuery(window).resize(function () {
+  
     myInit();
+	
   });
 
   jQuery(function(){
+  
+	
     jQuery("p[data-country]").on('click',function(event){
       event.preventDefault();
       var $this = $(this);
       var country = $this.data('country');
       jQuery("p.active").removeClass("active");
       $this.addClass("active");
+	  
+	  
+	  updateTitle(country);
       updateParam(country);
     })
   });
