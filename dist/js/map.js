@@ -323,7 +323,7 @@ function initMap() {
 // create the map
 function createMap(id) {
 	var options = {
-		zoom: 4,
+		zoom: 5,
 		styles: styles,
 		gestureHandling: 'greedy',
 		center: new google.maps.LatLng(30.9756, 112.2707),
@@ -367,7 +367,7 @@ function createMarker(map, states) {
 			myState: state.name,
 			position: {lat: state.lat, lng: state.lng},
 			center: new google.maps.LatLng(state.lat, state.lng),
-			radius: Math.sqrt(state.cases.confirmed) * (state.country === "Mainland China" ? CHINA_MULTIPLIER : DEFAULT_MULTIPLIER)
+			radius: Math.sqrt(state.cases.confirmed) * (state.country == " Mainland China" ? CHINA_MULTIPLIER : DEFAULT_MULTIPLIER)
 		});
 
 		createMarkerInfoWindow(map, marker, state);
@@ -376,8 +376,8 @@ function createMarker(map, states) {
 
 var lastInfowindow = null;
 
-var DEFAULT_MULTIPLIER = 15000;
-var CHINA_MULTIPLIER = 1500;
+var DEFAULT_MULTIPLIER = 3000;
+var CHINA_MULTIPLIER = 1200;
 
 function createMarkerInfoWindow(map, marker, state) {
 	console.log('createMarkerInfoWindow()', '...', state.country, state.name);

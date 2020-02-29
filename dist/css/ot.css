@@ -128,7 +128,7 @@ tr.active {
 
 
 .table.case-table {
-  margin: 0px;
+  margin: -1px;
 }
 .table.case-table td,
 .table.case-table th {
