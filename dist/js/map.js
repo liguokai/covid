@@ -143,7 +143,7 @@ function selectCountry(countryId) {
 		var state = statesByConfirmed[key];
 		$('<tr data-country="' + state.country + '" data-state="' + state.name + '">'
 			+ '<td>' + (state.name == '' ? '' : '<strong>' + state.name + '</strong><br/>') + state.country + '</td>'
-			+ '<td class="text-danger">' + Number(state.cases.confirmed + '').toLocaleString() + '</td>'
+			+ '<td class="confirmed-text">' + Number(state.cases.confirmed + '').toLocaleString() + '</td>'
 			+ '</tr>'
 		).appendTo($totalConfirmedTbody);
 

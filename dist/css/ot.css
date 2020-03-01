@@ -68,14 +68,17 @@ html {
   min-height: 112px;
   height: 112px;
 }
-.ot-box h3{
+
+.ot-box h3 {
 }
-.ot-box h5{
+
+.ot-box h5 {
   font-weight: normal;
   font-size: 0.8em;
   line-height: 1em;
   height: 1em;
 }
+
 .news {
   color: #ffffff;
   font-size: 1em;
@@ -114,7 +117,7 @@ tr.active {
   margin-right: 5px;
 }
 
-.case-region{
+.case-region {
   font-weight: normal;
 }
 
@@ -137,6 +140,7 @@ tr.active {
 .table.case-table {
   margin: -1px;
 }
+
 .table.case-table td,
 .table.case-table th {
   padding: 0;
@@ -146,23 +150,25 @@ tr.active {
   cursor: pointer;
 }
 
-.table.case-table td:nth-child(odd){
+.table.case-table td:nth-child(odd) {
   padding: 4px 4px 4px 8px;
   text-align: right;
   color: red;
 }
-.table.case-table td:nth-child(even){
+
+.table.case-table td:nth-child(even) {
   padding: 4px 8px 4px 4px;
   text-align: left;
 }
 
 .case-table tr.active {
   color: #fff;
-  background-color: #701a12!important;
+  background-color: #701a12 !important;
 }
+
 .table-hover.case-table tbody tr:hover {
   color: inherit;
-  background-color: #701a12!important;
+  background-color: #701a12 !important;
 }
 
 
@@ -174,11 +180,48 @@ tr.active {
   cursor: pointer;
 }
 
-.country-panel p:hover{
+.country-panel p:hover {
   color: #DF3324;
 }
-.country-panel p.active{
+
+.country-panel p.active {
   color: #DF3324;
+}
+
+.state-cases-content {
+  padding: 25px 15px;
+  height: 100%;
+}
+
+.state-cases-content .state-table {
+  border-right: 1px solid #3F4950;
+}
+
+.state-cases-content .state-table td {
+  border: none;
+}
+
+.state-cases-content .state-table tbody tr :first-child {
+  width: 60%;
+}
+
+.state-cases-content .state-table tbody tr :last-child {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 16px;
+}
+
+.state-cases-content .state-table .confirmed-text{
+  color:#DF3324 !important;
+}
+
+.state-cases-header .close{
+  right: 8px;
+  position: absolute;
+  top: 0;
+  color: white;
+  opacity: 1;
+  font-size: 1.5em;
 }
 
 @media (max-width: 720px) {
@@ -187,10 +230,11 @@ tr.active {
     height: 500px;
   }
 
-  .sars-selector{
+  .sars-selector {
     min-height: 350px;
     height: 350px;
   }
+
   .tab-selector span {
     margin-right: 5px;
   }
@@ -200,4 +244,5 @@ tr.active {
   }
 
 }
+
 /*# sourceMappingURL=ot.css.map */
