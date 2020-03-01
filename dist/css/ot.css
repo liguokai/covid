@@ -68,7 +68,14 @@ html {
   min-height: 112px;
   height: 112px;
 }
-
+.ot-box h3{
+}
+.ot-box h5{
+  font-weight: normal;
+  font-size: 0.8em;
+  line-height: 1em;
+  height: 1em;
+}
 .news {
   color: #ffffff;
   font-size: 1em;
