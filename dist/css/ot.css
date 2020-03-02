@@ -130,6 +130,10 @@ tr.active {
 .source-links {
   float: right;
 }
+.last-update-text{
+  float: left;
+  color: #98A8B2;
+}
 
 .main-footer {
   color: #98A8B2;
@@ -238,6 +242,11 @@ tr.active {
 /* override the height of chart table */
 .ot-chart-container .floatPanel table {
   height: auto !important;
+}
+
+.ot-copy-right{
+  font-size: 0.8em;
+  color: #657986;
 }
 @media (max-width: 720px) {
   .ot-card-lg {
