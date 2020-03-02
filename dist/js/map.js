@@ -40,6 +40,9 @@ var $totalConfirmed = $('#total-confirmed');
 var $totalDeaths = $('#total-deaths');
 var $totalRecovered = $('#total-recovered');
 
+var $deathsPercentage = $('#deaths-percentage');
+var $recoverdPercentage = $('#recoverd-percentage');
+
 var $countryTbody = $('#total-confirmed-by-country');
 var $stateTbody = $('#total-confirmed-by-state');
 
@@ -126,6 +129,12 @@ function selectCountry(countryId) {
 	$totalConfirmed.text(Number(country.cases.confirmed + '').toLocaleString());
 	$totalDeaths.text(Number(country.cases.deaths + '').toLocaleString());
 	$totalRecovered.text(Number(country.cases.recovered + '').toLocaleString());
+	
+	//console.log('$deathsPercentage', (country.cases.deaths/country.cases.confirmed * 100).toFixed(2).toLocaleString() + "% of confirmed");
+	//console.log('$recoverdPercentage', (country.cases.recovered/country.cases.confirmed * 100).toFixed(2).toLocaleString() + + "% of confirmed");
+	
+	$deathsPercentage.text((country.cases.deaths/country.cases.confirmed * 100).toFixed(2).toLocaleString() + "% of confirmed");
+	$recoverdPercentage.text((country.cases.recovered/country.cases.confirmed * 100).toFixed(2).toLocaleString() + "% of confirmed");
 
 	// $stateTbody.children('tr').removeClass('active');
 
@@ -184,6 +193,9 @@ function unselectCountry(id) {
 	$totalConfirmed.text(Number(global.cases.confirmed + '').toLocaleString());
 	$totalDeaths.text(Number(global.cases.deaths + '').toLocaleString());
 	$totalRecovered.text(Number(global.cases.recovered + '').toLocaleString());
+	
+	$deathsPercentage.text((global.cases.deaths/global.cases.confirmed * 100).toFixed(2).toLocaleString() + "% of confirmed");
+	$recoverdPercentage.text((global.cases.recovered/global.cases.confirmed * 100).toFixed(2).toLocaleString() + "% of confirmed");
 
 	$totalConfirmedTbody.html('');
 	$totalDeathsTbody.html('');
@@ -279,6 +291,9 @@ function renderTable() {
 	$totalConfirmed.text(Number(global.cases.confirmed + '').toLocaleString());
 	$totalDeaths.text(Number(global.cases.deaths + '').toLocaleString());
 	$totalRecovered.text(Number(global.cases.recovered + '').toLocaleString());
+	
+	$deathsPercentage.text((global.cases.deaths/global.cases.confirmed * 100).toFixed(2).toLocaleString() + "% of confirmed");
+	$recoverdPercentage.text((global.cases.recovered/global.cases.confirmed * 100).toFixed(2).toLocaleString() + "% of confirmed");
 
 	var countriesArray = Object.keys(global.countries).map(key => global.countries[key]);
 	var countriesByConfirmed = _.sortBy(countriesArray, ['cases.confirmed', 'name']).reverse();
