@@ -185,8 +185,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="card bg-dark ot-card-xs">
               <div class="card-header">
                 <h3 class="card-title chart-selector">
-                	<span id="linear-report" class="active"><a href="#">Linear</a></span>
-                	<span id="logarithmic-report"><a href="#">Logarithmic</a></span></h3>
+                	<span id="linear-report" class="active"><a href="javascript:void(0);">Linear</a></span>
+                	<span id="logarithmic-report"><a href="javascript:void(0);">Logarithmic</a></span></h3>
               </div>
               <div id="report-1" class="card-body">
 
@@ -213,8 +213,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="card bg-dark ot-card-xs">
               <div class="card-header">
                 <h3 class="card-title chart-selector">
-                  <span id="keywords-report" class="active"><a href="#">Keywords</a></span>
-                  <span><a id="topics-report" href="#">Topics</a></span></h3>
+                  <span id="keywords-report" class="active"><a href="javascript:void(0);">Keywords</a></span>
+                  <span><a id="topics-report" href="javascript:void(0);">Topics</a></span></h3>
               </div>
               <div id="report-3" class="card-body">
                 <div id='container3' style='border-width: 0px; border-style: solid; margin: -50px 0px 20px'></div>
@@ -398,6 +398,8 @@ OpenText disclaims any and all representations and warranties concerning the Das
   jQuery("#linear-report").click(function() {
 	  report1_name = "/Applications/COR20_APAC/Report Designs/covid_linearChart.rptdesign;1";
 	  mySubInit1("");
+	  $("#logarithmic-report").removeClass("active");
+	  $(this).addClass("active");
 	  //alert( "Handler for .click() called." );
 	});
   
@@ -405,18 +407,24 @@ OpenText disclaims any and all representations and warranties concerning the Das
   jQuery("#logarithmic-report").click(function() {
 	  report1_name = "/Applications/COR20_APAC/Report Designs/covid_LogarithmicChart.rptdesign;1";
 	  mySubInit1("");
+	  $("#linear-report").removeClass("active");
+	  $(this).addClass("active");
 	  //alert( "Handler for .click() called." );
 	});
   
   jQuery("#keywords-report").click(function() {
 	  report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_keywords.rptdesign;1";
 	  mySubInit3("");
+	  $("#topics-report").removeClass("active");
+	  $(this).addClass("active");
 	  //alert( "Handler for .click() called." );
 	});
   
   jQuery("#topics-report").click(function() {
 	  report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_Topic.rptdesign;1";
 	  mySubInit3("");
+	  $("#keywords-report").removeClass("active");
+	  $(this).removeClass("active");
 	 // alert( "Handler for .click() called." );
 	});
   
