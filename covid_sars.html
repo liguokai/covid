@@ -88,8 +88,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
 			
               <div id="report-1" class="card-body">
-                <div id='container1' class="table-responsive"
-                     style='margin-top: -45px; border-width: 0px;border-style: solid;'>
+                <div id='container1' class="ot-chart-container">
                 </div>
               </div>
               <!-- /.card-body-->
@@ -101,7 +100,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
 				
               <div class="card-body">
-                <div id='container2' class="table-responsive" style='margin-top: -45px; border-width: 0px; border-style: solid;'>
+                <div id='container2' class="ot-chart-container">
                 </div>
               </div>
               <!-- /.card-body-->
@@ -114,7 +113,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 					<h3 class="card-title"><p id="report3-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Confirmed (Logarithmic)</h3>
 				  </div>
               <div class="card-body">
-                <div id='container3' class="table-responsive" style='margin-top: -45px; border-width: 0px; border-style: solid;'>
+                <div id='container3' class="ot-chart-container">
                 </div>
               </div>
               <!-- /.card-body-->
@@ -128,7 +127,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
 			
               <div class="card-body">
-                <div id='container4' class="table-responsive" style='margin-top: -45px; border-width: 0px; border-style: solid;'>
+                <div id='container4' class="ot-chart-container">
                 </div>
               </div>
               <!-- /.card-body-->
@@ -200,9 +199,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   function myInit() {
     viewer1 = new actuate.Viewer('container1');
-    w = jQuery("#report-1").innerWidth() - 40;
-    h = jQuery("#report-1").innerHeight();
-    viewer1.setSize(w, h);
+    w = jQuery("#report-1").width();
+    h = jQuery("#report-1").height();
+    viewer1.setSize(w,h);
 
     viewer1.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/1_Covid vs SARS_Confirmed2.rptdesign');
     var parameterValueMap = {p_COVIDCountry:country_region_val,p_SARSCountry2:country_region_val}

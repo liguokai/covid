@@ -45,9 +45,15 @@ html {
 }
 
 .ot-card-chart {
-  height: 458px;
+  height: 531px;
 }
-
+.ot-card-chart .card-body{
+}
+.ot-chart-container {
+  margin-top: 0px;
+  border-width: 0px;
+  border-style: solid;
+}
 .card-body {
   overflow: hidden;
 }
@@ -224,7 +230,10 @@ tr.active {
   font-size: 1.5em;
   z-index: 999;
 }
-
+.sars-selector{
+  min-height: 1078px;
+  height: 1054px;
+}
 @media (max-width: 720px) {
   .ot-card-lg {
     min-height: 500px;
