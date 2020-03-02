@@ -234,6 +234,11 @@ tr.active {
   min-height: 1078px;
   height: 1054px;
 }
+
+/* override the height of chart table */
+.ot-chart-container .floatPanel table {
+  height: auto !important;
+}
 @media (max-width: 720px) {
   .ot-card-lg {
     min-height: 500px;

@@ -190,7 +190,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
               <div id="report-1" class="card-body">
 
-                <div id='container1' style='border-width: 0px; border-style: solid; margin: -18px 0px 20px'></div>
+                <div id='container1' class="ot-chart-container" style='border-width: 0px; border-style: solid; margin: -18px 0px 20px'></div>
 
               </div>
               <!-- /.card-body-->
@@ -203,7 +203,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
               <div id="report-2" class="card-body">
 
-                <div id='container2' style='border-width: 0px; border-style: solid; margin:-50px 0px -50px'></div>
+                <div id='container2' class="ot-chart-container" style='border-width: 0px; border-style: solid; margin-top:-25px'></div>
 
               </div>
               <!-- /.card-body-->
@@ -217,7 +217,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <span><a id="topics-report" href="javascript:void(0);">Topics</a></span></h3>
               </div>
               <div id="report-3" class="card-body">
-                <div id='container3' style='border-width: 0px; border-style: solid; margin: -50px 0px 20px'></div>
+                <div id='container3' class="ot-chart-container" style='border-width: 0px; border-style: solid; margin: -50px 0px 20px'></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -306,7 +306,7 @@ OpenText disclaims any and all representations and warranties concerning the Das
 
   function mySubInit1(country_region_val) {
     viewer1 = new actuate.Viewer('container1');
-    var w = jQuery("#report-1").innerWidth() - 40;
+    var w = jQuery("#report-1").width();
     var h = jQuery("#report-1").innerHeight();
     viewer1.setSize(w, h);
 
