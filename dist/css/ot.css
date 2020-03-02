@@ -222,6 +222,7 @@ tr.active {
   color: white;
   opacity: 1;
   font-size: 1.5em;
+  z-index: 999;
 }
 
 @media (max-width: 720px) {

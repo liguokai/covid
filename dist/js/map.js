@@ -61,6 +61,7 @@ $countryTbody.on('click', 'tr', function (event) {
 });
 
 $('.state-cases-header .close').on('click', function (event) {
+  console.log('close clicked');
 	$('#world-map').show();
 	$('#state-cases').hide();
 })
