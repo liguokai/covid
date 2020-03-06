@@ -60,7 +60,11 @@ $countryTbody.on('click', 'tr', function (event) {
 	} else {
 		selectCountry(countryId);
 	}
- 	myInit(country);
+	
+	$("#current_country").val($.trim(countryId));
+	
+ 	myInit(countryId);
+ 	
 });
 
 $('.state-cases-header .close').on('click', function (event) {
