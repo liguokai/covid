@@ -1,8 +1,24 @@
+@font-face {
+  font-family: "OpenText Sans";
+  src: url("fonts/OpenTextSans_WCorp_Rg.woff2");
+  src: url("fonts/OpenTextSans_WCorp_Rg.eot?#iefix") format("embedded-opentype"), url("fonts/OpenTextSans_WCorp_Rg.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenText Sans";
+  src: url("fonts/OpenTextSans_WCorp_Bd.woff2");
+  src: url("fonts/OpenTextSans_WCorp_Bd.eot?#iefix") format("embedded-opentype"), url("fonts/OpenTextSans_WCorp_Bd.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
   background-color: black;
 }
 
-.card-title a {
+.card-header a {
   color: white;
 }
 
@@ -12,19 +28,29 @@ html {
 
 .tab-selector span {
   margin-right: 43px;
-  padding: 5px;
   line-height: 32px;
   font-weight: bold;
   font-size: 1em;
+  position: relative;
 }
 
+
 .tab-selector .active {
-  border-bottom: 4px solid;
+}
+
+.tab-selector .active:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  border-bottom: 4px solid #FFFFFF;
 }
 
 .chart-selector span {
   display: inline-block;
-  padding: 5px;
+  padding: 5px 0;
+  font-size: 12px;
 }
 
 .chart-selector .active {
@@ -47,13 +73,16 @@ html {
 .ot-card-chart {
   height: 531px;
 }
-.ot-card-chart .card-body{
+
+.ot-card-chart .card-body {
 }
+
 .ot-chart-container {
   margin-top: 0px;
   border-width: 0px;
   border-style: solid;
 }
+
 .card-body {
   overflow: hidden;
 }
@@ -128,9 +157,19 @@ tr.active {
 }
 
 .source-links {
-  float: right;
 }
-.last-update-text{
+
+.footer-links {
+  text-align: right;
+}
+
+.ot-social-links img {
+  width: 24px;
+  height: 24px;
+  margin: 0px 10px;
+}
+
+.last-update-text {
   float: left;
   color: #98A8B2;
 }
@@ -142,8 +181,8 @@ tr.active {
 .main-footer a {
   color: #ffffff;
   text-decoration: underline;
+  -webkit-text-decoration-color: #ccc;
   text-decoration-color: #ccc;
-  margin-left: 5px;
 }
 
 
@@ -221,11 +260,11 @@ tr.active {
   padding-right: 16px;
 }
 
-.state-cases-content .state-table .confirmed-text{
-  color:#DF3324 !important;
+.state-cases-content .state-table .confirmed-text {
+  color: #DF3324 !important;
 }
 
-.state-cases-header .close{
+.state-cases-header .close {
   right: 8px;
   position: absolute;
   top: 0;
@@ -234,7 +273,8 @@ tr.active {
   font-size: 1.5em;
   z-index: 999;
 }
-.sars-selector{
+
+.sars-selector {
   min-height: 1078px;
   height: 1054px;
 }
@@ -244,10 +284,95 @@ tr.active {
   height: auto !important;
 }
 
-.ot-copy-right{
+.ot-copy-right {
   font-size: 0.8em;
   color: #657986;
 }
+
+/* modal */
+.ot-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  overflow-y: auto;
+}
+
+.ot-modal-content {
+  position: relative;
+  background-color: #181E22;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  max-width: 1200px;
+  border: 2px solid #181E22;
+  border-collapse: separate;
+  border-radius: 6px;
+  max-height: 88%;
+  overflow-y: auto;
+}
+
+.ot-close {
+  color: #FFFFFF;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.ot-close:hover,
+.ot-close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dataSourcesHeader {
+  padding-top: 4px;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 20px;
+  font-weight: bold;
+  /*padding-bottom: 10px;*/
+  text-align: left;
+  background-color: #1d2021;
+}
+
+.thirdColumnHeader {
+  padding-top: 25px;
+  font-size: 12px;
+  color: #ffffff;
+  padding-left: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  text-align: left;
+  border-bottom: 1px solid #393939;
+}
+
+.sourceEntry {
+  font-size: 12px;
+  color: #ffffff;
+  padding-left: 20px;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.sourceURL {
+  text-decoration: underline;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 300;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
 @media (max-width: 720px) {
   .ot-card-lg {
     min-height: 500px;
@@ -263,10 +388,23 @@ tr.active {
     margin-right: 5px;
   }
 
-  .source-links {
-    float: left;
+  .footer-links {
+    text-align: left;
   }
 
+
+  .ot-modal-content {
+    position: relative;
+    background-color: #181E22;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    border: 2px solid #181E22;
+    border-collapse: separate;
+    border-radius: 6px;
+    max-height: 88%;
+    overflow-y: auto;
+  }
 }
 
 /*# sourceMappingURL=ot.css.map */
