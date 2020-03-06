@@ -81,6 +81,47 @@ html {
   margin-top: 0px;
   border-width: 0px;
   border-style: solid;
+  height: 100% !important;
+}
+
+#container2 {
+  margin-top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+#actuateViewerContainercontainer2 {
+  height: 100% !important;
+  
+}
+#actuateViewerContainercontainer2 > .content {
+  width: 100% !important;
+  height: 100% !important;
+}
+#actuateViewerContainercontainer2 > .content > .contentPanel {
+  width: 100% !important;
+  height: 100% !important;
+}
+#actuateViewerContainercontainer2 > .content > .contentPanel > .floatPanel {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-y: scroll !important;
+  border: thin solid black;
+}
+#actuateViewerContainercontainer2 > .content > .contentPanel > .floatPanel > div {
+  margin: 0 !important;
+}
+#container2___BIRT_ROOT > table {
+  height: 100% !important;
+}
+#container2_UpdateAndNewsTable > tbody > tr > td > div {
+  overflow: unset !important;
+}
+#container2_UpdateAndNewsTable > tbody > tr > td > div > div {
+  overflow: unset !important;
+  height: unset !important;
+}
+#container2_UpdateAndNewsTable > tbody > tr > td {
+  border: none !important;
 }
 
 .card-body {
