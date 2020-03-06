@@ -196,7 +196,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </div>
               </div>
 
-              <div id="report-1" class="card-body">
+              <div id="report-1" class="card-body p-0">
                 <div id='container1' class="ot-chart-container"
                      style='border-width: 0px; border-style: solid; margin: -18px 0px 20px'></div>
 
@@ -210,8 +210,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
               <div id="report-2" class="card-body">
                 <div id='container2' class="ot-chart-container table-responsive"
-                     style='margin-top: -25px'></div>
-
+                     style='margin-top: -25px;'></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -227,9 +226,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   </p>
                 </div>
               </div>
-              <div id="report-3" class="card-body">
+              <div id="report-3" class="card-body p-0">
                 <div id='container3' class="ot-chart-container"
-                     style='border-width: 0px; border-style: solid; margin: -50px 0px 20px'></div>
+                     style='margin: -50px 0px 20px'></div>
               </div>
               <!-- /.card-body-->
             </div>
@@ -445,7 +444,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- Page script -->
 <script>
   $(".table-responsive").overlayScrollbars({});
-  $("#updateNewsTable").overlayScrollbars({});
+  $(".floatPanel").overlayScrollbars({});
   function openSources() {
     document.getElementById("sourcesModal").style.display = "block";
   }

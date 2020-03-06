@@ -106,8 +106,8 @@ function mySubInit3(country_region_val) {
   }
   viewer2.setParameterValues(parameterValues3);
 
-  var w3 = jQuery("#report-2").innerWidth() - 40;
-  var h3 = jQuery("#report-2").innerHeight() + 20;
+  var w3 = jQuery("#report-3").innerWidth();
+  var h3 = jQuery("#report-3").innerHeight();
   viewer3.setSize(w3, h3);
   viewer3.setReportDesign(report3_name);
   var options3 = new actuate.viewer.UIOptions();
