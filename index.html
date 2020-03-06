@@ -209,9 +209,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="card-title">Updates and news</div>
               </div>
               <div id="report-2" class="card-body">
-
-                <div id='container2' class="ot-chart-container"
-                     style='border-width: 0px; border-style: solid; margin-top: -25px'></div>
+                <div id='container2' class="ot-chart-container table-responsive"
+                     style='margin-top: -25px'></div>
 
               </div>
               <!-- /.card-body-->
@@ -446,6 +445,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- Page script -->
 <script>
   $(".table-responsive").overlayScrollbars({});
+  $("#updateNewsTable").overlayScrollbars({});
   function openSources() {
     document.getElementById("sourcesModal").style.display = "block";
   }

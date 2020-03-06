@@ -104,8 +104,8 @@ html {
 #actuateViewerContainercontainer2 > .content > .contentPanel > .floatPanel {
   width: 100% !important;
   height: 100% !important;
-  overflow-y: scroll !important;
-  border: thin solid black;
+  /*overflow-y: scroll !important;*/
+  /*border: thin solid black;*/
 }
 #actuateViewerContainercontainer2 > .content > .contentPanel > .floatPanel > div {
   margin: 0 !important;
@@ -123,7 +123,9 @@ html {
 #container2_UpdateAndNewsTable > tbody > tr > td {
   border: none !important;
 }
-
+.actuateViewerContainer .container2_style_1, .container2_style_1{
+  border: none !important;
+}
 .card-body {
   overflow: hidden;
 }
