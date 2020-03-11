@@ -129,6 +129,8 @@ function selectCountry(countryId) {
 	var state = global.states[countryId + '___' + largestState];
 	var latLng = new google.maps.LatLng(state.lat, state.lng);
 	map.panTo(latLng);
+	
+	map.setZoom(5);
 
 	$totalConfirmed.text(Number(country.cases.confirmed + '').toLocaleString());
 	$totalDeaths.text(Number(country.cases.deaths + '').toLocaleString());
@@ -204,6 +206,9 @@ function unselectCountry(id) {
 	$totalConfirmedTbody.html('');
 	$totalDeathsTbody.html('');
 	$totalRecoveredTbody.html('');
+	
+	map.setZoom(2);
+	
 	// $totalDeathsTbody.children('tr').show();
 	// $totalRecoveredTbody.children('tr').show();
 }
@@ -263,14 +268,16 @@ function onDataReterived(data) {
 				states: []
 			};
 		} else {
-			global.cases.confirmed += confirmed;
-			global.cases.deaths += deaths;
-			global.cases.recovered += recovered;
+			
 
 			global.countries[countryName].cases.confirmed += confirmed;
 			global.countries[countryName].cases.deaths += deaths;
 			global.countries[countryName].cases.recovered += recovered;
 		}
+		
+		global.cases.confirmed += confirmed;
+		global.cases.deaths += deaths;
+		global.cases.recovered += recovered;
 
 		global.countries[countryName].states.push(stateName);
 
@@ -343,7 +350,7 @@ function initMap() {
 // create the map
 function createMap(id) {
 	var options = {
-		zoom: 5,
+		zoom: 2,
 		styles: styles,
 		gestureHandling: 'greedy',
 		center: new google.maps.LatLng(30.9756, 112.2707),
