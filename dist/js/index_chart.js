@@ -145,7 +145,7 @@ jQuery("#logarithmic-report")
 jQuery("#keywords-report")
   .click(
     function () {
-      report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_keywords.rptdesign;1";
+      report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_keywords.rptdesign;3";
       mySubInit3("");
       $("#topics-report").removeClass("active");
       $(this).addClass("active");
@@ -155,7 +155,7 @@ jQuery("#keywords-report")
 jQuery("#topics-report")
   .click(
     function () {
-      report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_Topic.rptdesign;1";
+      report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_Topic.rptdesign;2";
       mySubInit3("");
       $("#keywords-report").removeClass("active");
       $(this).addClass("active");
