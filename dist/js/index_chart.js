@@ -1,6 +1,6 @@
 var report1_name = "/Applications/COR20_APAC/Report Designs/covid_linearChart.rptdesign;1";
 var report2_name = "/Applications/COR20_APAC/Report Designs/covid_updateNews.rptdesign;1";
-var report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_keywords.rptdesign;1";
+var report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_keywords.rptdesign;3";
 
 actuate.load('viewer');
 var reqOps = new actuate.RequestOptions();
