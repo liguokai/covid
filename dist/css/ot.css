@@ -129,7 +129,7 @@ html {
 .actuateViewerContainer .container3_style_1, .container3_style_1{
   margin-bottom: 0 !important;
 }
-#container3 #actuateViewerContainercontainer3 .floatPanel>div {
+.contentPanel .floatPanel>div {
   margin: 0px !important;
 }
 .card-body {
