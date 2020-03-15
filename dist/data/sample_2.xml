@@ -1,106 +1,3993 @@
-<?xml version='1.0' encoding='UTF-8'?><root><row> 	        <Country> Mainland China</Country> 	        <State>Inner Mongolia</State> 	        <Latitude>44.0935</Latitude> 	        <Longitude>113.9448</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>75</Confirmed> 	        <ConfirmedPreviousValue>75</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>43</Recovered> 	        <RecoveredPreviousValue>38</RecoveredPreviousValue> 	        <Population>24706321</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Jiangsu</State> 	        <Latitude>32.9711</Latitude> 	        <Longitude>119.455</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>631</Confirmed> 	        <ConfirmedPreviousValue>631</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>498</Recovered> 	        <RecoveredPreviousValue>478</RecoveredPreviousValue> 	        <Population>78659903</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Ningxia</State> 	        <Latitude>37.2692</Latitude> 	        <Longitude>106.1655</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>72</Confirmed> 	        <ConfirmedPreviousValue>71</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>68</Recovered> 	        <RecoveredPreviousValue>65</RecoveredPreviousValue> 	        <Population>6301350</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Qinghai</State> 	        <Latitude>35.7452</Latitude> 	        <Longitude>95.9956</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>18</Confirmed> 	        <ConfirmedPreviousValue>18</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>18</Recovered> 	        <RecoveredPreviousValue>18</RecoveredPreviousValue> 	        <Population>5626722</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Shanxi</State> 	        <Latitude>37.5777</Latitude> 	        <Longitude>112.2922</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>133</Confirmed> 	        <ConfirmedPreviousValue>133</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>107</Recovered> 	        <RecoveredPreviousValue>104</RecoveredPreviousValue> 	        <Population>35712111</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Tibet</State> 	        <Latitude>31.6927</Latitude> 	        <Longitude>88.0924</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>3002166</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Boston - MA</State> 	        <Latitude>42.3601</Latitude> 	        <Longitude>-71.0589</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>617594</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Chicago - IL</State> 	        <Latitude>41.8781</Latitude> 	        <Longitude>-87.6298</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>2</Recovered> 	        <RecoveredPreviousValue>2</RecoveredPreviousValue> 	        <Population>2716000</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Humboldt County - CA</State> 	        <Latitude>40.745</Latitude> 	        <Longitude>-123.8695</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Lackland - TX (From Diamond Princess)</State> 	        <Latitude>29.3829</Latitude> 	        <Longitude>-98.6134</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>0</Confirmed> 	        <ConfirmedPreviousValue>0</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Los Angeles - CA</State> 	        <Latitude>34.0522</Latitude> 	        <Longitude>-118.2437</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>3990456</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Madison - WI</State> 	        <Latitude>43.0731</Latitude> 	        <Longitude>-89.4012</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>236901</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Omaha - NE (From Diamond Princess)</State> 	        <Latitude>41.2545</Latitude> 	        <Longitude>-95.9758</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>0</Confirmed> 	        <ConfirmedPreviousValue>0</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Orange - CA</State> 	        <Latitude>33.7879</Latitude> 	        <Longitude>-117.8531</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>140560</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Sacramento County - CA</State> 	        <Latitude>38.4747</Latitude> 	        <Longitude>-121.3542</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>San Antonio - TX</State> 	        <Latitude>29.4241</Latitude> 	        <Longitude>-98.4936</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>1493000</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>San Benito - CA</State> 	        <Latitude>36.5761</Latitude> 	        <Longitude>-120.9876</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>60310</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>San Diego County - CA</State> 	        <Latitude>32.7157</Latitude> 	        <Longitude>-117.1611</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>3338000</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Santa Clara - CA</State> 	        <Latitude>37.3541</Latitude> 	        <Longitude>-121.9552</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>127134</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Seattle - WA</State> 	        <Latitude>47.6062</Latitude> 	        <Longitude>-122.3321</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>724745</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Tempe - AZ</State> 	        <Latitude>33.4255</Latitude> 	        <Longitude>-111.94</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>185038</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Travis - CA (From Diamond Princess)</State> 	        <Latitude>38.2721</Latitude> 	        <Longitude>-121.9399</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>0</Confirmed> 	        <ConfirmedPreviousValue>0</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> US</Country> 	        <State>Unassigned Location (From Diamond Princess)</State> 	        <Latitude>35.4437</Latitude> 	        <Longitude>139.638</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>42</Confirmed> 	        <ConfirmedPreviousValue>42</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Canada</Country> 	        <State>British Columbia</State> 	        <Latitude>49.2827</Latitude> 	        <Longitude>-123.1207</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>7</Confirmed> 	        <ConfirmedPreviousValue>7</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>3</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>5105576</Population>    </row>  
-<row> 	        <Country> Canada</Country> 	        <State>London - ON</State> 	        <Latitude>42.9849</Latitude> 	        <Longitude>-81.2453</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>404699</Population>    </row>  
-<row> 	        <Country> Canada</Country> 	        <State>Toronto - ON</State> 	        <Latitude>43.6532</Latitude> 	        <Longitude>-79.3832</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>5</Confirmed> 	        <ConfirmedPreviousValue>3</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>2</Recovered> 	        <RecoveredPreviousValue>2</RecoveredPreviousValue> 	        <Population>6242273</Population>    </row>  
-<row> 	        <Country> Australia</Country> 	        <State>From Diamond Princess</State> 	        <Latitude>35.4437</Latitude> 	        <Longitude>139.638</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>8</Confirmed> 	        <ConfirmedPreviousValue>7</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Australia</Country> 	        <State>New South Wales</State> 	        <Latitude>-33.8688</Latitude> 	        <Longitude>151.2093</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>4</Confirmed> 	        <ConfirmedPreviousValue>4</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>4</Recovered> 	        <RecoveredPreviousValue>4</RecoveredPreviousValue> 	        <Population>7544000</Population>    </row>  
-<row> 	        <Country> Australia</Country> 	        <State>Queensland</State> 	        <Latitude>-28.0167</Latitude> 	        <Longitude>153.4</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>5</Confirmed> 	        <ConfirmedPreviousValue>5</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>5052800</Population>    </row>  
-<row> 	        <Country> Australia</Country> 	        <State>South Australia</State> 	        <Latitude>-34.9285</Latitude> 	        <Longitude>138.6007</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>2</Recovered> 	        <RecoveredPreviousValue>2</RecoveredPreviousValue> 	        <Population>1677000</Population>    </row>  
-<row> 	        <Country> Australia</Country> 	        <State>Victoria</State> 	        <Latitude>-37.8136</Latitude> 	        <Longitude>144.9631</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>4</Confirmed> 	        <ConfirmedPreviousValue>4</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>4</Recovered> 	        <RecoveredPreviousValue>4</RecoveredPreviousValue> 	        <Population>6359000</Population>    </row>  
-<row> 	        <Country> Macau</Country> 	        <State>Macau</State> 	        <Latitude>22.1667</Latitude> 	        <Longitude>113.55</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>10</Confirmed> 	        <ConfirmedPreviousValue>10</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>8</Recovered> 	        <RecoveredPreviousValue>7</RecoveredPreviousValue> 	        <Population>622567</Population>    </row>  
-<row> 	        <Country> Afghanistan</Country> 	        <State></State> 	        <Latitude>33</Latitude> 	        <Longitude>65</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Algeria</Country> 	        <State></State> 	        <Latitude>28.0339</Latitude> 	        <Longitude>1.6596</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Austria</Country> 	        <State></State> 	        <Latitude>47.5162</Latitude> 	        <Longitude>14.5501</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>3</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Bahrain</Country> 	        <State></State> 	        <Latitude>26.0275</Latitude> 	        <Longitude>50.55</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>33</Confirmed> 	        <ConfirmedPreviousValue>33</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Belgium</Country> 	        <State></State> 	        <Latitude>50.8333</Latitude> 	        <Longitude>4</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>11515793</Population>    </row>  
-<row> 	        <Country> Brazil</Country> 	        <State></State> 	        <Latitude>-14.235</Latitude> 	        <Longitude>-51.9253</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Cambodia</Country> 	        <State></State> 	        <Latitude>11.55</Latitude> 	        <Longitude>104.9167</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>16631348</Population>    </row>  
-<row> 	        <Country> Croatia</Country> 	        <State></State> 	        <Latitude>45.1</Latitude> 	        <Longitude>15.2</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>3</Confirmed> 	        <ConfirmedPreviousValue>3</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Denmark</Country> 	        <State></State> 	        <Latitude>56.2639</Latitude> 	        <Longitude>9.5018</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>0</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Egypt</Country> 	        <State></State> 	        <Latitude>26</Latitude> 	        <Longitude>30</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>97550000</Population>    </row>  
-<row> 	        <Country> Estonia</Country> 	        <State></State> 	        <Latitude>58.5953</Latitude> 	        <Longitude>25.0136</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>0</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Finland</Country> 	        <State></State> 	        <Latitude>64</Latitude> 	        <Longitude>26</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>5522015</Population>    </row>  
-<row> 	        <Country> Georgia</Country> 	        <State></State> 	        <Latitude>42.3154</Latitude> 	        <Longitude>43.3569</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Germany</Country> 	        <State></State> 	        <Latitude>51</Latitude> 	        <Longitude>9</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>46</Confirmed> 	        <ConfirmedPreviousValue>27</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>16</Recovered> 	        <RecoveredPreviousValue>15</RecoveredPreviousValue> 	        <Population>83073100</Population>    </row>  
-<row> 	        <Country> Greece</Country> 	        <State></State> 	        <Latitude>39.0742</Latitude> 	        <Longitude>21.8243</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>3</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> India</Country> 	        <State></State> 	        <Latitude>21</Latitude> 	        <Longitude>78</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>3</Confirmed> 	        <ConfirmedPreviousValue>3</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>3</Recovered> 	        <RecoveredPreviousValue>3</RecoveredPreviousValue> 	        <Population>1339000000</Population>    </row>  
-<row> 	        <Country> Iraq</Country> 	        <State></State> 	        <Latitude>33</Latitude> 	        <Longitude>44</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>7</Confirmed> 	        <ConfirmedPreviousValue>5</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Israel</Country> 	        <State></State> 	        <Latitude>31</Latitude> 	        <Longitude>35</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>3</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Kuwait</Country> 	        <State></State> 	        <Latitude>29.5</Latitude> 	        <Longitude>47.75</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>43</Confirmed> 	        <ConfirmedPreviousValue>26</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Lebanon</Country> 	        <State></State> 	        <Latitude>33.8547</Latitude> 	        <Longitude>35.8623</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Malaysia</Country> 	        <State></State> 	        <Latitude>2.5</Latitude> 	        <Longitude>112.5</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>23</Confirmed> 	        <ConfirmedPreviousValue>22</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>18</Recovered> 	        <RecoveredPreviousValue>18</RecoveredPreviousValue> 	        <Population>32772100</Population>    </row>  
-<row> 	        <Country> Nepal</Country> 	        <State></State> 	        <Latitude>28.1667</Latitude> 	        <Longitude>84.25</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>29</Population>    </row>  
-<row> 	        <Country> Netherlands</Country> 	        <State></State> 	        <Latitude>52.1326</Latitude> 	        <Longitude>5.2913</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>0</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> North Macedonia</Country> 	        <State></State> 	        <Latitude>41.6086</Latitude> 	        <Longitude>21.7453</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Norway</Country> 	        <State></State> 	        <Latitude>60.472</Latitude> 	        <Longitude>8.4689</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Oman</Country> 	        <State></State> 	        <Latitude>21</Latitude> 	        <Longitude>57</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>4</Confirmed> 	        <ConfirmedPreviousValue>4</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Pakistan</Country> 	        <State></State> 	        <Latitude>30.3753</Latitude> 	        <Longitude>69.3451</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Romania</Country> 	        <State></State> 	        <Latitude>45.9432</Latitude> 	        <Longitude>24.9668</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Russia</Country> 	        <State></State> 	        <Latitude>60</Latitude> 	        <Longitude>90</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>2</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>2</Recovered> 	        <RecoveredPreviousValue>2</RecoveredPreviousValue> 	        <Population>144500000</Population>    </row>  
-<row> 	        <Country> San Marino</Country> 	        <State></State> 	        <Latitude>43.9424</Latitude> 	        <Longitude>12.4578</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>0</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Singapore</Country> 	        <State></State> 	        <Latitude>1.2833</Latitude> 	        <Longitude>103.8333</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>93</Confirmed> 	        <ConfirmedPreviousValue>93</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>62</Recovered> 	        <RecoveredPreviousValue>62</RecoveredPreviousValue> 	        <Population>5638700</Population>    </row>  
-<row> 	        <Country> Spain</Country> 	        <State></State> 	        <Latitude>40</Latitude> 	        <Longitude>-4</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>15</Confirmed> 	        <ConfirmedPreviousValue>13</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>2</Recovered> 	        <RecoveredPreviousValue>2</RecoveredPreviousValue> 	        <Population>46733038</Population>    </row>  
-<row> 	        <Country> Sri Lanka</Country> 	        <State></State> 	        <Latitude>7</Latitude> 	        <Longitude>81</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>22576592</Population>    </row>  
-<row> 	        <Country> Sweden</Country> 	        <State></State> 	        <Latitude>63</Latitude> 	        <Longitude>16</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>7</Confirmed> 	        <ConfirmedPreviousValue>2</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>10120000</Population>    </row>  
-<row> 	        <Country> Switzerland</Country> 	        <State></State> 	        <Latitude>46.8182</Latitude> 	        <Longitude>8.2275</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>8</Confirmed> 	        <ConfirmedPreviousValue>1</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>0</Recovered> 	        <RecoveredPreviousValue>0</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Thailand</Country> 	        <State></State> 	        <Latitude>15</Latitude> 	        <Longitude>101</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>40</Confirmed> 	        <ConfirmedPreviousValue>40</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>22</Recovered> 	        <RecoveredPreviousValue>22</RecoveredPreviousValue> 	        <Population>68977400</Population>    </row>  
-<row> 	        <Country> UK</Country> 	        <State></State> 	        <Latitude>55</Latitude> 	        <Longitude>-3</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>15</Confirmed> 	        <ConfirmedPreviousValue>13</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>8</Recovered> 	        <RecoveredPreviousValue>8</RecoveredPreviousValue> 	        <Population>67545757</Population>    </row>  
-<row> 	        <Country> United Arab Emirates</Country> 	        <State></State> 	        <Latitude>24</Latitude> 	        <Longitude>54</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>13</Confirmed> 	        <ConfirmedPreviousValue>13</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>4</Recovered> 	        <RecoveredPreviousValue>4</RecoveredPreviousValue> 	        <Population>9599353</Population>    </row>  
-<row> 	        <Country> Vietnam</Country> 	        <State></State> 	        <Latitude>16</Latitude> 	        <Longitude>108</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>16</Confirmed> 	        <ConfirmedPreviousValue>16</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>0</Deaths> 	        <DeathsPreviousValue>0</DeathsPreviousValue> 	        <Recovered>16</Recovered> 	        <RecoveredPreviousValue>16</RecoveredPreviousValue> 	        <Population>95540000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Fujian</State> 	        <Latitude>26.0789</Latitude> 	        <Longitude>117.9874</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>296</Confirmed> 	        <ConfirmedPreviousValue>294</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>1</Deaths> 	        <DeathsPreviousValue>1</DeathsPreviousValue> 	        <Recovered>228</Recovered> 	        <RecoveredPreviousValue>218</RecoveredPreviousValue> 	        <Population>38565000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Jiangxi</State> 	        <Latitude>27.614</Latitude> 	        <Longitude>115.7221</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>934</Confirmed> 	        <ConfirmedPreviousValue>934</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>1</Deaths> 	        <DeathsPreviousValue>1</DeathsPreviousValue> 	        <Recovered>754</Recovered> 	        <RecoveredPreviousValue>719</RecoveredPreviousValue> 	        <Population>44567475</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Jilin</State> 	        <Latitude>43.6661</Latitude> 	        <Longitude>126.1923</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>93</Confirmed> 	        <ConfirmedPreviousValue>93</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>1</Deaths> 	        <DeathsPreviousValue>1</DeathsPreviousValue> 	        <Recovered>67</Recovered> 	        <RecoveredPreviousValue>65</RecoveredPreviousValue> 	        <Population>27462297</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Liaoning</State> 	        <Latitude>41.2956</Latitude> 	        <Longitude>122.6085</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>121</Confirmed> 	        <ConfirmedPreviousValue>121</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>1</Deaths> 	        <DeathsPreviousValue>1</DeathsPreviousValue> 	        <Recovered>93</Recovered> 	        <RecoveredPreviousValue>88</RecoveredPreviousValue> 	        <Population>43746323</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Shaanxi</State> 	        <Latitude>35.1917</Latitude> 	        <Longitude>108.8701</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>245</Confirmed> 	        <ConfirmedPreviousValue>245</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>1</Deaths> 	        <DeathsPreviousValue>1</DeathsPreviousValue> 	        <Recovered>195</Recovered> 	        <RecoveredPreviousValue>192</RecoveredPreviousValue> 	        <Population>37327378</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Zhejiang</State> 	        <Latitude>29.1832</Latitude> 	        <Longitude>120.0934</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1205</Confirmed> 	        <ConfirmedPreviousValue>1205</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>1</Deaths> 	        <DeathsPreviousValue>1</DeathsPreviousValue> 	        <Recovered>932</Recovered> 	        <RecoveredPreviousValue>867</RecoveredPreviousValue> 	        <Population>54426891</Population>    </row>  
-<row> 	        <Country> Taiwan</Country> 	        <State>Taiwan</State> 	        <Latitude>23.7</Latitude> 	        <Longitude>121</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>32</Confirmed> 	        <ConfirmedPreviousValue>32</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>1</Deaths> 	        <DeathsPreviousValue>1</DeathsPreviousValue> 	        <Recovered>5</Recovered> 	        <RecoveredPreviousValue>5</RecoveredPreviousValue> 	        <Population>23780000</Population>    </row>  
-<row> 	        <Country> Philippines</Country> 	        <State></State> 	        <Latitude>13</Latitude> 	        <Longitude>122</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>3</Confirmed> 	        <ConfirmedPreviousValue>3</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>1</Deaths> 	        <DeathsPreviousValue>1</DeathsPreviousValue> 	        <Recovered>1</Recovered> 	        <RecoveredPreviousValue>1</RecoveredPreviousValue> 	        <Population>109180815</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Shanghai</State> 	        <Latitude>31.202</Latitude> 	        <Longitude>121.4491</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>337</Confirmed> 	        <ConfirmedPreviousValue>337</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>3</Deaths> 	        <DeathsPreviousValue>3</DeathsPreviousValue> 	        <Recovered>276</Recovered> 	        <RecoveredPreviousValue>272</RecoveredPreviousValue> 	        <Population>23019148</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Sichuan</State> 	        <Latitude>30.6171</Latitude> 	        <Longitude>102.7103</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>534</Confirmed> 	        <ConfirmedPreviousValue>531</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>3</Deaths> 	        <DeathsPreviousValue>3</DeathsPreviousValue> 	        <Recovered>321</Recovered> 	        <RecoveredPreviousValue>307</RecoveredPreviousValue> 	        <Population>80418200</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Tianjin</State> 	        <Latitude>39.3054</Latitude> 	        <Longitude>117.323</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>136</Confirmed> 	        <ConfirmedPreviousValue>135</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>3</Deaths> 	        <DeathsPreviousValue>3</DeathsPreviousValue> 	        <Recovered>102</Recovered> 	        <RecoveredPreviousValue>96</RecoveredPreviousValue> 	        <Population>12938224</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Hunan</State> 	        <Latitude>27.6104</Latitude> 	        <Longitude>111.7088</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1017</Confirmed> 	        <ConfirmedPreviousValue>1016</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>4</Deaths> 	        <DeathsPreviousValue>4</DeathsPreviousValue> 	        <Recovered>804</Recovered> 	        <RecoveredPreviousValue>783</RecoveredPreviousValue> 	        <Population>65683722</Population>    </row>  
-<row> 	        <Country> Others</Country> 	        <State>Diamond Princess cruise ship</State> 	        <Latitude>35.4437</Latitude> 	        <Longitude>139.638</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>705</Confirmed> 	        <ConfirmedPreviousValue>705</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>4</Deaths> 	        <DeathsPreviousValue>4</DeathsPreviousValue> 	        <Recovered>10</Recovered> 	        <RecoveredPreviousValue>10</RecoveredPreviousValue> 	        <Population>3700</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Beijing</State> 	        <Latitude>40.1824</Latitude> 	        <Longitude>116.4142</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>410</Confirmed> 	        <ConfirmedPreviousValue>400</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>5</Deaths> 	        <DeathsPreviousValue>4</DeathsPreviousValue> 	        <Recovered>248</Recovered> 	        <RecoveredPreviousValue>235</RecoveredPreviousValue> 	        <Population>21150000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Hainan</State> 	        <Latitude>19.1959</Latitude> 	        <Longitude>109.7453</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>168</Confirmed> 	        <ConfirmedPreviousValue>168</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>5</Deaths> 	        <DeathsPreviousValue>5</DeathsPreviousValue> 	        <Recovered>131</Recovered> 	        <RecoveredPreviousValue>129</RecoveredPreviousValue> 	        <Population>9257600</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Anhui</State> 	        <Latitude>31.8257</Latitude> 	        <Longitude>117.2264</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>989</Confirmed> 	        <ConfirmedPreviousValue>989</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>6</Deaths> 	        <DeathsPreviousValue>6</DeathsPreviousValue> 	        <Recovered>792</Recovered> 	        <RecoveredPreviousValue>744</RecoveredPreviousValue> 	        <Population>62000000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Chongqing</State> 	        <Latitude>30.0572</Latitude> 	        <Longitude>107.874</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>576</Confirmed> 	        <ConfirmedPreviousValue>576</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>6</Deaths> 	        <DeathsPreviousValue>6</DeathsPreviousValue> 	        <Recovered>401</Recovered> 	        <RecoveredPreviousValue>384</RecoveredPreviousValue> 	        <Population>8518000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Hebei</State> 	        <Latitude>38.0428</Latitude> 	        <Longitude>114.5149</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>317</Confirmed> 	        <ConfirmedPreviousValue>312</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>6</Deaths> 	        <DeathsPreviousValue>6</DeathsPreviousValue> 	        <Recovered>274</Recovered> 	        <RecoveredPreviousValue>261</RecoveredPreviousValue> 	        <Population>71854202</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Shandong</State> 	        <Latitude>36.3427</Latitude> 	        <Longitude>118.1498</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>756</Confirmed> 	        <ConfirmedPreviousValue>756</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>6</Deaths> 	        <DeathsPreviousValue>6</DeathsPreviousValue> 	        <Recovered>387</Recovered> 	        <RecoveredPreviousValue>377</RecoveredPreviousValue> 	        <Population>95793065</Population>    </row>  
-<row> 	        <Country> Japan</Country> 	        <State></State> 	        <Latitude>36</Latitude> 	        <Longitude>138</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>214</Confirmed> 	        <ConfirmedPreviousValue>189</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>4</Deaths> 	        <DeathsPreviousValue>2</DeathsPreviousValue> 	        <Recovered>22</Recovered> 	        <RecoveredPreviousValue>22</RecoveredPreviousValue> 	        <Population>126800000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Gansu</State> 	        <Latitude>36.0611</Latitude> 	        <Longitude>103.8343</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>91</Confirmed> 	        <ConfirmedPreviousValue>91</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>2</Deaths> 	        <DeathsPreviousValue>2</DeathsPreviousValue> 	        <Recovered>81</Recovered> 	        <RecoveredPreviousValue>81</RecoveredPreviousValue> 	        <Population>25575254</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Guangxi</State> 	        <Latitude>23.8298</Latitude> 	        <Longitude>108.7881</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>252</Confirmed> 	        <ConfirmedPreviousValue>252</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>2</Deaths> 	        <DeathsPreviousValue>2</DeathsPreviousValue> 	        <Recovered>161</Recovered> 	        <RecoveredPreviousValue>147</RecoveredPreviousValue> 	        <Population>48380000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Guizhou</State> 	        <Latitude>26.8154</Latitude> 	        <Longitude>106.8748</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>146</Confirmed> 	        <ConfirmedPreviousValue>146</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>2</Deaths> 	        <DeathsPreviousValue>2</DeathsPreviousValue> 	        <Recovered>112</Recovered> 	        <RecoveredPreviousValue>104</RecoveredPreviousValue> 	        <Population>34746468</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Xinjiang</State> 	        <Latitude>41.1129</Latitude> 	        <Longitude>85.2401</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>76</Confirmed> 	        <ConfirmedPreviousValue>76</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>2</Deaths> 	        <DeathsPreviousValue>2</DeathsPreviousValue> 	        <Recovered>43</Recovered> 	        <RecoveredPreviousValue>34</RecoveredPreviousValue> 	        <Population>21813334</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Yunnan</State> 	        <Latitude>24.974</Latitude> 	        <Longitude>101.487</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>174</Confirmed> 	        <ConfirmedPreviousValue>174</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>2</Deaths> 	        <DeathsPreviousValue>2</DeathsPreviousValue> 	        <Recovered>150</Recovered> 	        <RecoveredPreviousValue>144</RecoveredPreviousValue> 	        <Population>45966239</Population>    </row>  
-<row> 	        <Country> Hong Kong</Country> 	        <State>Hong Kong</State> 	        <Latitude>22.3</Latitude> 	        <Longitude>114.2</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>92</Confirmed> 	        <ConfirmedPreviousValue>91</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>2</Deaths> 	        <DeathsPreviousValue>2</DeathsPreviousValue> 	        <Recovered>24</Recovered> 	        <RecoveredPreviousValue>24</RecoveredPreviousValue> 	        <Population>7392000</Population>    </row>  
-<row> 	        <Country> France</Country> 	        <State></State> 	        <Latitude>47</Latitude> 	        <Longitude>2</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>38</Confirmed> 	        <ConfirmedPreviousValue>18</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>2</Deaths> 	        <DeathsPreviousValue>2</DeathsPreviousValue> 	        <Recovered>11</Recovered> 	        <RecoveredPreviousValue>11</RecoveredPreviousValue> 	        <Population>67795000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Guangdong</State> 	        <Latitude>23.3417</Latitude> 	        <Longitude>113.4244</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1347</Confirmed> 	        <ConfirmedPreviousValue>1347</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>7</Deaths> 	        <DeathsPreviousValue>7</DeathsPreviousValue> 	        <Recovered>890</Recovered> 	        <RecoveredPreviousValue>851</RecoveredPreviousValue> 	        <Population>113460000</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Heilongjiang</State> 	        <Latitude>47.862</Latitude> 	        <Longitude>127.7615</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>480</Confirmed> 	        <ConfirmedPreviousValue>480</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>13</Deaths> 	        <DeathsPreviousValue>12</DeathsPreviousValue> 	        <Recovered>270</Recovered> 	        <RecoveredPreviousValue>249</RecoveredPreviousValue> 	        <Population>38312224</Population>    </row>  
-<row> 	        <Country> South Korea</Country> 	        <State></State> 	        <Latitude>36</Latitude> 	        <Longitude>128</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1766</Confirmed> 	        <ConfirmedPreviousValue>1261</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>13</Deaths> 	        <DeathsPreviousValue>12</DeathsPreviousValue> 	        <Recovered>22</Recovered> 	        <RecoveredPreviousValue>22</RecoveredPreviousValue> 	        <Population>51470000</Population>    </row>  
-<row> 	        <Country> Italy</Country> 	        <State></State> 	        <Latitude>43</Latitude> 	        <Longitude>12</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>655</Confirmed> 	        <ConfirmedPreviousValue>453</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>17</Deaths> 	        <DeathsPreviousValue>12</DeathsPreviousValue> 	        <Recovered>45</Recovered> 	        <RecoveredPreviousValue>3</RecoveredPreviousValue> 	        <Population>60359546</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Henan</State> 	        <Latitude>33.88202</Latitude> 	        <Longitude>113.614</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>1272</Confirmed> 	        <ConfirmedPreviousValue>1271</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>20</Deaths> 	        <DeathsPreviousValue>19</DeathsPreviousValue> 	        <Recovered>1068</Recovered> 	        <RecoveredPreviousValue>1033</RecoveredPreviousValue> 	        <Population>94023567</Population>    </row>  
-<row> 	        <Country> Iran</Country> 	        <State></State> 	        <Latitude>32</Latitude> 	        <Longitude>53</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>245</Confirmed> 	        <ConfirmedPreviousValue>139</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>26</Deaths> 	        <DeathsPreviousValue>19</DeathsPreviousValue> 	        <Recovered>49</Recovered> 	        <RecoveredPreviousValue>49</RecoveredPreviousValue> 	        <Population>null</Population>    </row>  
-<row> 	        <Country> Mainland China</Country> 	        <State>Hubei</State> 	        <Latitude>30.9756</Latitude> 	        <Longitude>112.2707</Longitude> 	        <Date>2020-02-27</Date> 	        <Confirmed>65596</Confirmed> 	        <ConfirmedPreviousValue>65187</ConfirmedPreviousValue> 	        <isLast>true</isLast> 	        <Deaths>2641</Deaths> 	        <DeathsPreviousValue>2615</DeathsPreviousValue> 	        <Recovered>23383</Recovered> 	        <RecoveredPreviousValue>20969</RecoveredPreviousValue> 	        <Population>57237740</Population>    </row>  
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<row>
+		<Country> US</Country>
+		<State> Norfolk County - MA</State>
+		<Latitude>42.1767</Latitude>
+		<Longitude>-71.1449</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>6</Confirmed>
+		<ConfirmedPreviousValue>6</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Alameda County - CA</State>
+		<Latitude>37.6017</Latitude>
+		<Longitude>-121.7195</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Canada</Country>
+		<State>Alberta</State>
+		<Latitude>53.9333</Latitude>
+		<Longitude>-116.5765</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Anhui</State>
+		<Latitude>31.8257</Latitude>
+		<Longitude>117.2264</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>990</Confirmed>
+		<ConfirmedPreviousValue>990</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>6</Deaths>
+		<DeathsPreviousValue>6</DeathsPreviousValue>
+		<Recovered>984</Recovered>
+		<RecoveredPreviousValue>984</RecoveredPreviousValue>
+		<Population>62000000</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Beijing</State>
+		<Latitude>40.1824</Latitude>
+		<Longitude>116.4142</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>428</Confirmed>
+		<ConfirmedPreviousValue>428</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>8</Deaths>
+		<DeathsPreviousValue>8</DeathsPreviousValue>
+		<Recovered>315</Recovered>
+		<RecoveredPreviousValue>308</RecoveredPreviousValue>
+		<Population>21150000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Bennington County - VT</State>
+		<Latitude>43.0279</Latitude>
+		<Longitude>-73.135</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Bergen County - NJ</State>
+		<Latitude>40.9263</Latitude>
+		<Longitude>-74.077</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Berkshire County - MA</State>
+		<Latitude>42.3118</Latitude>
+		<Longitude>-73.1822</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Canada</Country>
+		<State>British Columbia</State>
+		<Latitude>49.2827</Latitude>
+		<Longitude>-123.1207</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>32</Confirmed>
+		<ConfirmedPreviousValue>27</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>4</Recovered>
+		<RecoveredPreviousValue>4</RecoveredPreviousValue>
+		<Population>5105576</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Broward County - FL</State>
+		<Latitude>26.1901</Latitude>
+		<Longitude>-80.3659</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Carver County - MN</State>
+		<Latitude>44.8254</Latitude>
+		<Longitude>-93.7842</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Charleston County - SC</State>
+		<Latitude>32.7957</Latitude>
+		<Longitude>-79.7848</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Charlotte County - FL</State>
+		<Latitude>26.8946</Latitude>
+		<Longitude>-81.9098</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Chatham County - NC</State>
+		<Latitude>35.7211</Latitude>
+		<Longitude>-79.1781</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Cherokee County - GA</State>
+		<Latitude>34.2515</Latitude>
+		<Longitude>-84.4803</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Chongqing</State>
+		<Latitude>30.0572</Latitude>
+		<Longitude>107.874</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>576</Confirmed>
+		<ConfirmedPreviousValue>576</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>6</Deaths>
+		<DeathsPreviousValue>6</DeathsPreviousValue>
+		<Recovered>542</Recovered>
+		<RecoveredPreviousValue>527</RecoveredPreviousValue>
+		<Population>8518000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Clark County - NV</State>
+		<Latitude>36.0796</Latitude>
+		<Longitude>-115.094</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Clark County - WA</State>
+		<Latitude>45.7466</Latitude>
+		<Longitude>-122.5194</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Cobb County - GA</State>
+		<Latitude>33.8999</Latitude>
+		<Longitude>-84.5641</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Collin County - TX</State>
+		<Latitude>33.1795</Latitude>
+		<Longitude>-96.493</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Contra Costa County - CA</State>
+		<Latitude>37.8534</Latitude>
+		<Longitude>-121.9018</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>12</Confirmed>
+		<ConfirmedPreviousValue>12</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Cook County - IL</State>
+		<Latitude>41.7377</Latitude>
+		<Longitude>-87.6976</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7</Confirmed>
+		<ConfirmedPreviousValue>7</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>2</Recovered>
+		<RecoveredPreviousValue>2</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Davidson County - TN</State>
+		<Latitude>36.1343</Latitude>
+		<Longitude>-86.822</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Davis County - UT</State>
+		<Latitude>40.9629</Latitude>
+		<Longitude>-112.0953</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Delaware County - PA</State>
+		<Latitude>39.9078</Latitude>
+		<Longitude>-75.3879</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Denver County - CO</State>
+		<Latitude>39.7392</Latitude>
+		<Longitude>-104.9903</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Others</Country>
+		<State>Diamond Princess cruise ship</State>
+		<Latitude>35.4437</Latitude>
+		<Longitude>139.638</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>696</Confirmed>
+		<ConfirmedPreviousValue>696</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>6</Deaths>
+		<DeathsPreviousValue>6</DeathsPreviousValue>
+		<Recovered>40</Recovered>
+		<RecoveredPreviousValue>40</RecoveredPreviousValue>
+		<Population>3700</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Douglas County - CO</State>
+		<Latitude>39.2587</Latitude>
+		<Longitude>-104.9389</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Douglas County - NE</State>
+		<Latitude>41.3148</Latitude>
+		<Longitude>-96.1951</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Douglas County - OR</State>
+		<Latitude>43.1261</Latitude>
+		<Longitude>-123.2492</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>El Paso County - CO</State>
+		<Latitude>38.9108</Latitude>
+		<Longitude>-104.4723</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Fairfax County - VA</State>
+		<Latitude>38.9085</Latitude>
+		<Longitude>-77.2405</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Fairfield County - CT</State>
+		<Latitude>41.256</Latitude>
+		<Longitude>-73.3709</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Fayette County - KY</State>
+		<Latitude>38.0606</Latitude>
+		<Longitude>-84.4803</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Fort Bend County - TX</State>
+		<Latitude>29.5693</Latitude>
+		<Longitude>-95.8143</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>6</Confirmed>
+		<ConfirmedPreviousValue>6</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Fresno County - CA</State>
+		<Latitude>36.9859</Latitude>
+		<Longitude>-119.2321</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<State>From Diamond Princess</State>
+		<Latitude>35.4437</Latitude>
+		<Longitude>139.638</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>0</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Fujian</State>
+		<Latitude>26.0789</Latitude>
+		<Longitude>117.9874</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>296</Confirmed>
+		<ConfirmedPreviousValue>296</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>295</Recovered>
+		<RecoveredPreviousValue>295</RecoveredPreviousValue>
+		<Population>38565000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Fulton County - GA</State>
+		<Latitude>33.8034</Latitude>
+		<Longitude>-84.3963</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>5</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Gansu</State>
+		<Latitude>36.0611</Latitude>
+		<Longitude>103.8343</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>124</Confirmed>
+		<ConfirmedPreviousValue>124</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>2</Deaths>
+		<DeathsPreviousValue>2</DeathsPreviousValue>
+		<Recovered>88</Recovered>
+		<RecoveredPreviousValue>87</RecoveredPreviousValue>
+		<Population>25575254</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Grafton County - NH</State>
+		<Latitude>43.9088</Latitude>
+		<Longitude>-71.826</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Grand Princess Cruise Ship</State>
+		<Latitude>37.6489</Latitude>
+		<Longitude>-122.6655</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>21</Confirmed>
+		<ConfirmedPreviousValue>21</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Grant County - WA</State>
+		<Latitude>47.1981</Latitude>
+		<Longitude>-119.3732</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Guangdong</State>
+		<Latitude>23.3417</Latitude>
+		<Longitude>113.4244</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1352</Confirmed>
+		<ConfirmedPreviousValue>1352</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>8</Deaths>
+		<DeathsPreviousValue>7</DeathsPreviousValue>
+		<Recovered>1260</Recovered>
+		<RecoveredPreviousValue>1256</RecoveredPreviousValue>
+		<Population>113460000</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Guangxi</State>
+		<Latitude>23.8298</Latitude>
+		<Longitude>108.7881</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>252</Confirmed>
+		<ConfirmedPreviousValue>252</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>2</Deaths>
+		<DeathsPreviousValue>2</DeathsPreviousValue>
+		<Recovered>230</Recovered>
+		<RecoveredPreviousValue>223</RecoveredPreviousValue>
+		<Population>48380000</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Guizhou</State>
+		<Latitude>26.8154</Latitude>
+		<Longitude>106.8748</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>146</Confirmed>
+		<ConfirmedPreviousValue>146</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>2</Deaths>
+		<DeathsPreviousValue>2</DeathsPreviousValue>
+		<Recovered>123</Recovered>
+		<RecoveredPreviousValue>117</RecoveredPreviousValue>
+		<Population>34746468</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Hainan</State>
+		<Latitude>19.1959</Latitude>
+		<Longitude>109.7453</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>168</Confirmed>
+		<ConfirmedPreviousValue>168</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>6</Deaths>
+		<DeathsPreviousValue>6</DeathsPreviousValue>
+		<Recovered>159</Recovered>
+		<RecoveredPreviousValue>159</RecoveredPreviousValue>
+		<Population>9257600</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Harford County - MD</State>
+		<Latitude>39.5839</Latitude>
+		<Longitude>-76.3637</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Harris County - TX</State>
+		<Latitude>29.7752</Latitude>
+		<Longitude>-95.3103</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>6</Confirmed>
+		<ConfirmedPreviousValue>5</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Harrison County - KY</State>
+		<Latitude>38.4333</Latitude>
+		<Longitude>-84.3542</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Hebei</State>
+		<Latitude>38.0428</Latitude>
+		<Longitude>114.5149</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>318</Confirmed>
+		<ConfirmedPreviousValue>318</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>6</Deaths>
+		<DeathsPreviousValue>6</DeathsPreviousValue>
+		<Recovered>307</Recovered>
+		<RecoveredPreviousValue>307</RecoveredPreviousValue>
+		<Population>71854202</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Heilongjiang</State>
+		<Latitude>47.862</Latitude>
+		<Longitude>127.7615</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>481</Confirmed>
+		<ConfirmedPreviousValue>481</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>13</Deaths>
+		<DeathsPreviousValue>13</DeathsPreviousValue>
+		<Recovered>430</Recovered>
+		<RecoveredPreviousValue>412</RecoveredPreviousValue>
+		<Population>38312224</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Henan</State>
+		<Latitude>33.88202</Latitude>
+		<Longitude>113.614</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1272</Confirmed>
+		<ConfirmedPreviousValue>1272</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>22</Deaths>
+		<DeathsPreviousValue>22</DeathsPreviousValue>
+		<Recovered>1247</Recovered>
+		<RecoveredPreviousValue>1247</RecoveredPreviousValue>
+		<Population>94023567</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Hendricks County - IN</State>
+		<Latitude>39.8065</Latitude>
+		<Longitude>-86.5401</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Hillsborough - FL</State>
+		<Latitude>27.9904</Latitude>
+		<Longitude>-82.3018</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Hong Kong</Country>
+		<State>Hong Kong</State>
+		<Latitude>22.3</Latitude>
+		<Longitude>114.2</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>115</Confirmed>
+		<ConfirmedPreviousValue>114</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>3</Deaths>
+		<DeathsPreviousValue>3</DeathsPreviousValue>
+		<Recovered>59</Recovered>
+		<RecoveredPreviousValue>58</RecoveredPreviousValue>
+		<Population>7392000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Honolulu County - HI</State>
+		<Latitude>21.307</Latitude>
+		<Longitude>-157.8584</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Hubei</State>
+		<Latitude>30.9756</Latitude>
+		<Longitude>112.2707</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>67743</Confirmed>
+		<ConfirmedPreviousValue>67707</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>3008</Deaths>
+		<DeathsPreviousValue>2986</DeathsPreviousValue>
+		<Recovered>46488</Recovered>
+		<RecoveredPreviousValue>45235</RecoveredPreviousValue>
+		<Population>57237740</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Hudson County - NJ</State>
+		<Latitude>40.7453</Latitude>
+		<Longitude>-74.0535</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Humboldt County - CA</State>
+		<Latitude>40.745</Latitude>
+		<Longitude>-123.8695</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Hunan</State>
+		<Latitude>27.6104</Latitude>
+		<Longitude>111.7088</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1018</Confirmed>
+		<ConfirmedPreviousValue>1018</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>4</Deaths>
+		<DeathsPreviousValue>4</DeathsPreviousValue>
+		<Recovered>979</Recovered>
+		<RecoveredPreviousValue>968</RecoveredPreviousValue>
+		<Population>65683722</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Inner Mongolia</State>
+		<Latitude>44.0935</Latitude>
+		<Longitude>113.9448</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>75</Confirmed>
+		<ConfirmedPreviousValue>75</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>70</Recovered>
+		<RecoveredPreviousValue>70</RecoveredPreviousValue>
+		<Population>24706321</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Jackson County - OR </State>
+		<Latitude>42.3345</Latitude>
+		<Longitude>-122.7647</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Jefferson County - KY</State>
+		<Latitude>38.1938</Latitude>
+		<Longitude>-85.6435</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Jefferson County - WA</State>
+		<Latitude>47.7425</Latitude>
+		<Longitude>-123.304</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Jefferson Parish - LA</State>
+		<Latitude>29.6499</Latitude>
+		<Longitude>-90.1121</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Jiangsu</State>
+		<Latitude>32.9711</Latitude>
+		<Longitude>119.455</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>631</Confirmed>
+		<ConfirmedPreviousValue>631</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>621</Recovered>
+		<RecoveredPreviousValue>612</RecoveredPreviousValue>
+		<Population>78659903</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Jiangxi</State>
+		<Latitude>27.614</Latitude>
+		<Longitude>115.7221</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>935</Confirmed>
+		<ConfirmedPreviousValue>935</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>923</Recovered>
+		<RecoveredPreviousValue>919</RecoveredPreviousValue>
+		<Population>44567475</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Jilin</State>
+		<Latitude>43.6661</Latitude>
+		<Longitude>126.1923</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>93</Confirmed>
+		<ConfirmedPreviousValue>93</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>91</Recovered>
+		<RecoveredPreviousValue>90</RecoveredPreviousValue>
+		<Population>27462297</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Johnson County - IA</State>
+		<Latitude>41.6699</Latitude>
+		<Longitude>-91.5984</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Johnson County - KS</State>
+		<Latitude>38.8454</Latitude>
+		<Longitude>-94.8521</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Kershaw County - SC</State>
+		<Latitude>34.3672</Latitude>
+		<Longitude>-80.5883</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>King County - WA</State>
+		<Latitude>47.6062</Latitude>
+		<Longitude>-122.3321</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>83</Confirmed>
+		<ConfirmedPreviousValue>83</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>17</Deaths>
+		<DeathsPreviousValue>17</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Kittitas County - WA</State>
+		<Latitude>47.175</Latitude>
+		<Longitude>-120.9319</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Klamath County - OR</State>
+		<Latitude>42.6953</Latitude>
+		<Longitude>-121.6142</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Lackland - TX (From Diamond Princess)</State>
+		<Latitude>29.3829</Latitude>
+		<Longitude>-98.6134</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>0</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Lee County - FL</State>
+		<Latitude>26.663</Latitude>
+		<Longitude>-81.9535</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Liaoning</State>
+		<Latitude>41.2956</Latitude>
+		<Longitude>122.6085</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>125</Confirmed>
+		<ConfirmedPreviousValue>125</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>109</Recovered>
+		<RecoveredPreviousValue>109</RecoveredPreviousValue>
+		<Population>43746323</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Los Angeles - CA</State>
+		<Latitude>34.0522</Latitude>
+		<Longitude>-118.2437</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>14</Confirmed>
+		<ConfirmedPreviousValue>14</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>3990456</Population>
+	</row>
+	<row>
+		<Country> Macau</Country>
+		<State>Macau</State>
+		<Latitude>22.1667</Latitude>
+		<Longitude>113.55</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>10</Confirmed>
+		<ConfirmedPreviousValue>10</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>10</Recovered>
+		<RecoveredPreviousValue>10</RecoveredPreviousValue>
+		<Population>622567</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Madera County - CA</State>
+		<Latitude>37.2519</Latitude>
+		<Longitude>-119.6963</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Madison - WI</State>
+		<Latitude>43.0731</Latitude>
+		<Longitude>-89.4012</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>236901</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Manatee County - FL</State>
+		<Latitude>27.4799</Latitude>
+		<Longitude>-82.3452</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Maricopa County - AZ</State>
+		<Latitude>33.2918</Latitude>
+		<Longitude>-112.4291</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Marion County - IN</State>
+		<Latitude>39.8362</Latitude>
+		<Longitude>-86.1752</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Marion County - OR</State>
+		<Latitude>44.8446</Latitude>
+		<Longitude>-122.5927</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Middlesex County - MA</State>
+		<Latitude>42.4672</Latitude>
+		<Longitude>-71.2874</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7</Confirmed>
+		<ConfirmedPreviousValue>7</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Montgomery County - MD</State>
+		<Latitude>39.1547</Latitude>
+		<Longitude>-77.2405</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Montgomery County - PA</State>
+		<Latitude>40.229</Latitude>
+		<Longitude>-75.3879</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>5</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Montgomery County - TX</State>
+		<Latitude>30.3213</Latitude>
+		<Longitude>-95.4778</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>0</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Nassau County - NY</State>
+		<Latitude>40.6546</Latitude>
+		<Longitude>-73.5594</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>17</Confirmed>
+		<ConfirmedPreviousValue>5</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<State>New South Wales</State>
+		<Latitude>-33.8688</Latitude>
+		<Longitude>151.2093</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>48</Confirmed>
+		<ConfirmedPreviousValue>38</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>3</Deaths>
+		<DeathsPreviousValue>3</DeathsPreviousValue>
+		<Recovered>4</Recovered>
+		<RecoveredPreviousValue>4</RecoveredPreviousValue>
+		<Population>7544000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>New York County - NY</State>
+		<Latitude>40.7128</Latitude>
+		<Longitude>-74.006</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>19</Confirmed>
+		<ConfirmedPreviousValue>12</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Ningxia</State>
+		<Latitude>37.2692</Latitude>
+		<Longitude>106.1655</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>75</Confirmed>
+		<ConfirmedPreviousValue>75</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>71</Recovered>
+		<RecoveredPreviousValue>71</RecoveredPreviousValue>
+		<Population>6301350</Population>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<State>Northern Territory</State>
+		<Latitude>-12.4634</Latitude>
+		<Longitude>130.8456</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>0</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Okaloosa County - FL</State>
+		<Latitude>30.5773</Latitude>
+		<Longitude>-86.6611</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Omaha - NE (From Diamond Princess)</State>
+		<Latitude>41.2545</Latitude>
+		<Longitude>-95.9758</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>0</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Canada</Country>
+		<State>Ontario</State>
+		<Latitude>51.2538</Latitude>
+		<Longitude>-85.3232</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>34</Confirmed>
+		<ConfirmedPreviousValue>29</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>4</Recovered>
+		<RecoveredPreviousValue>4</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Orange County - CA</State>
+		<Latitude>33.7879</Latitude>
+		<Longitude>-117.8531</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Pierce County - WA</State>
+		<Latitude>47.0676</Latitude>
+		<Longitude>-122.1295</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Pinal County - AZ</State>
+		<Latitude>32.8162</Latitude>
+		<Longitude>-111.2845</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Placer County - CA</State>
+		<Latitude>39.0916</Latitude>
+		<Longitude>-120.8039</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7</Confirmed>
+		<ConfirmedPreviousValue>5</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Plymouth County - MA</State>
+		<Latitude>42.1615</Latitude>
+		<Longitude>-70.7928</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Polk County - GA</State>
+		<Latitude>34.0132</Latitude>
+		<Longitude>-85.1479</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Providence County - RI</State>
+		<Latitude>41.8882</Latitude>
+		<Longitude>-71.4774</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Qinghai</State>
+		<Latitude>35.7452</Latitude>
+		<Longitude>95.9956</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>18</Confirmed>
+		<ConfirmedPreviousValue>18</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>18</Recovered>
+		<RecoveredPreviousValue>18</RecoveredPreviousValue>
+		<Population>5626722</Population>
+	</row>
+	<row>
+		<Country> Canada</Country>
+		<State>Quebec</State>
+		<Latitude>52.9399</Latitude>
+		<Longitude>-73.5491</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<State>Queensland</State>
+		<Latitude>-28.0167</Latitude>
+		<Longitude>153.4</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>15</Confirmed>
+		<ConfirmedPreviousValue>15</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>8</Recovered>
+		<RecoveredPreviousValue>8</RecoveredPreviousValue>
+		<Population>5052800</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Ramsey County - MN</State>
+		<Latitude>44.9964</Latitude>
+		<Longitude>-93.0616</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Riverside County - CA</State>
+		<Latitude>33.9533</Latitude>
+		<Longitude>-117.3961</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Rockingham County - NH</State>
+		<Latitude>42.9931</Latitude>
+		<Longitude>-71.0498</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Rockland County - NY</State>
+		<Latitude>41.1489</Latitude>
+		<Longitude>-73.983</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Sacramento County - CA</State>
+		<Latitude>38.4747</Latitude>
+		<Longitude>-121.3542</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>San Antonio - TX</State>
+		<Latitude>29.4241</Latitude>
+		<Longitude>-98.4936</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>1493000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>San Benito - CA</State>
+		<Latitude>36.5761</Latitude>
+		<Longitude>-120.9876</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>60310</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>San Diego County - CA</State>
+		<Latitude>32.7157</Latitude>
+		<Longitude>-117.1611</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>3338000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>San Francisco County - CA</State>
+		<Latitude>37.7749</Latitude>
+		<Longitude>-122.4194</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>9</Confirmed>
+		<ConfirmedPreviousValue>9</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>San Mateo - CA</State>
+		<Latitude>37.563</Latitude>
+		<Longitude>-122.3255</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Santa Clara County - CA</State>
+		<Latitude>37.3541</Latitude>
+		<Longitude>-121.9552</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>38</Confirmed>
+		<ConfirmedPreviousValue>38</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Santa Rosa County - FL</State>
+		<Latitude>30.769</Latitude>
+		<Longitude>-86.9824</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Sarasota - FL</State>
+		<Latitude>27.3364</Latitude>
+		<Longitude>-82.5307</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Saratoga County - NY</State>
+		<Latitude>43.0324</Latitude>
+		<Longitude>-73.936</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Shaanxi</State>
+		<Latitude>35.1917</Latitude>
+		<Longitude>108.8701</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>245</Confirmed>
+		<ConfirmedPreviousValue>245</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>227</Recovered>
+		<RecoveredPreviousValue>227</RecoveredPreviousValue>
+		<Population>37327378</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Shandong</State>
+		<Latitude>36.3427</Latitude>
+		<Longitude>118.1498</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>758</Confirmed>
+		<ConfirmedPreviousValue>758</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>6</Deaths>
+		<DeathsPreviousValue>6</DeathsPreviousValue>
+		<Recovered>700</Recovered>
+		<RecoveredPreviousValue>642</RecoveredPreviousValue>
+		<Population>95793065</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Shanghai</State>
+		<Latitude>31.202</Latitude>
+		<Longitude>121.4491</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>342</Confirmed>
+		<ConfirmedPreviousValue>342</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>3</Deaths>
+		<DeathsPreviousValue>3</DeathsPreviousValue>
+		<Recovered>315</Recovered>
+		<RecoveredPreviousValue>314</RecoveredPreviousValue>
+		<Population>23019148</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Shanxi</State>
+		<Latitude>37.5777</Latitude>
+		<Longitude>112.2922</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>133</Confirmed>
+		<ConfirmedPreviousValue>133</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>127</Recovered>
+		<RecoveredPreviousValue>126</RecoveredPreviousValue>
+		<Population>35712111</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Shasta County - CA</State>
+		<Latitude>40.7909</Latitude>
+		<Longitude>-121.8474</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Shelby County - TN</State>
+		<Latitude>35.1269</Latitude>
+		<Longitude>-89.9253</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Sichuan</State>
+		<Latitude>30.6171</Latitude>
+		<Longitude>102.7103</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>539</Confirmed>
+		<ConfirmedPreviousValue>539</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>3</Deaths>
+		<DeathsPreviousValue>3</DeathsPreviousValue>
+		<Recovered>466</Recovered>
+		<RecoveredPreviousValue>464</RecoveredPreviousValue>
+		<Population>80418200</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Snohomish County - WA</State>
+		<Latitude>48.033</Latitude>
+		<Longitude>-121.8339</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>31</Confirmed>
+		<ConfirmedPreviousValue>31</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Sonoma County - CA</State>
+		<Latitude>38.578</Latitude>
+		<Longitude>-122.9888</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<State>South Australia</State>
+		<Latitude>-34.9285</Latitude>
+		<Longitude>138.6007</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7</Confirmed>
+		<ConfirmedPreviousValue>7</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>2</Recovered>
+		<RecoveredPreviousValue>2</RecoveredPreviousValue>
+		<Population>1677000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Spartanburg County - SC</State>
+		<Latitude>34.8606</Latitude>
+		<Longitude>-81.9535</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Spokane County - WA</State>
+		<Latitude>47.6587</Latitude>
+		<Longitude>-117.4225</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>St. Louis County - MO</State>
+		<Latitude>38.6103</Latitude>
+		<Longitude>-90.4125</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Suffolk County - MA</State>
+		<Latitude>42.3601</Latitude>
+		<Longitude>-71.0589</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>8</Confirmed>
+		<ConfirmedPreviousValue>8</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Suffolk County - NY</State>
+		<Latitude>40.9849</Latitude>
+		<Longitude>-72.6151</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Summit County - CO</State>
+		<Latitude>39.5912</Latitude>
+		<Longitude>-106.064</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Taiwan</Country>
+		<State>Taiwan</State>
+		<Latitude>23.7</Latitude>
+		<Longitude>121</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>45</Confirmed>
+		<ConfirmedPreviousValue>45</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>15</Recovered>
+		<RecoveredPreviousValue>13</RecoveredPreviousValue>
+		<Population>23780000</Population>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<State>Tasmania</State>
+		<Latitude>-41.4545</Latitude>
+		<Longitude>145.9707</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Tianjin</State>
+		<Latitude>39.3054</Latitude>
+		<Longitude>117.323</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>136</Confirmed>
+		<ConfirmedPreviousValue>136</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>3</Deaths>
+		<DeathsPreviousValue>3</DeathsPreviousValue>
+		<Recovered>130</Recovered>
+		<RecoveredPreviousValue>128</RecoveredPreviousValue>
+		<Population>12938224</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Tibet</State>
+		<Latitude>31.6927</Latitude>
+		<Longitude>88.0924</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>3002166</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Travis - CA (From Diamond Princess)</State>
+		<Latitude>38.2721</Latitude>
+		<Longitude>-121.9399</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>0</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Tulsa County - OK</State>
+		<Latitude>36.1593</Latitude>
+		<Longitude>-95.941</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Ulster County - NY</State>
+		<Latitude>41.8586</Latitude>
+		<Longitude>-74.3118</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Umatilla - OR</State>
+		<Latitude>45.775</Latitude>
+		<Longitude>-118.7606</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Unassigned Location (From Diamond Princess)</State>
+		<Latitude>35.4437</Latitude>
+		<Longitude>139.638</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>45</Confirmed>
+		<ConfirmedPreviousValue>45</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Unassigned Location - WA</State>
+		<Latitude>47.7511</Latitude>
+		<Longitude>-120.7401</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>5</Confirmed>
+		<ConfirmedPreviousValue>5</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Unknown Location - MA</State>
+		<Latitude>42.4072</Latitude>
+		<Longitude>-71.3824</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<State>Victoria</State>
+		<Latitude>-37.8136</Latitude>
+		<Longitude>144.9631</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>15</Confirmed>
+		<ConfirmedPreviousValue>11</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>7</Recovered>
+		<RecoveredPreviousValue>7</RecoveredPreviousValue>
+		<Population>6359000</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Volusia County - FL</State>
+		<Latitude>29.028</Latitude>
+		<Longitude>-81.0755</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Wake County - NC</State>
+		<Latitude>35.8032</Latitude>
+		<Longitude>-78.5661</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Washington - D.C.</State>
+		<Latitude>38.9072</Latitude>
+		<Longitude>-77.0369</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Washington County - OR</State>
+		<Latitude>45.547</Latitude>
+		<Longitude>-123.1386</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>8</Confirmed>
+		<ConfirmedPreviousValue>8</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Washoe County - NV</State>
+		<Latitude>40.5608</Latitude>
+		<Longitude>-119.6035</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Wayne County - PA</State>
+		<Latitude>41.6739</Latitude>
+		<Longitude>-75.2479</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Westchester County - NY</State>
+		<Latitude>41.122</Latitude>
+		<Longitude>-73.7949</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>98</Confirmed>
+		<ConfirmedPreviousValue>83</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<State>Western Australia</State>
+		<Latitude>-31.9505</Latitude>
+		<Longitude>115.8605</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Williamson County - TN</State>
+		<Latitude>35.9179</Latitude>
+		<Longitude>-86.8622</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Xinjiang</State>
+		<Latitude>41.1129</Latitude>
+		<Longitude>85.2401</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>76</Confirmed>
+		<ConfirmedPreviousValue>76</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>3</Deaths>
+		<DeathsPreviousValue>3</DeathsPreviousValue>
+		<Recovered>73</Recovered>
+		<RecoveredPreviousValue>73</RecoveredPreviousValue>
+		<Population>21813334</Population>
+	</row>
+	<row>
+		<Country> US</Country>
+		<State>Yolo County - CA</State>
+		<Latitude>38.7646</Latitude>
+		<Longitude>-121.9018</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Yunnan</State>
+		<Latitude>24.974</Latitude>
+		<Longitude>101.487</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>174</Confirmed>
+		<ConfirmedPreviousValue>174</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>2</Deaths>
+		<DeathsPreviousValue>2</DeathsPreviousValue>
+		<Recovered>170</Recovered>
+		<RecoveredPreviousValue>170</RecoveredPreviousValue>
+		<Population>45966239</Population>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<State>Zhejiang</State>
+		<Latitude>29.1832</Latitude>
+		<Longitude>120.0934</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1215</Confirmed>
+		<ConfirmedPreviousValue>1215</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>1176</Recovered>
+		<RecoveredPreviousValue>1161</RecoveredPreviousValue>
+		<Population>54426891</Population>
+	</row>
+	<row>
+		<Country> Afghanistan</Country>
+		<State></State>
+		<Latitude>33</Latitude>
+		<Longitude>65</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Albania</Country>
+		<State></State>
+		<Latitude>41.1533</Latitude>
+		<Longitude>20.1683</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Algeria</Country>
+		<State></State>
+		<Latitude>28.0339</Latitude>
+		<Longitude>1.6596</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>20</Confirmed>
+		<ConfirmedPreviousValue>19</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Andorra</Country>
+		<State></State>
+		<Latitude>42.5063</Latitude>
+		<Longitude>1.5218</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Argentina</Country>
+		<State></State>
+		<Latitude>-38.4161</Latitude>
+		<Longitude>-63.6167</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>12</Confirmed>
+		<ConfirmedPreviousValue>12</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Armenia</Country>
+		<State></State>
+		<Latitude>40.0691</Latitude>
+		<Longitude>45.0382</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Austria</Country>
+		<State></State>
+		<Latitude>47.5162</Latitude>
+		<Longitude>14.5501</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>131</Confirmed>
+		<ConfirmedPreviousValue>104</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>2</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Azerbaijan</Country>
+		<State></State>
+		<Latitude>40.1431</Latitude>
+		<Longitude>47.5769</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>9</Confirmed>
+		<ConfirmedPreviousValue>9</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Bahrain</Country>
+		<State></State>
+		<Latitude>26.0275</Latitude>
+		<Longitude>50.55</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>95</Confirmed>
+		<ConfirmedPreviousValue>85</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>14</Recovered>
+		<RecoveredPreviousValue>4</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Bangladesh</Country>
+		<State></State>
+		<Latitude>23.685</Latitude>
+		<Longitude>90.3563</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Belarus</Country>
+		<State></State>
+		<Latitude>53.7098</Latitude>
+		<Longitude>27.9534</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>6</Confirmed>
+		<ConfirmedPreviousValue>6</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Belgium</Country>
+		<State></State>
+		<Latitude>50.8333</Latitude>
+		<Longitude>4</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>239</Confirmed>
+		<ConfirmedPreviousValue>200</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>11515793</Population>
+	</row>
+	<row>
+		<Country> Bhutan</Country>
+		<State></State>
+		<Latitude>27.5142</Latitude>
+		<Longitude>90.4336</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Bosnia and Herzegovina</Country>
+		<State></State>
+		<Latitude>43.9159</Latitude>
+		<Longitude>17.6791</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Brazil</Country>
+		<State></State>
+		<Latitude>-14.235</Latitude>
+		<Longitude>-51.9253</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>25</Confirmed>
+		<ConfirmedPreviousValue>20</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Brunei</Country>
+		<State></State>
+		<Latitude>4.5353</Latitude>
+		<Longitude>114.7277</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Bulgaria</Country>
+		<State></State>
+		<Latitude>42.7339</Latitude>
+		<Longitude>25.4858</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Cambodia</Country>
+		<State></State>
+		<Latitude>11.55</Latitude>
+		<Longitude>104.9167</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>16631348</Population>
+	</row>
+	<row>
+		<Country> Cameroon</Country>
+		<State></State>
+		<Latitude>3.848</Latitude>
+		<Longitude>11.5021</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Chile</Country>
+		<State></State>
+		<Latitude>-35.6751</Latitude>
+		<Longitude>-71.543</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>8</Confirmed>
+		<ConfirmedPreviousValue>8</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Colombia</Country>
+		<State></State>
+		<Latitude>4.5709</Latitude>
+		<Longitude>-74.2973</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Costa Rica</Country>
+		<State></State>
+		<Latitude>9.7489</Latitude>
+		<Longitude>-83.7534</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>9</Confirmed>
+		<ConfirmedPreviousValue>5</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Croatia</Country>
+		<State></State>
+		<Latitude>45.1</Latitude>
+		<Longitude>15.2</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>12</Confirmed>
+		<ConfirmedPreviousValue>12</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Cyprus</Country>
+		<State></State>
+		<Latitude>35.1264</Latitude>
+		<Longitude>33.4299</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Czech Republic</Country>
+		<State></State>
+		<Latitude>49.8175</Latitude>
+		<Longitude>15.473</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>31</Confirmed>
+		<ConfirmedPreviousValue>31</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Denmark</Country>
+		<State></State>
+		<Latitude>56.2639</Latitude>
+		<Longitude>9.5018</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>90</Confirmed>
+		<ConfirmedPreviousValue>35</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Dominican Republic</Country>
+		<State></State>
+		<Latitude>18.7357</Latitude>
+		<Longitude>-70.1627</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>5</Confirmed>
+		<ConfirmedPreviousValue>5</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Ecuador</Country>
+		<State></State>
+		<Latitude>-1.8312</Latitude>
+		<Longitude>-78.1834</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>15</Confirmed>
+		<ConfirmedPreviousValue>14</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Egypt</Country>
+		<State></State>
+		<Latitude>26</Latitude>
+		<Longitude>30</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>55</Confirmed>
+		<ConfirmedPreviousValue>49</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>12</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>97550000</Population>
+	</row>
+	<row>
+		<Country> Estonia</Country>
+		<State></State>
+		<Latitude>58.5953</Latitude>
+		<Longitude>25.0136</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>10</Confirmed>
+		<ConfirmedPreviousValue>10</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Faroe Islands</Country>
+		<State></State>
+		<Latitude>61.8926</Latitude>
+		<Longitude>-6.9118</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Finland</Country>
+		<State></State>
+		<Latitude>64</Latitude>
+		<Longitude>26</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>30</Confirmed>
+		<ConfirmedPreviousValue>23</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>5522015</Population>
+	</row>
+	<row>
+		<Country> France</Country>
+		<State></State>
+		<Latitude>47</Latitude>
+		<Longitude>2</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1209</Confirmed>
+		<ConfirmedPreviousValue>1126</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>19</Deaths>
+		<DeathsPreviousValue>19</DeathsPreviousValue>
+		<Recovered>12</Recovered>
+		<RecoveredPreviousValue>12</RecoveredPreviousValue>
+		<Population>67795000</Population>
+	</row>
+	<row>
+		<Country> French Guiana</Country>
+		<State></State>
+		<Latitude>3.9339</Latitude>
+		<Longitude>-53.1258</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>5</Confirmed>
+		<ConfirmedPreviousValue>5</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Georgia</Country>
+		<State></State>
+		<Latitude>42.3154</Latitude>
+		<Longitude>43.3569</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>15</Confirmed>
+		<ConfirmedPreviousValue>13</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Germany</Country>
+		<State></State>
+		<Latitude>51</Latitude>
+		<Longitude>9</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1176</Confirmed>
+		<ConfirmedPreviousValue>1040</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>2</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>18</Recovered>
+		<RecoveredPreviousValue>18</RecoveredPreviousValue>
+		<Population>83073100</Population>
+	</row>
+	<row>
+		<Country> Gibraltar</Country>
+		<State></State>
+		<Latitude>36.1408</Latitude>
+		<Longitude>-5.3536</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Greece</Country>
+		<State></State>
+		<Latitude>39.0742</Latitude>
+		<Longitude>21.8243</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>73</Confirmed>
+		<ConfirmedPreviousValue>73</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Hungary</Country>
+		<State></State>
+		<Latitude>47.1625</Latitude>
+		<Longitude>19.5033</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>9</Confirmed>
+		<ConfirmedPreviousValue>7</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Iceland</Country>
+		<State></State>
+		<Latitude>64.9631</Latitude>
+		<Longitude>-19.0208</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>58</Confirmed>
+		<ConfirmedPreviousValue>50</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> India</Country>
+		<State></State>
+		<Latitude>21</Latitude>
+		<Longitude>78</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>43</Confirmed>
+		<ConfirmedPreviousValue>39</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>3</Recovered>
+		<RecoveredPreviousValue>3</RecoveredPreviousValue>
+		<Population>1339000000</Population>
+	</row>
+	<row>
+		<Country> Indonesia</Country>
+		<State></State>
+		<Latitude>-0.7893</Latitude>
+		<Longitude>113.9213</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>19</Confirmed>
+		<ConfirmedPreviousValue>6</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Iran</Country>
+		<State></State>
+		<Latitude>32</Latitude>
+		<Longitude>53</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7161</Confirmed>
+		<ConfirmedPreviousValue>6566</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>237</Deaths>
+		<DeathsPreviousValue>194</DeathsPreviousValue>
+		<Recovered>2394</Recovered>
+		<RecoveredPreviousValue>2134</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Iraq</Country>
+		<State></State>
+		<Latitude>33</Latitude>
+		<Longitude>44</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>60</Confirmed>
+		<ConfirmedPreviousValue>60</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>6</Deaths>
+		<DeathsPreviousValue>6</DeathsPreviousValue>
+		<Recovered>9</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Ireland</Country>
+		<State></State>
+		<Latitude>53.1424</Latitude>
+		<Longitude>-7.6921</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>21</Confirmed>
+		<ConfirmedPreviousValue>19</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Israel</Country>
+		<State></State>
+		<Latitude>31</Latitude>
+		<Longitude>35</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>39</Confirmed>
+		<ConfirmedPreviousValue>39</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>2</Recovered>
+		<RecoveredPreviousValue>2</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Italy</Country>
+		<State></State>
+		<Latitude>43</Latitude>
+		<Longitude>12</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>9172</Confirmed>
+		<ConfirmedPreviousValue>7375</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>463</Deaths>
+		<DeathsPreviousValue>366</DeathsPreviousValue>
+		<Recovered>724</Recovered>
+		<RecoveredPreviousValue>622</RecoveredPreviousValue>
+		<Population>60359546</Population>
+	</row>
+	<row>
+		<Country> Japan</Country>
+		<State></State>
+		<Latitude>36</Latitude>
+		<Longitude>138</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>511</Confirmed>
+		<ConfirmedPreviousValue>502</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>17</Deaths>
+		<DeathsPreviousValue>6</DeathsPreviousValue>
+		<Recovered>76</Recovered>
+		<RecoveredPreviousValue>76</RecoveredPreviousValue>
+		<Population>126800000</Population>
+	</row>
+	<row>
+		<Country> Jordan</Country>
+		<State></State>
+		<Latitude>31.24</Latitude>
+		<Longitude>36.51</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Kuwait</Country>
+		<State></State>
+		<Latitude>29.5</Latitude>
+		<Longitude>47.75</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>64</Confirmed>
+		<ConfirmedPreviousValue>64</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Latvia</Country>
+		<State></State>
+		<Latitude>56.8796</Latitude>
+		<Longitude>24.6032</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>6</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Lebanon</Country>
+		<State></State>
+		<Latitude>33.8547</Latitude>
+		<Longitude>35.8623</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>32</Confirmed>
+		<ConfirmedPreviousValue>32</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Liechtenstein</Country>
+		<State></State>
+		<Latitude>47.14</Latitude>
+		<Longitude>9.55</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Lithuania</Country>
+		<State></State>
+		<Latitude>55.1694</Latitude>
+		<Longitude>23.8813</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Luxembourg</Country>
+		<State></State>
+		<Latitude>49.8153</Latitude>
+		<Longitude>6.1296</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Malaysia</Country>
+		<State></State>
+		<Latitude>2.5</Latitude>
+		<Longitude>112.5</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>117</Confirmed>
+		<ConfirmedPreviousValue>99</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>24</Recovered>
+		<RecoveredPreviousValue>24</RecoveredPreviousValue>
+		<Population>32772100</Population>
+	</row>
+	<row>
+		<Country> Maldives</Country>
+		<State></State>
+		<Latitude>3.2028</Latitude>
+		<Longitude>73.2207</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Malta</Country>
+		<State></State>
+		<Latitude>35.9375</Latitude>
+		<Longitude>14.3754</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Martinique</Country>
+		<State></State>
+		<Latitude>14.6415</Latitude>
+		<Longitude>-61.0242</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Mexico</Country>
+		<State></State>
+		<Latitude>23.6345</Latitude>
+		<Longitude>-102.5528</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7</Confirmed>
+		<ConfirmedPreviousValue>7</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Moldova</Country>
+		<State></State>
+		<Latitude>47.4116</Latitude>
+		<Longitude>28.3699</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Monaco</Country>
+		<State></State>
+		<Latitude>43.7333</Latitude>
+		<Longitude>7.4167</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Morocco</Country>
+		<State></State>
+		<Latitude>31.7917</Latitude>
+		<Longitude>-7.0926</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Nepal</Country>
+		<State></State>
+		<Latitude>28.1667</Latitude>
+		<Longitude>84.25</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>29</Population>
+	</row>
+	<row>
+		<Country> Netherlands</Country>
+		<State></State>
+		<Latitude>52.1326</Latitude>
+		<Longitude>5.2913</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>321</Confirmed>
+		<ConfirmedPreviousValue>265</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>3</Deaths>
+		<DeathsPreviousValue>3</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> New Zealand</Country>
+		<State></State>
+		<Latitude>-40.9006</Latitude>
+		<Longitude>174.886</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>5</Confirmed>
+		<ConfirmedPreviousValue>5</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Nigeria</Country>
+		<State></State>
+		<Latitude>9.082</Latitude>
+		<Longitude>8.6753</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> North Macedonia</Country>
+		<State></State>
+		<Latitude>41.6086</Latitude>
+		<Longitude>21.7453</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Norway</Country>
+		<State></State>
+		<Latitude>60.472</Latitude>
+		<Longitude>8.4689</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>205</Confirmed>
+		<ConfirmedPreviousValue>176</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Oman</Country>
+		<State></State>
+		<Latitude>21</Latitude>
+		<Longitude>57</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>16</Confirmed>
+		<ConfirmedPreviousValue>16</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>2</Recovered>
+		<RecoveredPreviousValue>2</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Pakistan</Country>
+		<State></State>
+		<Latitude>30.3753</Latitude>
+		<Longitude>69.3451</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>6</Confirmed>
+		<ConfirmedPreviousValue>6</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Palestine</Country>
+		<State></State>
+		<Latitude>31.9522</Latitude>
+		<Longitude>35.2332</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>22</Confirmed>
+		<ConfirmedPreviousValue>22</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Paraguay</Country>
+		<State></State>
+		<Latitude>-23.4425</Latitude>
+		<Longitude>-58.4438</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Peru</Country>
+		<State></State>
+		<Latitude>-9.19</Latitude>
+		<Longitude>-75.0152</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7</Confirmed>
+		<ConfirmedPreviousValue>6</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Philippines</Country>
+		<State></State>
+		<Latitude>13</Latitude>
+		<Longitude>122</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>20</Confirmed>
+		<ConfirmedPreviousValue>10</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>109180815</Population>
+	</row>
+	<row>
+		<Country> Poland</Country>
+		<State></State>
+		<Latitude>51.9194</Latitude>
+		<Longitude>19.1451</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>16</Confirmed>
+		<ConfirmedPreviousValue>11</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Portugal</Country>
+		<State></State>
+		<Latitude>39.3999</Latitude>
+		<Longitude>-8.2245</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>30</Confirmed>
+		<ConfirmedPreviousValue>30</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Qatar</Country>
+		<State></State>
+		<Latitude>25.3548</Latitude>
+		<Longitude>51.1839</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>18</Confirmed>
+		<ConfirmedPreviousValue>15</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Romania</Country>
+		<State></State>
+		<Latitude>45.9432</Latitude>
+		<Longitude>24.9668</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>15</Confirmed>
+		<ConfirmedPreviousValue>15</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>3</Recovered>
+		<RecoveredPreviousValue>3</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Russia</Country>
+		<State></State>
+		<Latitude>60</Latitude>
+		<Longitude>90</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>17</Confirmed>
+		<ConfirmedPreviousValue>17</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>3</Recovered>
+		<RecoveredPreviousValue>3</RecoveredPreviousValue>
+		<Population>144500000</Population>
+	</row>
+	<row>
+		<Country> Saint Barthelemy</Country>
+		<State></State>
+		<Latitude>17.9</Latitude>
+		<Longitude>-62.8333</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> San Marino</Country>
+		<State></State>
+		<Latitude>43.9424</Latitude>
+		<Longitude>12.4578</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>36</Confirmed>
+		<ConfirmedPreviousValue>36</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Saudi Arabia</Country>
+		<State></State>
+		<Latitude>24</Latitude>
+		<Longitude>45</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>15</Confirmed>
+		<ConfirmedPreviousValue>11</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Senegal</Country>
+		<State></State>
+		<Latitude>14.4974</Latitude>
+		<Longitude>-14.4524</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>4</Confirmed>
+		<ConfirmedPreviousValue>4</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Serbia</Country>
+		<State></State>
+		<Latitude>44.0165</Latitude>
+		<Longitude>21.0059</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Singapore</Country>
+		<State></State>
+		<Latitude>1.2833</Latitude>
+		<Longitude>103.8333</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>150</Confirmed>
+		<ConfirmedPreviousValue>150</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>78</Recovered>
+		<RecoveredPreviousValue>78</RecoveredPreviousValue>
+		<Population>5638700</Population>
+	</row>
+	<row>
+		<Country> Slovakia</Country>
+		<State></State>
+		<Latitude>48.669</Latitude>
+		<Longitude>19.699</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Slovenia</Country>
+		<State></State>
+		<Latitude>46.1512</Latitude>
+		<Longitude>14.9955</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>16</Confirmed>
+		<ConfirmedPreviousValue>16</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> South Africa</Country>
+		<State></State>
+		<Latitude>-30.5595</Latitude>
+		<Longitude>22.9375</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>3</Confirmed>
+		<ConfirmedPreviousValue>3</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> South Korea</Country>
+		<State></State>
+		<Latitude>36</Latitude>
+		<Longitude>128</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>7478</Confirmed>
+		<ConfirmedPreviousValue>7314</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>53</Deaths>
+		<DeathsPreviousValue>50</DeathsPreviousValue>
+		<Recovered>118</Recovered>
+		<RecoveredPreviousValue>118</RecoveredPreviousValue>
+		<Population>51470000</Population>
+	</row>
+	<row>
+		<Country> Spain</Country>
+		<State></State>
+		<Latitude>40</Latitude>
+		<Longitude>-4</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1073</Confirmed>
+		<ConfirmedPreviousValue>673</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>28</Deaths>
+		<DeathsPreviousValue>17</DeathsPreviousValue>
+		<Recovered>32</Recovered>
+		<RecoveredPreviousValue>30</RecoveredPreviousValue>
+		<Population>46733038</Population>
+	</row>
+	<row>
+		<Country> Sri Lanka</Country>
+		<State></State>
+		<Latitude>7</Latitude>
+		<Longitude>81</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>1</RecoveredPreviousValue>
+		<Population>22576592</Population>
+	</row>
+	<row>
+		<Country> St. Martin</Country>
+		<State></State>
+		<Latitude>18.0708</Latitude>
+		<Longitude>-63.0501</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>0</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Sweden</Country>
+		<State></State>
+		<Latitude>63</Latitude>
+		<Longitude>16</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>248</Confirmed>
+		<ConfirmedPreviousValue>203</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>1</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>10120000</Population>
+	</row>
+	<row>
+		<Country> Switzerland</Country>
+		<State></State>
+		<Latitude>46.8182</Latitude>
+		<Longitude>8.2275</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>374</Confirmed>
+		<ConfirmedPreviousValue>337</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>2</Deaths>
+		<DeathsPreviousValue>2</DeathsPreviousValue>
+		<Recovered>3</Recovered>
+		<RecoveredPreviousValue>3</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Thailand</Country>
+		<State></State>
+		<Latitude>15</Latitude>
+		<Longitude>101</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>50</Confirmed>
+		<ConfirmedPreviousValue>50</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>1</Deaths>
+		<DeathsPreviousValue>1</DeathsPreviousValue>
+		<Recovered>31</Recovered>
+		<RecoveredPreviousValue>31</RecoveredPreviousValue>
+		<Population>68977400</Population>
+	</row>
+	<row>
+		<Country> Togo</Country>
+		<State></State>
+		<Latitude>8.6195</Latitude>
+		<Longitude>0.8248</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Tunisia</Country>
+		<State></State>
+		<Latitude>34</Latitude>
+		<Longitude>9</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>2</Confirmed>
+		<ConfirmedPreviousValue>2</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> UK</Country>
+		<State></State>
+		<Latitude>55</Latitude>
+		<Longitude>-3</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>321</Confirmed>
+		<ConfirmedPreviousValue>273</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>4</Deaths>
+		<DeathsPreviousValue>3</DeathsPreviousValue>
+		<Recovered>18</Recovered>
+		<RecoveredPreviousValue>18</RecoveredPreviousValue>
+		<Population>67545757</Population>
+	</row>
+	<row>
+		<Country> Ukraine</Country>
+		<State></State>
+		<Latitude>48.3794</Latitude>
+		<Longitude>31.1656</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> United Arab Emirates</Country>
+		<State></State>
+		<Latitude>24</Latitude>
+		<Longitude>54</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>45</Confirmed>
+		<ConfirmedPreviousValue>45</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>7</Recovered>
+		<RecoveredPreviousValue>7</RecoveredPreviousValue>
+		<Population>9599353</Population>
+	</row>
+	<row>
+		<Country> Vatican City</Country>
+		<State></State>
+		<Latitude>41.9029</Latitude>
+		<Longitude>12.4534</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>1</Confirmed>
+		<ConfirmedPreviousValue>1</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>0</Recovered>
+		<RecoveredPreviousValue>0</RecoveredPreviousValue>
+		<Population>null</Population>
+	</row>
+	<row>
+		<Country> Vietnam</Country>
+		<State></State>
+		<Latitude>16</Latitude>
+		<Longitude>108</Longitude>
+		<Date>2020-03-09</Date>
+		<Confirmed>30</Confirmed>
+		<ConfirmedPreviousValue>30</ConfirmedPreviousValue>
+		<isLast>true</isLast>
+		<Deaths>0</Deaths>
+		<DeathsPreviousValue>0</DeathsPreviousValue>
+		<Recovered>16</Recovered>
+		<RecoveredPreviousValue>16</RecoveredPreviousValue>
+		<Population>95540000</Population>
+	</row>
 </root>
