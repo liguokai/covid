@@ -1,0 +1,759 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<row>
+		<Country> Global</Country>
+		<COVIDCount>145083</COVIDCount>
+		<SARSCount>8465</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Mainland China</Country>
+		<COVIDCount>80811</COVIDCount>
+		<SARSCount>5329</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Italy</Country>
+		<COVIDCount>17660</COVIDCount>
+		<SARSCount>9</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Iran</Country>
+		<COVIDCount>11364</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Republic of Korea</Country>
+		<COVIDCount>7979</COVIDCount>
+		<SARSCount>3</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Spain</Country>
+		<COVIDCount>5232</COVIDCount>
+		<SARSCount>1</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Germany</Country>
+		<COVIDCount>3675</COVIDCount>
+		<SARSCount>10</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> France</Country>
+		<COVIDCount>3667</COVIDCount>
+		<SARSCount>7</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> US</Country>
+		<COVIDCount>2179</COVIDCount>
+		<SARSCount>220</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Switzerland</Country>
+		<COVIDCount>1139</COVIDCount>
+		<SARSCount>7</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Norway</Country>
+		<COVIDCount>996</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Sweden</Country>
+		<COVIDCount>814</COVIDCount>
+		<SARSCount>3</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Denmark</Country>
+		<COVIDCount>804</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Netherlands</Country>
+		<COVIDCount>804</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> United Kingdom</Country>
+		<COVIDCount>801</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Cruise Ship</Country>
+		<COVIDCount>706</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Japan</Country>
+		<COVIDCount>701</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Belgium</Country>
+		<COVIDCount>559</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Austria</Country>
+		<COVIDCount>504</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Qatar</Country>
+		<COVIDCount>320</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Australia</Country>
+		<COVIDCount>200</COVIDCount>
+		<SARSCount>6</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Singapore</Country>
+		<COVIDCount>200</COVIDCount>
+		<SARSCount>206</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Malaysia</Country>
+		<COVIDCount>197</COVIDCount>
+		<SARSCount>8</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Bahrain</Country>
+		<COVIDCount>195</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Canada</Country>
+		<COVIDCount>193</COVIDCount>
+		<SARSCount>252</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Greece</Country>
+		<COVIDCount>190</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Israel</Country>
+		<COVIDCount>161</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Finland</Country>
+		<COVIDCount>155</COVIDCount>
+		<SARSCount>1</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Brazil</Country>
+		<COVIDCount>151</COVIDCount>
+		<SARSCount>3</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Czechia</Country>
+		<COVIDCount>141</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Slovenia</Country>
+		<COVIDCount>141</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Hong Kong SAR</Country>
+		<COVIDCount>134</COVIDCount>
+		<SARSCount>1755</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Iceland</Country>
+		<COVIDCount>134</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Portugal</Country>
+		<COVIDCount>112</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Iraq</Country>
+		<COVIDCount>101</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Ireland</Country>
+		<COVIDCount>90</COVIDCount>
+		<SARSCount>2</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Romania</Country>
+		<COVIDCount>89</COVIDCount>
+		<SARSCount>3</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Saudi Arabia</Country>
+		<COVIDCount>86</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> United Arab Emirates</Country>
+		<COVIDCount>85</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> India</Country>
+		<COVIDCount>82</COVIDCount>
+		<SARSCount>3</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Egypt</Country>
+		<COVIDCount>80</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Kuwait</Country>
+		<COVIDCount>80</COVIDCount>
+		<SARSCount>1</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> San Marino</Country>
+		<COVIDCount>80</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Estonia</Country>
+		<COVIDCount>79</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Lebanon</Country>
+		<COVIDCount>77</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Thailand</Country>
+		<COVIDCount>75</COVIDCount>
+		<SARSCount>9</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Indonesia</Country>
+		<COVIDCount>69</COVIDCount>
+		<SARSCount>2</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Poland</Country>
+		<COVIDCount>68</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Philippines</Country>
+		<COVIDCount>64</COVIDCount>
+		<SARSCount>14</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Vietnam</Country>
+		<COVIDCount>47</COVIDCount>
+		<SARSCount>63</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Russia</Country>
+		<COVIDCount>45</COVIDCount>
+		<SARSCount>1</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Chile</Country>
+		<COVIDCount>43</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Brunei</Country>
+		<COVIDCount>37</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Serbia</Country>
+		<COVIDCount>35</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Luxembourg</Country>
+		<COVIDCount>34</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Albania</Country>
+		<COVIDCount>33</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Croatia</Country>
+		<COVIDCount>32</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Slovakia</Country>
+		<COVIDCount>32</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Argentina</Country>
+		<COVIDCount>31</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Pakistan</Country>
+		<COVIDCount>28</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Peru</Country>
+		<COVIDCount>28</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Belarus</Country>
+		<COVIDCount>27</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Panama</Country>
+		<COVIDCount>27</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Algeria</Country>
+		<COVIDCount>26</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Georgia</Country>
+		<COVIDCount>25</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> South Africa</Country>
+		<COVIDCount>24</COVIDCount>
+		<SARSCount>1</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Bulgaria</Country>
+		<COVIDCount>23</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Costa Rica</Country>
+		<COVIDCount>23</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Hungary</Country>
+		<COVIDCount>19</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Oman</Country>
+		<COVIDCount>19</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Ecuador</Country>
+		<COVIDCount>17</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Latvia</Country>
+		<COVIDCount>17</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Tunisia</Country>
+		<COVIDCount>16</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Azerbaijan</Country>
+		<COVIDCount>15</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Cyprus</Country>
+		<COVIDCount>14</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> North Macedonia</Country>
+		<COVIDCount>14</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Bosnia and Herzegovina</Country>
+		<COVIDCount>13</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Colombia</Country>
+		<COVIDCount>13</COVIDCount>
+		<SARSCount>1</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Malta</Country>
+		<COVIDCount>12</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Mexico</Country>
+		<COVIDCount>12</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Senegal</Country>
+		<COVIDCount>10</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Maldives</Country>
+		<COVIDCount>9</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Armenia</Country>
+		<COVIDCount>8</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Jamaica</Country>
+		<COVIDCount>8</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Afghanistan</Country>
+		<COVIDCount>7</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Morocco</Country>
+		<COVIDCount>7</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Lithuania</Country>
+		<COVIDCount>6</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Moldova</Country>
+		<COVIDCount>6</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Paraguay</Country>
+		<COVIDCount>6</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Sri Lanka</Country>
+		<COVIDCount>6</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Cambodia</Country>
+		<COVIDCount>5</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Dominican Republic</Country>
+		<COVIDCount>5</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> French Guiana</Country>
+		<COVIDCount>5</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> New Zealand</Country>
+		<COVIDCount>5</COVIDCount>
+		<SARSCount>1</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Reunion</Country>
+		<COVIDCount>5</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Turkey</Country>
+		<COVIDCount>5</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Cuba</Country>
+		<COVIDCount>4</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Kazakhstan</Country>
+		<COVIDCount>4</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Bangladesh</Country>
+		<COVIDCount>3</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Bolivia</Country>
+		<COVIDCount>3</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Martinique</Country>
+		<COVIDCount>3</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Ukraine</Country>
+		<COVIDCount>3</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Aruba</Country>
+		<COVIDCount>2</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Burkina Faso</Country>
+		<COVIDCount>2</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Cameroon</Country>
+		<COVIDCount>2</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Congo (Kinshasa)</Country>
+		<COVIDCount>2</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Honduras</Country>
+		<COVIDCount>2</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Monaco</Country>
+		<COVIDCount>2</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Nigeria</Country>
+		<COVIDCount>2</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Andorra</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Antigua and Barbuda</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Bhutan</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Cayman Islands</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Cote d'Ivoire</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Ethiopia</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Guadeloupe</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Guinea</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Guyana</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Holy See</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Jordan</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Kenya</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Liechtenstein</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Mongolia</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>9</SARSCount>
+		<DayCount>96</DayCount>
+	</row>
+	<row>
+		<Country> Nepal</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Sudan</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+	<row>
+		<Country> Togo</Country>
+		<COVIDCount>1</COVIDCount>
+		<SARSCount>null</SARSCount>
+		<DayCount>52</DayCount>
+	</row>
+</root>
