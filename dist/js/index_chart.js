@@ -22,6 +22,8 @@ function myInit(country_region_val) {
 function mySubInit1(country_region_val) {
 
   var current_country_val = $("#current_country").val();
+  if(current_country_val == "global")
+	  current_country_val = "Global";
 
   viewer1 = new actuate.Viewer('container1');
   var w = jQuery("#report-1").width();
@@ -54,7 +56,8 @@ function mySubInit1(country_region_val) {
 function mySubInit2(country_region_val) {
 
   var current_country_val = $("#current_country").val();
-
+  if(current_country_val == "global")
+	  current_country_val = "Global";
   viewer2 = new actuate.Viewer('container2');
 
   var parameterValueMap = {
@@ -90,7 +93,9 @@ function mySubInit2(country_region_val) {
 function mySubInit3(country_region_val) {
 
   var current_country_val = $("#current_country").val();
-
+  if(current_country_val == "global")
+	  current_country_val = "Global";
+  
   viewer3 = new actuate.Viewer('container3');
   var parameterValueMap = {};
   var parameterValues3 = [];
@@ -145,7 +150,7 @@ jQuery("#logarithmic-report")
 jQuery("#keywords-report")
   .click(
     function () {
-      report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_keywords.rptdesign;1";
+      report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_keywords.rptdesign;3";
       mySubInit3("");
       $("#topics-report").removeClass("active");
       $(this).addClass("active");
@@ -155,7 +160,7 @@ jQuery("#keywords-report")
 jQuery("#topics-report")
   .click(
     function () {
-      report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_Topic.rptdesign;1";
+      report3_name = "/Applications/COR20_APAC/Report Designs/covid_WordCloud_Topic.rptdesign;2";
       mySubInit3("");
       $("#keywords-report").removeClass("active");
       $(this).addClass("active");
