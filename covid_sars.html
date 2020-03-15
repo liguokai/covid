@@ -69,13 +69,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <p class="m-0">COVID-19 vs. SARS-02</p>by Country / Region
                 </div>
               </div>
-              <div class="card-body country-panel">
+              <div class="card-body country-panel" id="total-confirmed-by-country">
                 <p class="active" data-country="Global">Global</p>
-                <p data-country="China">China</p>
-                <p data-country="Singapore">Singapore</p>
-                <p data-country="South Korea">South Korea</p>
-                <p data-country="Italy">Italy</p>
-                <p data-country="Hong Kong">Hong Kong</p>
               </div>
 
             </div>
@@ -347,6 +342,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="dist/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+<script type="text/javascript" src="dist/js/sars_chart.js"></script>
 
 
 <!-- Page script -->
@@ -365,78 +362,79 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script type='text/javascript' language='JavaScript' src='http://58.153.97.117:8700/iportal/jsapi'></script>
 
 <script type='text/javascript'>
-  var country_region_val = "Global";
-  actuate.load('viewer');
-  var reqOps = new actuate.RequestOptions();
-  reqOps.setRepositoryType('Enterprise');
-  reqOps.setVolume('Default Volume');
-  reqOps.setCustomParameters({});
-  actuate.initialize('http://58.153.97.117:8700/iportal/', reqOps == undefined ? null : reqOps, 'Administrator','', myInit);
+  
+var country_region_val = "Global";
+actuate.load('viewer');
+var reqOps = new actuate.RequestOptions();
+reqOps.setRepositoryType('Enterprise');
+reqOps.setVolume('Default Volume');
+reqOps.setCustomParameters({});
+actuate.initialize('http://58.153.97.117:8700/iportal/', reqOps == undefined ? null : reqOps, 'Administrator','', myInit);
 
-  function myInit() {
-    viewer1 = new actuate.Viewer('container1');
-    w = jQuery("#report-1").width();
-    h = jQuery("#report-1").height();
-    viewer1.setSize(w,h);
+function myInit() {
+  viewer1 = new actuate.Viewer('container1');
+  w = jQuery("#report-1").width();
+  h = jQuery("#report-1").height();
+  viewer1.setSize(w,h);
 
-    viewer1.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/1_Covid vs SARS_Confirmed2.rptdesign');
-    var parameterValueMap = {p_COVIDCountry:country_region_val,p_SARSCountry2:country_region_val}
-    var parameterValues = [];
-    for (
-      var key in parameterValueMap) {
-      var param = new actuate.viewer.impl.ParameterValue();
-      param.setName(key);
-      if (parameterValueMap[key] != null) {
-        param.setValue(parameterValueMap[key]);
-      } else {
-        param.setValueIsNull(true);
-      }
-      parameterValues.push(param);
+  viewer1.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_1.rptdesign');
+  var parameterValueMap = {p_COVIDCountry:country_region_val,p_SARSCountry2:country_region_val}
+  var parameterValues = [];
+  for (
+    var key in parameterValueMap) {
+    var param = new actuate.viewer.impl.ParameterValue();
+    param.setName(key);
+    if (parameterValueMap[key] != null) {
+      param.setValue(parameterValueMap[key]);
+    } else {
+      param.setValueIsNull(true);
     }
-    viewer1.setParameterValues(parameterValues);
-    var options = new actuate.viewer.UIOptions();
-    options.enableToolBar(false);
-    viewer1.setUIOptions(options);
-    viewer1.submit();
-
-    viewer2 = new actuate.Viewer('container2');
-    viewer2.setSize(w, h);
-    viewer2.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/2_Covid vs SARS_ConfirmedLog2.rptdesign');
-    viewer2.setParameterValues(parameterValues);
-    var options2 = new actuate.viewer.UIOptions();
-    options2.enableToolBar(false);
-    viewer2.setUIOptions(options2);
-    viewer2.submit();
-
-
-    viewer3 = new actuate.Viewer('container3');
-    viewer3.setSize(w, h);
-    viewer3.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/3_Covid vs SARS_DeathRate2.rptdesign');
-    viewer3.setParameterValues(parameterValues);
-    var options3 = new actuate.viewer.UIOptions();
-    options3.enableToolBar(false);
-    viewer3.setUIOptions(options2);
-    viewer3.submit();
-
-    viewer4 = new actuate.Viewer('container4');
-    viewer4.setSize(w, h);
-    viewer4.setReportDesign('/Applications/Jonny_COR21vsSARS/Report Designs/4_Covid vs SARS_RecoveryRate2.rptdesign');
-    viewer4.setParameterValues(parameterValues);
-    var options4 = new actuate.viewer.UIOptions();
-    options4.enableToolBar(false);
-    viewer4.setUIOptions(options4);
-    viewer4.submit();
+    parameterValues.push(param);
   }
+  viewer1.setParameterValues(parameterValues);
+  var options = new actuate.viewer.UIOptions();
+  options.enableToolBar(false);
+  viewer1.setUIOptions(options);
+  viewer1.submit();
 
-  function updateParam(param){
-    country_region_val = param;
-    myInit();
-  }
-  
-  
-  function updateTitle(country){
-  
-  if(country = 'Global')
+  viewer2 = new actuate.Viewer('container2');
+  viewer2.setSize(w, h);
+  viewer2.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_2.rptdesign');
+  viewer2.setParameterValues(parameterValues);
+  var options2 = new actuate.viewer.UIOptions();
+  options2.enableToolBar(false);
+  viewer2.setUIOptions(options2);
+  viewer2.submit();
+
+
+  viewer3 = new actuate.Viewer('container3');
+  viewer3.setSize(w, h);
+  viewer3.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_3.rptdesign');
+  viewer3.setParameterValues(parameterValues);
+  var options3 = new actuate.viewer.UIOptions();
+  options3.enableToolBar(false);
+  viewer3.setUIOptions(options2);
+  viewer3.submit();
+
+  viewer4 = new actuate.Viewer('container4');
+  viewer4.setSize(w, h);
+  viewer4.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_4.rptdesign');
+  viewer4.setParameterValues(parameterValues);
+  var options4 = new actuate.viewer.UIOptions();
+  options4.enableToolBar(false);
+  viewer4.setUIOptions(options4);
+  viewer4.submit();
+}
+
+function updateParam(param){
+  country_region_val = param;
+  myInit();
+}
+
+
+function updateTitle(country){
+
+if(country = 'Global')
 	{
 		jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
 		jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
@@ -449,32 +447,33 @@ scratch. This page gets rid of all links and provides the needed markup only.
 		jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
 		jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
 	}
-  
-  }
-  
 
-  jQuery(window).resize(function () {
-  
-    myInit();
-	
-  });
+}
 
-  jQuery(function(){
-  
+
+jQuery(window).resize(function () {
+
+  myInit();
 	
-    jQuery("p[data-country]").on('click',function(event){
-      event.preventDefault();
-      var $this = $(this);
-      var country = $this.data('country');
-      jQuery("p.active").removeClass("active");
-      $this.addClass("active");
+});
+
+jQuery(function(){
+
+	
+  jQuery("p[data-country]").on('click',function(event){
+    event.preventDefault();
+    var $this = $(this);
+    var country = $this.data('country');
+    jQuery("p.active").removeClass("active");
+    $this.addClass("active");
 	  
 	  
 	  updateTitle(country);
-      updateParam(country);
-    })
-  });
-
+    updateParam(country);
+  })
+});
+  
+  
 </script>
 </body>
 
