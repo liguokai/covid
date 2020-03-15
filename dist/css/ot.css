@@ -16,6 +16,8 @@
 
 html {
   background-color: black;
+  /* set default font size to 14px; */
+  font-size: 14px;
 }
 
 .card-header a {
@@ -71,7 +73,8 @@ html {
 }
 
 .ot-card-chart {
-  height: 531px;
+  /*height: 531px;*/
+  height: 357px;
 }
 
 .ot-card-chart .card-body {
@@ -240,7 +243,9 @@ tr.active {
 }
 
 .table.case-table td,
-.table.case-table th {
+.table.case-table th,
+.table.case-vs-table th,
+.table.case-vs-table td{
   padding: 0;
   vertical-align: top;
   border: none;
@@ -248,17 +253,37 @@ tr.active {
   cursor: pointer;
 }
 
-.table.case-table td:nth-child(odd) {
+.table.case-table td:nth-child(odd),
+.table.case-vs-table td:nth-child(odd){
   padding: 4px 4px 4px 8px;
   text-align: right;
+}
+
+.table.case-vs-table td{
+  color: #bdbdbd;
+  font-size: 1rem;
+}
+
+.table.case-table td:nth-child(odd){
   color: red;
 }
 
-.table.case-table td:nth-child(even) {
+.table.case-table td:nth-child(even),
+.table.case-vs-table td:nth-child(even){
   padding: 4px 8px 4px 4px;
   text-align: left;
 }
 
+.case-vs-table .sars-label{
+  color: #3578ad;
+  font-weight: bold;
+  margin-right: 2px;
+}
+.case-vs-table .covid-label{
+  color: #9ecc4c;
+  font-weight: bold;
+  margin-left: 2px;
+}
 .case-table tr.active {
   color: #fff;
   background-color: #701a12 !important;
@@ -324,8 +349,10 @@ tr.active {
 }
 
 .sars-selector {
-  min-height: 1078px;
-  height: 1054px;
+  /*min-height: 1078px;*/
+  /*height: 1054px;*/
+  min-height: 730px;
+  height: 730px;
 }
 
 /* override the height of chart table */
@@ -421,6 +448,7 @@ tr.active {
   padding-bottom: 4px;
   cursor: pointer;
 }
+
 
 @media (max-width: 720px) {
   .ot-card-lg {

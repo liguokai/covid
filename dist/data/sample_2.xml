@@ -3961,7 +3961,7 @@
 		<Population>9599353</Population>
 	</row>
 	<row>
-		<Country> Vatican City</Country>
+		<Country>Vatican City</Country>
 		<State></State>
 		<Latitude>41.9029</Latitude>
 		<Longitude>12.4534</Longitude>
@@ -3976,7 +3976,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Vietnam</Country>
+		<Country>Vietnam</Country>
 		<State></State>
 		<Latitude>16</Latitude>
 		<Longitude>108</Longitude>

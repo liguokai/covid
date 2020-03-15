@@ -65,12 +65,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Confirmed Cases -->
             <div class="card bg-dark ot-card-lg sars-selector">
               <div class="card-header">
-                <div class="card-title text-bold">
-                  <p class="m-0">COVID-19 vs. SARS-02</p>by Country / Region
+                <div class="card-title text-bold text-center w-100">
+                  <p class="m-0">COVID-19 vs. SARS by</p>Country/Region
                 </div>
               </div>
-              <div class="card-body country-panel" id="total-confirmed-by-country">
-                <p class="active" data-country="Global">Global</p>
+              <div class="card-body p-0 table-responsive country-panel">
+                <table
+                  class="table table-head-fixed text-nowrap table-hover case-vs-table">
+                  <tbody id="total-confirmed-by-country">
+                  </tbody>
+                </table>
               </div>
 
             </div>
@@ -78,10 +82,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <section class="col-md-5 connectedSortable">
             <!-- Line chart -->
             <div class="card bg-dark ot-card-chart">
-				<div class="card-header">
-                <h3 class="card-title"><p id="report1-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Confirmed cased</h3>
+              <div class="card-header">
+                <h3 class="card-title"><p id="report1-title" class="m-0">Spread COVID-19 China compared to SARS Global
+                  for</p> Confirmed cased
+                </h3>
               </div>
-			
+
               <div id="report-1" class="card-body">
                 <div id='container1' class="ot-chart-container">
                 </div>
@@ -90,10 +96,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.card -->
             <div class="card bg-dark ot-card-chart">
-				<div class="card-header">
-                <h3 class="card-title"><p id="report2-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Death Rate</h3>
+              <div class="card-header">
+                <h3 class="card-title"><p id="report2-title" class="m-0">Spread COVID-19 China compared to SARS Global
+                  for</p> Death Rate
+                </h3>
               </div>
-				
+
               <div class="card-body">
                 <div id='container2' class="ot-chart-container">
                 </div>
@@ -104,9 +112,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <section class="col-md-5 connectedSortable">
             <!-- Line chart -->
             <div class="card bg-dark ot-card-chart">
-				<div class="card-header">
-					<h3 class="card-title"><p id="report3-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Confirmed (Logarithmic)</h3>
-				  </div>
+              <div class="card-header">
+                <h3 class="card-title"><p id="report3-title" class="m-0">Spread COVID-19 China compared to SARS Global
+                  for</p> Confirmed (Logarithmic)
+                </h3>
+              </div>
               <div class="card-body">
                 <div id='container3' class="ot-chart-container">
                 </div>
@@ -116,11 +126,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- /.card -->
             <!-- Line chart -->
             <div class="card bg-dark ot-card-chart">
-			
-				<div class="card-header">
-                <h3 class="card-title"><p id="report4-title" class="m-0">Spread COVID-19 China compared to SARS Global for</p> Recovery Rate</h3>
+
+              <div class="card-header">
+                <h3 class="card-title"><p id="report4-title" class="m-0">Spread COVID-19 China compared to SARS Global
+                  for</p> Recovery Rate
+                </h3>
               </div>
-			
+
               <div class="card-body">
                 <div id='container4' class="ot-chart-container">
                 </div>
@@ -200,123 +212,165 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <span class="ot-close cursor" onclick="closeSources()">×</span>
     <div class="ot-modal-content">
       <table style="width:100%; border-collapse: collapse;">
-        <tbody><tr>
+        <tbody>
+        <tr>
           <th colspan="2" class="dataSourcesHeader">Data Sources</th>
         </tr>
         <tr>
           <th colspan="2" class="thirdColumnHeader">Data from Daily Case Reports</th>
         </tr>
         <tr>
-          <td><span class="sourceEntry">Johns Hopkins CSSE Github</span></td><td><span class="sourceURL">https://github.com/CSSEGISandData/COVID-19</span></td>
+          <td><span class="sourceEntry">Johns Hopkins CSSE Github</span></td>
+          <td><span class="sourceURL">https://github.com/CSSEGISandData/COVID-19</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">Open Data of Hong Kong</span></td><td><span class="sourceURL">https://data.gov.hk/en-data/dataset/hk-dh-chpsebcddr-novel-infectious-agent</span></td>
+          <td><span class="sourceEntry">Open Data of Hong Kong</span></td>
+          <td><span class="sourceURL">https://data.gov.hk/en-data/dataset/hk-dh-chpsebcddr-novel-infectious-agent</span>
+          </td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">WHO SARS historical data</span></td><td><span class="sourceURL">https://www.who.int/csr/sars/country/en/</span></td>
+          <td><span class="sourceEntry">WHO SARS historical data</span></td>
+          <td><span class="sourceURL">https://www.who.int/csr/sars/country/en/</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">&nbsp;</span></td><td><span class="sourceURL">https://www.who.int/csr/don/archive/disease/coronavirus_infections/en/</span></td>
+          <td><span class="sourceEntry">&nbsp;</span></td>
+          <td><span class="sourceURL">https://www.who.int/csr/don/archive/disease/coronavirus_infections/en/</span></td>
         </tr>
         <tr>
           <th colspan="2" class="thirdColumnHeader">Global Websites</th>
         </tr>
         <tr>
-          <td><span class="sourceEntry">BBC</span></td><td><span class="sourceURL">https://www.bbc.com/news/health</span></td>
+          <td><span class="sourceEntry">BBC</span></td>
+          <td><span class="sourceURL">https://www.bbc.com/news/health</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">Johns Hopkins University</span></td><td><span class="sourceURL">https://systems.jhu.edu/research/public-health/ncov/</span></td>
+          <td><span class="sourceEntry">Johns Hopkins University</span></td>
+          <td><span class="sourceURL">https://systems.jhu.edu/research/public-health/ncov/</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">AP News</span></td><td><span class="sourceURL">https://apnews.com/apf-Health</span></td>
+          <td><span class="sourceEntry">AP News</span></td>
+          <td><span class="sourceURL">https://apnews.com/apf-Health</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">Reuters</span></td><td><span class="sourceURL">https://www.reuters.com/news/health</span></td>
+          <td><span class="sourceEntry">Reuters</span></td>
+          <td><span class="sourceURL">https://www.reuters.com/news/health</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">ECDC</span></td><td><span class="sourceURL">https://www.ecdc.europa.eu/en/novel-coronavirus-china</span></td>
+          <td><span class="sourceEntry">ECDC</span></td>
+          <td><span class="sourceURL">https://www.ecdc.europa.eu/en/novel-coronavirus-china</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">WHO</span></td><td><span class="sourceURL">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</span></td>
+          <td><span class="sourceEntry">WHO</span></td>
+          <td><span class="sourceURL">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">CDC</span></td><td><span class="sourceURL">https://www.cdc.gov/coronavirus/2019-ncov/index.html</span></td>
+          <td><span class="sourceEntry">CDC</span></td>
+          <td><span class="sourceURL">https://www.cdc.gov/coronavirus/2019-ncov/index.html</span></td>
         </tr>
         <tr>
           <th colspan="2" class="thirdColumnHeader">Regional Websites</th>
         </tr>
         <tr>
-          <td><span class="sourceEntry">MOH</span></td><td><span class="sourceURL">https://www.moh.gov.sg/covid-19/past-updates</span></td>
+          <td><span class="sourceEntry">MOH</span></td>
+          <td><span class="sourceURL">https://www.moh.gov.sg/covid-19/past-updates</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">Channel News Asia</span></td><td><span class="sourceURL">https://www.channelnewsasia.com/news/topics/wuhan-virus</span></td>
+          <td><span class="sourceEntry">Channel News Asia</span></td>
+          <td><span class="sourceURL">https://www.channelnewsasia.com/news/topics/wuhan-virus</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">The Local</span></td><td><span class="sourceURL">https://www.thelocal.it/tag/health</span></td>
+          <td><span class="sourceEntry">The Local</span></td>
+          <td><span class="sourceURL">https://www.thelocal.it/tag/health</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">ANSA</span></td><td><span class="sourceURL">http://www.ansa.it/english/news/news.shtml</span></td>
+          <td><span class="sourceEntry">ANSA</span></td>
+          <td><span class="sourceURL">http://www.ansa.it/english/news/news.shtml</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">South China Morning Post</span></td><td><span class="sourceURL">https://www.scmp.com/topics/coronavirus-outbreak-all-stories</span></td>
+          <td><span class="sourceEntry">South China Morning Post</span></td>
+          <td><span class="sourceURL">https://www.scmp.com/topics/coronavirus-outbreak-all-stories</span></td>
         </tr>
 
         <tr>
-          <td><span class="sourceEntry">Yonhap News Agency</span></td><td><span class="sourceURL">https://en.yna.co.kr/science/medicine</span></td>
+          <td><span class="sourceEntry">Yonhap News Agency</span></td>
+          <td><span class="sourceURL">https://en.yna.co.kr/science/medicine</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">Korea Herald</span></td><td><span class="sourceURL">http://www.koreaherald.com/list.php?ct=020309000000</span></td>
+          <td><span class="sourceEntry">Korea Herald</span></td>
+          <td><span class="sourceURL">http://www.koreaherald.com/list.php?ct=020309000000</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">KCDC</span></td><td><span class="sourceURL">https://www.cdc.go.kr/board/board.es?mid=a30402000000&amp;bid=0030</span></td>
+          <td><span class="sourceEntry">KCDC</span></td>
+          <td><span class="sourceURL">https://www.cdc.go.kr/board/board.es?mid=a30402000000&amp;bid=0030</span></td>
         </tr>
         <tr>
           <th colspan="2" class="thirdColumnHeader">Global Twitter Accounts</th>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@WHO</span></td><td><span class="sourceURL">https://twitter.com/WHO</span></td>
+          <td><span class="sourceEntry">@WHO</span></td>
+          <td><span class="sourceURL">https://twitter.com/WHO</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@CDCgov</span></td><td><span class="sourceURL">https://twitter.com/CDCgov</span></td>
+          <td><span class="sourceEntry">@CDCgov</span></td>
+          <td><span class="sourceURL">https://twitter.com/CDCgov</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@ECDC_EU</span></td><td><span class="sourceURL">https://twitter.com/ECDC_EU</span></td>
+          <td><span class="sourceEntry">@ECDC_EU</span></td>
+          <td><span class="sourceURL">https://twitter.com/ECDC_EU</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@ECDC_Outbreaks</span></td><td><span class="sourceURL">https://twitter.com/ECDC_Outbreaks</span></td>
+          <td><span class="sourceEntry">@ECDC_Outbreaks</span></td>
+          <td><span class="sourceURL">https://twitter.com/ECDC_Outbreaks</span></td>
         </tr>
         <tr>
           <th colspan="2" class="thirdColumnHeader">Regional Twitter Accounts</th>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@TheLocalItaly</span></td><td><span class="sourceURL">https://twitter.com/TheLocalItaly</span></td>
+          <td><span class="sourceEntry">@TheLocalItaly</span></td>
+          <td><span class="sourceURL">https://twitter.com/TheLocalItaly</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@CGTNOfficial</span></td><td><span class="sourceURL">https://twitter.com/CGTNOfficial</span></td>
+          <td><span class="sourceEntry">@CGTNOfficial</span></td>
+          <td><span class="sourceURL">https://twitter.com/CGTNOfficial</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@SCMPNews</span></td><td><span class="sourceURL">https://twitter.com/SCMPNews</span></td>
+          <td><span class="sourceEntry">@SCMPNews</span></td>
+          <td><span class="sourceURL">https://twitter.com/SCMPNews</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@rogerhamilton</span></td><td><span class="sourceURL">https://twitter.com/rogerhamilton</span></td>
+          <td><span class="sourceEntry">@rogerhamilton</span></td>
+          <td><span class="sourceURL">https://twitter.com/rogerhamilton</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@ChannelNewsAsia</span></td><td><span class="sourceURL">https://twitter.com/ChannelNewsAsia</span></td>
+          <td><span class="sourceEntry">@ChannelNewsAsia</span></td>
+          <td><span class="sourceURL">https://twitter.com/ChannelNewsAsia</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@sporeMOH</span></td><td><span class="sourceURL">https://twitter.com/sporeMOH</span></td>
+          <td><span class="sourceEntry">@sporeMOH</span></td>
+          <td><span class="sourceURL">https://twitter.com/sporeMOH</span></td>
         </tr>
         <tr>
-          <td><span class="sourceEntry">@YonhapNews</span></td><td><span class="sourceURL">https://twitter.com/YonhapNews</span></td>
+          <td><span class="sourceEntry">@YonhapNews</span></td>
+          <td><span class="sourceURL">https://twitter.com/YonhapNews</span></td>
         </tr>
         <tr>
-          <td style="padding-bottom:10px;"><span class="sourceEntry">@TheKoreaHerald</span></td><td style="padding-bottom:10px;"><span class="sourceURL">https://twitter.com/TheKoreaHerald</span></td>
+          <td style="padding-bottom:10px;"><span class="sourceEntry">@TheKoreaHerald</span></td>
+          <td style="padding-bottom:10px;"><span class="sourceURL">https://twitter.com/TheKoreaHerald</span></td>
         </tr>
-        </tbody></table>
+        </tbody>
+      </table>
       <script>
-        function openInNewTab(url) { var win = window.open(url, '_blank'); win.focus(); }
+        function openInNewTab(url) {
+          var win = window.open(url, '_blank');
+          win.focus();
+        }
+
         zzz = document.getElementsByClassName("sourceURL");
-        for (var i=0; i < zzz.length; i++) { zzz[i].addEventListener("click", function() { openInNewTab(this.innerHTML);} ); }
+        for (var i = 0; i < zzz.length; i++) {
+          zzz[i].addEventListener("click", function () {
+            openInNewTab(this.innerHTML);
+          });
+        }
       </script>
     </div>
   </div>
@@ -327,6 +381,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
+
 <script src="dist/plugins/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap 4 -->
@@ -350,6 +405,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script>
 
   $(".table-responsive").overlayScrollbars({});
+
   function openSources() {
     document.getElementById("sourcesModal").style.display = "block";
   }
@@ -357,123 +413,123 @@ scratch. This page gets rid of all links and provides the needed markup only.
   function closeSources() {
     document.getElementById("sourcesModal").style.display = "none";
   }
+
+
 </script>
 
 <script type='text/javascript' language='JavaScript' src='http://58.153.97.117:8700/iportal/jsapi'></script>
 
 <script type='text/javascript'>
-  
-var country_region_val = "Global";
-actuate.load('viewer');
-var reqOps = new actuate.RequestOptions();
-reqOps.setRepositoryType('Enterprise');
-reqOps.setVolume('Default Volume');
-reqOps.setCustomParameters({});
-actuate.initialize('http://58.153.97.117:8700/iportal/', reqOps == undefined ? null : reqOps, 'Administrator','', myInit);
 
-function myInit() {
-  viewer1 = new actuate.Viewer('container1');
-  w = jQuery("#report-1").width();
-  h = jQuery("#report-1").height();
-  viewer1.setSize(w,h);
+  var country_region_val = "Global";
+  actuate.load('viewer');
+  var reqOps = new actuate.RequestOptions();
+  reqOps.setRepositoryType('Enterprise');
+  reqOps.setVolume('Default Volume');
+  reqOps.setCustomParameters({});
+  actuate.initialize('http://58.153.97.117:8700/iportal/', reqOps == undefined ? null : reqOps, 'Administrator', '', myInit);
 
-  viewer1.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_1.rptdesign');
-  var parameterValueMap = {p_COVIDCountry:country_region_val,p_SARSCountry2:country_region_val}
-  var parameterValues = [];
-  for (
-    var key in parameterValueMap) {
-    var param = new actuate.viewer.impl.ParameterValue();
-    param.setName(key);
-    if (parameterValueMap[key] != null) {
-      param.setValue(parameterValueMap[key]);
-    } else {
-      param.setValueIsNull(true);
+  function myInit() {
+    viewer1 = new actuate.Viewer('container1');
+    w = jQuery("#report-1").width();
+    h = jQuery("#report-1").height();
+    viewer1.setSize(w, h);
+
+    viewer1.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_1.rptdesign');
+    var parameterValueMap = {p_COVIDCountry: country_region_val, p_SARSCountry2: country_region_val}
+    var parameterValues = [];
+    for (
+      var key in parameterValueMap) {
+      var param = new actuate.viewer.impl.ParameterValue();
+      param.setName(key);
+      if (parameterValueMap[key] != null) {
+        param.setValue(parameterValueMap[key]);
+      } else {
+        param.setValueIsNull(true);
+      }
+      parameterValues.push(param);
     }
-    parameterValues.push(param);
+    viewer1.setParameterValues(parameterValues);
+    var options = new actuate.viewer.UIOptions();
+    options.enableToolBar(false);
+    viewer1.setUIOptions(options);
+    viewer1.submit();
+
+    viewer2 = new actuate.Viewer('container2');
+    viewer2.setSize(w, h);
+    viewer2.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_2.rptdesign');
+    viewer2.setParameterValues(parameterValues);
+    var options2 = new actuate.viewer.UIOptions();
+    options2.enableToolBar(false);
+    viewer2.setUIOptions(options2);
+    viewer2.submit();
+
+
+    viewer3 = new actuate.Viewer('container3');
+    viewer3.setSize(w, h);
+    viewer3.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_3.rptdesign');
+    viewer3.setParameterValues(parameterValues);
+    var options3 = new actuate.viewer.UIOptions();
+    options3.enableToolBar(false);
+    viewer3.setUIOptions(options2);
+    viewer3.submit();
+
+    viewer4 = new actuate.Viewer('container4');
+    viewer4.setSize(w, h);
+    viewer4.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_4.rptdesign');
+    viewer4.setParameterValues(parameterValues);
+    var options4 = new actuate.viewer.UIOptions();
+    options4.enableToolBar(false);
+    viewer4.setUIOptions(options4);
+    viewer4.submit();
   }
-  viewer1.setParameterValues(parameterValues);
-  var options = new actuate.viewer.UIOptions();
-  options.enableToolBar(false);
-  viewer1.setUIOptions(options);
-  viewer1.submit();
 
-  viewer2 = new actuate.Viewer('container2');
-  viewer2.setSize(w, h);
-  viewer2.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_2.rptdesign');
-  viewer2.setParameterValues(parameterValues);
-  var options2 = new actuate.viewer.UIOptions();
-  options2.enableToolBar(false);
-  viewer2.setUIOptions(options2);
-  viewer2.submit();
+  function updateParam(param) {
+    country_region_val = param;
+    myInit();
+  }
 
 
-  viewer3 = new actuate.Viewer('container3');
-  viewer3.setSize(w, h);
-  viewer3.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_3.rptdesign');
-  viewer3.setParameterValues(parameterValues);
-  var options3 = new actuate.viewer.UIOptions();
-  options3.enableToolBar(false);
-  viewer3.setUIOptions(options2);
-  viewer3.submit();
+  function updateTitle(country) {
 
-  viewer4 = new actuate.Viewer('container4');
-  viewer4.setSize(w, h);
-  viewer4.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_4.rptdesign');
-  viewer4.setParameterValues(parameterValues);
-  var options4 = new actuate.viewer.UIOptions();
-  options4.enableToolBar(false);
-  viewer4.setUIOptions(options4);
-  viewer4.submit();
-}
+    if (country = 'Global') {
+      jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+      jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+      jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
+      jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
 
-function updateParam(param){
-  country_region_val = param;
-  myInit();
-}
+    } else {
+      jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS (Global & " + country + ") for");
+      jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS (Global & " + country + ") for");
+      jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS (Global & " + country + ") for");
+      jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS (Global & " + country + ") for");
+    }
+
+  }
 
 
-function updateTitle(country){
+  jQuery(window).resize(function () {
 
-if(country = 'Global')
-	{
-		jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
-		jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
-		jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
-		jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
-		
-	}else{
-		jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
-		jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
-		jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
-		jQuery("#report4-title").html("Spread COVID-19 " + country + " compared to SARS (Global & "  + country + ") for");
-	}
+    myInit();
+  });
 
-}
+  jQuery(function () {
+
+    jQuery("p[data-country]").on('click', function (event) {
+      event.preventDefault();
+      var $this = $(this);
+      var country = $this.data('country');
+      jQuery("p.active").removeClass("active");
+      $this.addClass("active");
 
 
-jQuery(window).resize(function () {
+      updateTitle(country);
+      updateParam(country);
+    })
+  });
 
-  myInit();
-	
-});
 
-jQuery(function(){
 
-	
-  jQuery("p[data-country]").on('click',function(event){
-    event.preventDefault();
-    var $this = $(this);
-    var country = $this.data('country');
-    jQuery("p.active").removeClass("active");
-    $this.addClass("active");
-	  
-	  
-	  updateTitle(country);
-    updateParam(country);
-  })
-});
-  
-  
 </script>
 </body>
 
