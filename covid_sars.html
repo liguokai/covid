@@ -83,7 +83,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Line chart -->
             <div class="card bg-dark ot-card-chart">
               <div class="card-header">
-                <h3 class="card-title"><p id="report1-title" class="m-0">Spread COVID-19 China compared to SARS Global
+                <h3 class="card-title"><p id="report1-title" class="m-0">Spread COVID-19 Global compared to SARS Global
                   for</p> Confirmed cased
                 </h3>
               </div>
@@ -97,7 +97,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- /.card -->
             <div class="card bg-dark ot-card-chart">
               <div class="card-header">
-                <h3 class="card-title"><p id="report2-title" class="m-0">Spread COVID-19 China compared to SARS Global
+                <h3 class="card-title"><p id="report2-title" class="m-0">Spread COVID-19 Global compared to SARS Global
                   for</p> Death Rate
                 </h3>
               </div>
@@ -113,7 +113,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Line chart -->
             <div class="card bg-dark ot-card-chart">
               <div class="card-header">
-                <h3 class="card-title"><p id="report3-title" class="m-0">Spread COVID-19 China compared to SARS Global
+                <h3 class="card-title"><p id="report3-title" class="m-0">Spread COVID-19 Global compared to SARS Global
                   for</p> Confirmed (Logarithmic)
                 </h3>
               </div>
@@ -128,7 +128,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="card bg-dark ot-card-chart">
 
               <div class="card-header">
-                <h3 class="card-title"><p id="report4-title" class="m-0">Spread COVID-19 China compared to SARS Global
+                <h3 class="card-title"><p id="report4-title" class="m-0">Spread COVID-19 Global compared to SARS Global
                   for</p> Recovery Rate
                 </h3>
               </div>
@@ -491,8 +491,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
   function updateTitle(country) {
+	  
+	  //alert(country);
 
-    if (country = 'Global') {
+    if (country == 'Global') {
       jQuery("#report1-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
       jQuery("#report2-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
       jQuery("#report3-title").html("Spread COVID-19 " + country + " compared to SARS Global for");
@@ -515,13 +517,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   jQuery(function () {
 
-    jQuery("p[data-country]").on('click', function (event) {
+    jQuery("tr[data-country]").on('click', function (event) {
       event.preventDefault();
       var $this = $(this);
       var country = $this.data('country');
-      jQuery("p.active").removeClass("active");
+      jQuery("tr.active").removeClass("active");
       $this.addClass("active");
-
 
       updateTitle(country);
       updateParam(country);
