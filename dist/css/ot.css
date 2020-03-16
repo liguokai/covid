@@ -140,6 +140,9 @@ html {
 .contentPanel .floatPanel>div {
   margin: 0px !important;
 }
+.small-box{
+  margin-bottom: 1rem;
+}
 .card-body {
   overflow: hidden;
 }

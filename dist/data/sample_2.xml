@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <root>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State> Norfolk County - MA</State>
 		<Latitude>42.1767</Latitude>
 		<Longitude>-71.1449</Longitude>
@@ -16,7 +16,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Alameda County - CA</State>
 		<Latitude>37.6017</Latitude>
 		<Longitude>-121.7195</Longitude>
@@ -31,7 +31,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Canada</Country>
+		<Country>Canada</Country>
 		<State>Alberta</State>
 		<Latitude>53.9333</Latitude>
 		<Longitude>-116.5765</Longitude>
@@ -46,7 +46,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Anhui</State>
 		<Latitude>31.8257</Latitude>
 		<Longitude>117.2264</Longitude>
@@ -61,7 +61,7 @@
 		<Population>62000000</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Beijing</State>
 		<Latitude>40.1824</Latitude>
 		<Longitude>116.4142</Longitude>
@@ -76,7 +76,7 @@
 		<Population>21150000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Bennington County - VT</State>
 		<Latitude>43.0279</Latitude>
 		<Longitude>-73.135</Longitude>
@@ -91,7 +91,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Bergen County - NJ</State>
 		<Latitude>40.9263</Latitude>
 		<Longitude>-74.077</Longitude>
@@ -106,7 +106,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Berkshire County - MA</State>
 		<Latitude>42.3118</Latitude>
 		<Longitude>-73.1822</Longitude>
@@ -121,7 +121,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Canada</Country>
+		<Country>Canada</Country>
 		<State>British Columbia</State>
 		<Latitude>49.2827</Latitude>
 		<Longitude>-123.1207</Longitude>
@@ -136,7 +136,7 @@
 		<Population>5105576</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Broward County - FL</State>
 		<Latitude>26.1901</Latitude>
 		<Longitude>-80.3659</Longitude>
@@ -151,7 +151,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Carver County - MN</State>
 		<Latitude>44.8254</Latitude>
 		<Longitude>-93.7842</Longitude>
@@ -166,7 +166,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Charleston County - SC</State>
 		<Latitude>32.7957</Latitude>
 		<Longitude>-79.7848</Longitude>
@@ -181,7 +181,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Charlotte County - FL</State>
 		<Latitude>26.8946</Latitude>
 		<Longitude>-81.9098</Longitude>
@@ -196,7 +196,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Chatham County - NC</State>
 		<Latitude>35.7211</Latitude>
 		<Longitude>-79.1781</Longitude>
@@ -211,7 +211,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Cherokee County - GA</State>
 		<Latitude>34.2515</Latitude>
 		<Longitude>-84.4803</Longitude>
@@ -226,7 +226,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Chongqing</State>
 		<Latitude>30.0572</Latitude>
 		<Longitude>107.874</Longitude>
@@ -241,7 +241,7 @@
 		<Population>8518000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Clark County - NV</State>
 		<Latitude>36.0796</Latitude>
 		<Longitude>-115.094</Longitude>
@@ -256,7 +256,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Clark County - WA</State>
 		<Latitude>45.7466</Latitude>
 		<Longitude>-122.5194</Longitude>
@@ -271,7 +271,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Cobb County - GA</State>
 		<Latitude>33.8999</Latitude>
 		<Longitude>-84.5641</Longitude>
@@ -286,7 +286,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Collin County - TX</State>
 		<Latitude>33.1795</Latitude>
 		<Longitude>-96.493</Longitude>
@@ -301,7 +301,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Contra Costa County - CA</State>
 		<Latitude>37.8534</Latitude>
 		<Longitude>-121.9018</Longitude>
@@ -316,7 +316,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Cook County - IL</State>
 		<Latitude>41.7377</Latitude>
 		<Longitude>-87.6976</Longitude>
@@ -331,7 +331,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Davidson County - TN</State>
 		<Latitude>36.1343</Latitude>
 		<Longitude>-86.822</Longitude>
@@ -346,7 +346,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Davis County - UT</State>
 		<Latitude>40.9629</Latitude>
 		<Longitude>-112.0953</Longitude>
@@ -361,7 +361,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Delaware County - PA</State>
 		<Latitude>39.9078</Latitude>
 		<Longitude>-75.3879</Longitude>
@@ -376,7 +376,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Denver County - CO</State>
 		<Latitude>39.7392</Latitude>
 		<Longitude>-104.9903</Longitude>
@@ -391,7 +391,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Others</Country>
+		<Country>Others</Country>
 		<State>Diamond Princess cruise ship</State>
 		<Latitude>35.4437</Latitude>
 		<Longitude>139.638</Longitude>
@@ -406,7 +406,7 @@
 		<Population>3700</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Douglas County - CO</State>
 		<Latitude>39.2587</Latitude>
 		<Longitude>-104.9389</Longitude>
@@ -421,7 +421,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Douglas County - NE</State>
 		<Latitude>41.3148</Latitude>
 		<Longitude>-96.1951</Longitude>
@@ -436,7 +436,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Douglas County - OR</State>
 		<Latitude>43.1261</Latitude>
 		<Longitude>-123.2492</Longitude>
@@ -451,7 +451,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>El Paso County - CO</State>
 		<Latitude>38.9108</Latitude>
 		<Longitude>-104.4723</Longitude>
@@ -466,7 +466,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Fairfax County - VA</State>
 		<Latitude>38.9085</Latitude>
 		<Longitude>-77.2405</Longitude>
@@ -481,7 +481,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Fairfield County - CT</State>
 		<Latitude>41.256</Latitude>
 		<Longitude>-73.3709</Longitude>
@@ -496,7 +496,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Fayette County - KY</State>
 		<Latitude>38.0606</Latitude>
 		<Longitude>-84.4803</Longitude>
@@ -511,7 +511,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Fort Bend County - TX</State>
 		<Latitude>29.5693</Latitude>
 		<Longitude>-95.8143</Longitude>
@@ -526,7 +526,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Fresno County - CA</State>
 		<Latitude>36.9859</Latitude>
 		<Longitude>-119.2321</Longitude>
@@ -541,7 +541,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Australia</Country>
+		<Country>Australia</Country>
 		<State>From Diamond Princess</State>
 		<Latitude>35.4437</Latitude>
 		<Longitude>139.638</Longitude>
@@ -556,7 +556,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Fujian</State>
 		<Latitude>26.0789</Latitude>
 		<Longitude>117.9874</Longitude>
@@ -571,7 +571,7 @@
 		<Population>38565000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Fulton County - GA</State>
 		<Latitude>33.8034</Latitude>
 		<Longitude>-84.3963</Longitude>
@@ -586,7 +586,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Gansu</State>
 		<Latitude>36.0611</Latitude>
 		<Longitude>103.8343</Longitude>
@@ -601,7 +601,7 @@
 		<Population>25575254</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Grafton County - NH</State>
 		<Latitude>43.9088</Latitude>
 		<Longitude>-71.826</Longitude>
@@ -616,7 +616,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Grand Princess Cruise Ship</State>
 		<Latitude>37.6489</Latitude>
 		<Longitude>-122.6655</Longitude>
@@ -631,7 +631,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Grant County - WA</State>
 		<Latitude>47.1981</Latitude>
 		<Longitude>-119.3732</Longitude>
@@ -646,7 +646,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Guangdong</State>
 		<Latitude>23.3417</Latitude>
 		<Longitude>113.4244</Longitude>
@@ -661,7 +661,7 @@
 		<Population>113460000</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Guangxi</State>
 		<Latitude>23.8298</Latitude>
 		<Longitude>108.7881</Longitude>
@@ -676,7 +676,7 @@
 		<Population>48380000</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Guizhou</State>
 		<Latitude>26.8154</Latitude>
 		<Longitude>106.8748</Longitude>
@@ -691,7 +691,7 @@
 		<Population>34746468</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Hainan</State>
 		<Latitude>19.1959</Latitude>
 		<Longitude>109.7453</Longitude>
@@ -706,7 +706,7 @@
 		<Population>9257600</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Harford County - MD</State>
 		<Latitude>39.5839</Latitude>
 		<Longitude>-76.3637</Longitude>
@@ -721,7 +721,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Harris County - TX</State>
 		<Latitude>29.7752</Latitude>
 		<Longitude>-95.3103</Longitude>
@@ -736,7 +736,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Harrison County - KY</State>
 		<Latitude>38.4333</Latitude>
 		<Longitude>-84.3542</Longitude>
@@ -751,7 +751,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Hebei</State>
 		<Latitude>38.0428</Latitude>
 		<Longitude>114.5149</Longitude>
@@ -766,7 +766,7 @@
 		<Population>71854202</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Heilongjiang</State>
 		<Latitude>47.862</Latitude>
 		<Longitude>127.7615</Longitude>
@@ -781,7 +781,7 @@
 		<Population>38312224</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Henan</State>
 		<Latitude>33.88202</Latitude>
 		<Longitude>113.614</Longitude>
@@ -796,7 +796,7 @@
 		<Population>94023567</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Hendricks County - IN</State>
 		<Latitude>39.8065</Latitude>
 		<Longitude>-86.5401</Longitude>
@@ -811,7 +811,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Hillsborough - FL</State>
 		<Latitude>27.9904</Latitude>
 		<Longitude>-82.3018</Longitude>
@@ -826,7 +826,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Hong Kong</Country>
+		<Country>Hong Kong</Country>
 		<State>Hong Kong</State>
 		<Latitude>22.3</Latitude>
 		<Longitude>114.2</Longitude>
@@ -841,7 +841,7 @@
 		<Population>7392000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Honolulu County - HI</State>
 		<Latitude>21.307</Latitude>
 		<Longitude>-157.8584</Longitude>
@@ -856,7 +856,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Hubei</State>
 		<Latitude>30.9756</Latitude>
 		<Longitude>112.2707</Longitude>
@@ -871,7 +871,7 @@
 		<Population>57237740</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Hudson County - NJ</State>
 		<Latitude>40.7453</Latitude>
 		<Longitude>-74.0535</Longitude>
@@ -886,7 +886,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Humboldt County - CA</State>
 		<Latitude>40.745</Latitude>
 		<Longitude>-123.8695</Longitude>
@@ -901,7 +901,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Hunan</State>
 		<Latitude>27.6104</Latitude>
 		<Longitude>111.7088</Longitude>
@@ -916,7 +916,7 @@
 		<Population>65683722</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Inner Mongolia</State>
 		<Latitude>44.0935</Latitude>
 		<Longitude>113.9448</Longitude>
@@ -931,7 +931,7 @@
 		<Population>24706321</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Jackson County - OR </State>
 		<Latitude>42.3345</Latitude>
 		<Longitude>-122.7647</Longitude>
@@ -946,7 +946,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Jefferson County - KY</State>
 		<Latitude>38.1938</Latitude>
 		<Longitude>-85.6435</Longitude>
@@ -961,7 +961,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Jefferson County - WA</State>
 		<Latitude>47.7425</Latitude>
 		<Longitude>-123.304</Longitude>
@@ -976,7 +976,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Jefferson Parish - LA</State>
 		<Latitude>29.6499</Latitude>
 		<Longitude>-90.1121</Longitude>
@@ -991,7 +991,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Jiangsu</State>
 		<Latitude>32.9711</Latitude>
 		<Longitude>119.455</Longitude>
@@ -1006,7 +1006,7 @@
 		<Population>78659903</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Jiangxi</State>
 		<Latitude>27.614</Latitude>
 		<Longitude>115.7221</Longitude>
@@ -1021,7 +1021,7 @@
 		<Population>44567475</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Jilin</State>
 		<Latitude>43.6661</Latitude>
 		<Longitude>126.1923</Longitude>
@@ -1036,7 +1036,7 @@
 		<Population>27462297</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Johnson County - IA</State>
 		<Latitude>41.6699</Latitude>
 		<Longitude>-91.5984</Longitude>
@@ -1051,7 +1051,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Johnson County - KS</State>
 		<Latitude>38.8454</Latitude>
 		<Longitude>-94.8521</Longitude>
@@ -1066,7 +1066,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Kershaw County - SC</State>
 		<Latitude>34.3672</Latitude>
 		<Longitude>-80.5883</Longitude>
@@ -1081,7 +1081,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>King County - WA</State>
 		<Latitude>47.6062</Latitude>
 		<Longitude>-122.3321</Longitude>
@@ -1096,7 +1096,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Kittitas County - WA</State>
 		<Latitude>47.175</Latitude>
 		<Longitude>-120.9319</Longitude>
@@ -1111,7 +1111,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Klamath County - OR</State>
 		<Latitude>42.6953</Latitude>
 		<Longitude>-121.6142</Longitude>
@@ -1126,7 +1126,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Lackland - TX (From Diamond Princess)</State>
 		<Latitude>29.3829</Latitude>
 		<Longitude>-98.6134</Longitude>
@@ -1141,7 +1141,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Lee County - FL</State>
 		<Latitude>26.663</Latitude>
 		<Longitude>-81.9535</Longitude>
@@ -1156,7 +1156,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Liaoning</State>
 		<Latitude>41.2956</Latitude>
 		<Longitude>122.6085</Longitude>
@@ -1171,7 +1171,7 @@
 		<Population>43746323</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Los Angeles - CA</State>
 		<Latitude>34.0522</Latitude>
 		<Longitude>-118.2437</Longitude>
@@ -1186,7 +1186,7 @@
 		<Population>3990456</Population>
 	</row>
 	<row>
-		<Country> Macau</Country>
+		<Country>Macau</Country>
 		<State>Macau</State>
 		<Latitude>22.1667</Latitude>
 		<Longitude>113.55</Longitude>
@@ -1201,7 +1201,7 @@
 		<Population>622567</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Madera County - CA</State>
 		<Latitude>37.2519</Latitude>
 		<Longitude>-119.6963</Longitude>
@@ -1216,7 +1216,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Madison - WI</State>
 		<Latitude>43.0731</Latitude>
 		<Longitude>-89.4012</Longitude>
@@ -1231,7 +1231,7 @@
 		<Population>236901</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Manatee County - FL</State>
 		<Latitude>27.4799</Latitude>
 		<Longitude>-82.3452</Longitude>
@@ -1246,7 +1246,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Maricopa County - AZ</State>
 		<Latitude>33.2918</Latitude>
 		<Longitude>-112.4291</Longitude>
@@ -1261,7 +1261,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Marion County - IN</State>
 		<Latitude>39.8362</Latitude>
 		<Longitude>-86.1752</Longitude>
@@ -1276,7 +1276,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Marion County - OR</State>
 		<Latitude>44.8446</Latitude>
 		<Longitude>-122.5927</Longitude>
@@ -1291,7 +1291,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Middlesex County - MA</State>
 		<Latitude>42.4672</Latitude>
 		<Longitude>-71.2874</Longitude>
@@ -1306,7 +1306,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Montgomery County - MD</State>
 		<Latitude>39.1547</Latitude>
 		<Longitude>-77.2405</Longitude>
@@ -1321,7 +1321,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Montgomery County - PA</State>
 		<Latitude>40.229</Latitude>
 		<Longitude>-75.3879</Longitude>
@@ -1336,7 +1336,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Montgomery County - TX</State>
 		<Latitude>30.3213</Latitude>
 		<Longitude>-95.4778</Longitude>
@@ -1351,7 +1351,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Nassau County - NY</State>
 		<Latitude>40.6546</Latitude>
 		<Longitude>-73.5594</Longitude>
@@ -1366,7 +1366,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Australia</Country>
+		<Country>Australia</Country>
 		<State>New South Wales</State>
 		<Latitude>-33.8688</Latitude>
 		<Longitude>151.2093</Longitude>
@@ -1381,7 +1381,7 @@
 		<Population>7544000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>New York County - NY</State>
 		<Latitude>40.7128</Latitude>
 		<Longitude>-74.006</Longitude>
@@ -1396,7 +1396,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Ningxia</State>
 		<Latitude>37.2692</Latitude>
 		<Longitude>106.1655</Longitude>
@@ -1411,7 +1411,7 @@
 		<Population>6301350</Population>
 	</row>
 	<row>
-		<Country> Australia</Country>
+		<Country>Australia</Country>
 		<State>Northern Territory</State>
 		<Latitude>-12.4634</Latitude>
 		<Longitude>130.8456</Longitude>
@@ -1426,7 +1426,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Okaloosa County - FL</State>
 		<Latitude>30.5773</Latitude>
 		<Longitude>-86.6611</Longitude>
@@ -1441,7 +1441,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Omaha - NE (From Diamond Princess)</State>
 		<Latitude>41.2545</Latitude>
 		<Longitude>-95.9758</Longitude>
@@ -1456,7 +1456,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Canada</Country>
+		<Country>Canada</Country>
 		<State>Ontario</State>
 		<Latitude>51.2538</Latitude>
 		<Longitude>-85.3232</Longitude>
@@ -1471,7 +1471,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Orange County - CA</State>
 		<Latitude>33.7879</Latitude>
 		<Longitude>-117.8531</Longitude>
@@ -1486,7 +1486,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Pierce County - WA</State>
 		<Latitude>47.0676</Latitude>
 		<Longitude>-122.1295</Longitude>
@@ -1501,7 +1501,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Pinal County - AZ</State>
 		<Latitude>32.8162</Latitude>
 		<Longitude>-111.2845</Longitude>
@@ -1516,7 +1516,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Placer County - CA</State>
 		<Latitude>39.0916</Latitude>
 		<Longitude>-120.8039</Longitude>
@@ -1531,7 +1531,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Plymouth County - MA</State>
 		<Latitude>42.1615</Latitude>
 		<Longitude>-70.7928</Longitude>
@@ -1546,7 +1546,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Polk County - GA</State>
 		<Latitude>34.0132</Latitude>
 		<Longitude>-85.1479</Longitude>
@@ -1561,7 +1561,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Providence County - RI</State>
 		<Latitude>41.8882</Latitude>
 		<Longitude>-71.4774</Longitude>
@@ -1576,7 +1576,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Qinghai</State>
 		<Latitude>35.7452</Latitude>
 		<Longitude>95.9956</Longitude>
@@ -1591,7 +1591,7 @@
 		<Population>5626722</Population>
 	</row>
 	<row>
-		<Country> Canada</Country>
+		<Country>Canada</Country>
 		<State>Quebec</State>
 		<Latitude>52.9399</Latitude>
 		<Longitude>-73.5491</Longitude>
@@ -1606,7 +1606,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Australia</Country>
+		<Country>Australia</Country>
 		<State>Queensland</State>
 		<Latitude>-28.0167</Latitude>
 		<Longitude>153.4</Longitude>
@@ -1621,7 +1621,7 @@
 		<Population>5052800</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Ramsey County - MN</State>
 		<Latitude>44.9964</Latitude>
 		<Longitude>-93.0616</Longitude>
@@ -1636,7 +1636,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Riverside County - CA</State>
 		<Latitude>33.9533</Latitude>
 		<Longitude>-117.3961</Longitude>
@@ -1651,7 +1651,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Rockingham County - NH</State>
 		<Latitude>42.9931</Latitude>
 		<Longitude>-71.0498</Longitude>
@@ -1666,7 +1666,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Rockland County - NY</State>
 		<Latitude>41.1489</Latitude>
 		<Longitude>-73.983</Longitude>
@@ -1681,7 +1681,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Sacramento County - CA</State>
 		<Latitude>38.4747</Latitude>
 		<Longitude>-121.3542</Longitude>
@@ -1696,7 +1696,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>San Antonio - TX</State>
 		<Latitude>29.4241</Latitude>
 		<Longitude>-98.4936</Longitude>
@@ -1711,7 +1711,7 @@
 		<Population>1493000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>San Benito - CA</State>
 		<Latitude>36.5761</Latitude>
 		<Longitude>-120.9876</Longitude>
@@ -1726,7 +1726,7 @@
 		<Population>60310</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>San Diego County - CA</State>
 		<Latitude>32.7157</Latitude>
 		<Longitude>-117.1611</Longitude>
@@ -1741,7 +1741,7 @@
 		<Population>3338000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>San Francisco County - CA</State>
 		<Latitude>37.7749</Latitude>
 		<Longitude>-122.4194</Longitude>
@@ -1756,7 +1756,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>San Mateo - CA</State>
 		<Latitude>37.563</Latitude>
 		<Longitude>-122.3255</Longitude>
@@ -1771,7 +1771,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Santa Clara County - CA</State>
 		<Latitude>37.3541</Latitude>
 		<Longitude>-121.9552</Longitude>
@@ -1786,7 +1786,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Santa Rosa County - FL</State>
 		<Latitude>30.769</Latitude>
 		<Longitude>-86.9824</Longitude>
@@ -1801,7 +1801,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Sarasota - FL</State>
 		<Latitude>27.3364</Latitude>
 		<Longitude>-82.5307</Longitude>
@@ -1816,7 +1816,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Saratoga County - NY</State>
 		<Latitude>43.0324</Latitude>
 		<Longitude>-73.936</Longitude>
@@ -1831,7 +1831,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Shaanxi</State>
 		<Latitude>35.1917</Latitude>
 		<Longitude>108.8701</Longitude>
@@ -1846,7 +1846,7 @@
 		<Population>37327378</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Shandong</State>
 		<Latitude>36.3427</Latitude>
 		<Longitude>118.1498</Longitude>
@@ -1861,7 +1861,7 @@
 		<Population>95793065</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Shanghai</State>
 		<Latitude>31.202</Latitude>
 		<Longitude>121.4491</Longitude>
@@ -1876,7 +1876,7 @@
 		<Population>23019148</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Shanxi</State>
 		<Latitude>37.5777</Latitude>
 		<Longitude>112.2922</Longitude>
@@ -1891,7 +1891,7 @@
 		<Population>35712111</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Shasta County - CA</State>
 		<Latitude>40.7909</Latitude>
 		<Longitude>-121.8474</Longitude>
@@ -1906,7 +1906,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Shelby County - TN</State>
 		<Latitude>35.1269</Latitude>
 		<Longitude>-89.9253</Longitude>
@@ -1921,7 +1921,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Sichuan</State>
 		<Latitude>30.6171</Latitude>
 		<Longitude>102.7103</Longitude>
@@ -1936,7 +1936,7 @@
 		<Population>80418200</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Snohomish County - WA</State>
 		<Latitude>48.033</Latitude>
 		<Longitude>-121.8339</Longitude>
@@ -1951,7 +1951,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Sonoma County - CA</State>
 		<Latitude>38.578</Latitude>
 		<Longitude>-122.9888</Longitude>
@@ -1966,7 +1966,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Australia</Country>
+		<Country>Australia</Country>
 		<State>South Australia</State>
 		<Latitude>-34.9285</Latitude>
 		<Longitude>138.6007</Longitude>
@@ -1981,7 +1981,7 @@
 		<Population>1677000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Spartanburg County - SC</State>
 		<Latitude>34.8606</Latitude>
 		<Longitude>-81.9535</Longitude>
@@ -1996,7 +1996,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Spokane County - WA</State>
 		<Latitude>47.6587</Latitude>
 		<Longitude>-117.4225</Longitude>
@@ -2011,7 +2011,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>St. Louis County - MO</State>
 		<Latitude>38.6103</Latitude>
 		<Longitude>-90.4125</Longitude>
@@ -2026,7 +2026,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Suffolk County - MA</State>
 		<Latitude>42.3601</Latitude>
 		<Longitude>-71.0589</Longitude>
@@ -2041,7 +2041,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Suffolk County - NY</State>
 		<Latitude>40.9849</Latitude>
 		<Longitude>-72.6151</Longitude>
@@ -2056,7 +2056,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Summit County - CO</State>
 		<Latitude>39.5912</Latitude>
 		<Longitude>-106.064</Longitude>
@@ -2071,7 +2071,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Taiwan</Country>
+		<Country>Taiwan</Country>
 		<State>Taiwan</State>
 		<Latitude>23.7</Latitude>
 		<Longitude>121</Longitude>
@@ -2086,7 +2086,7 @@
 		<Population>23780000</Population>
 	</row>
 	<row>
-		<Country> Australia</Country>
+		<Country>Australia</Country>
 		<State>Tasmania</State>
 		<Latitude>-41.4545</Latitude>
 		<Longitude>145.9707</Longitude>
@@ -2101,7 +2101,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Tianjin</State>
 		<Latitude>39.3054</Latitude>
 		<Longitude>117.323</Longitude>
@@ -2116,7 +2116,7 @@
 		<Population>12938224</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Tibet</State>
 		<Latitude>31.6927</Latitude>
 		<Longitude>88.0924</Longitude>
@@ -2131,7 +2131,7 @@
 		<Population>3002166</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Travis - CA (From Diamond Princess)</State>
 		<Latitude>38.2721</Latitude>
 		<Longitude>-121.9399</Longitude>
@@ -2146,7 +2146,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Tulsa County - OK</State>
 		<Latitude>36.1593</Latitude>
 		<Longitude>-95.941</Longitude>
@@ -2161,7 +2161,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Ulster County - NY</State>
 		<Latitude>41.8586</Latitude>
 		<Longitude>-74.3118</Longitude>
@@ -2176,7 +2176,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Umatilla - OR</State>
 		<Latitude>45.775</Latitude>
 		<Longitude>-118.7606</Longitude>
@@ -2191,7 +2191,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Unassigned Location (From Diamond Princess)</State>
 		<Latitude>35.4437</Latitude>
 		<Longitude>139.638</Longitude>
@@ -2206,7 +2206,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Unassigned Location - WA</State>
 		<Latitude>47.7511</Latitude>
 		<Longitude>-120.7401</Longitude>
@@ -2221,7 +2221,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Unknown Location - MA</State>
 		<Latitude>42.4072</Latitude>
 		<Longitude>-71.3824</Longitude>
@@ -2236,7 +2236,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Australia</Country>
+		<Country>Australia</Country>
 		<State>Victoria</State>
 		<Latitude>-37.8136</Latitude>
 		<Longitude>144.9631</Longitude>
@@ -2251,7 +2251,7 @@
 		<Population>6359000</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Volusia County - FL</State>
 		<Latitude>29.028</Latitude>
 		<Longitude>-81.0755</Longitude>
@@ -2266,7 +2266,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Wake County - NC</State>
 		<Latitude>35.8032</Latitude>
 		<Longitude>-78.5661</Longitude>
@@ -2281,7 +2281,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Washington - D.C.</State>
 		<Latitude>38.9072</Latitude>
 		<Longitude>-77.0369</Longitude>
@@ -2296,7 +2296,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Washington County - OR</State>
 		<Latitude>45.547</Latitude>
 		<Longitude>-123.1386</Longitude>
@@ -2311,7 +2311,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Washoe County - NV</State>
 		<Latitude>40.5608</Latitude>
 		<Longitude>-119.6035</Longitude>
@@ -2326,7 +2326,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Wayne County - PA</State>
 		<Latitude>41.6739</Latitude>
 		<Longitude>-75.2479</Longitude>
@@ -2341,7 +2341,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Westchester County - NY</State>
 		<Latitude>41.122</Latitude>
 		<Longitude>-73.7949</Longitude>
@@ -2356,7 +2356,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Australia</Country>
+		<Country>Australia</Country>
 		<State>Western Australia</State>
 		<Latitude>-31.9505</Latitude>
 		<Longitude>115.8605</Longitude>
@@ -2371,7 +2371,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Williamson County - TN</State>
 		<Latitude>35.9179</Latitude>
 		<Longitude>-86.8622</Longitude>
@@ -2386,7 +2386,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Xinjiang</State>
 		<Latitude>41.1129</Latitude>
 		<Longitude>85.2401</Longitude>
@@ -2401,7 +2401,7 @@
 		<Population>21813334</Population>
 	</row>
 	<row>
-		<Country> US</Country>
+		<Country>US</Country>
 		<State>Yolo County - CA</State>
 		<Latitude>38.7646</Latitude>
 		<Longitude>-121.9018</Longitude>
@@ -2416,7 +2416,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Yunnan</State>
 		<Latitude>24.974</Latitude>
 		<Longitude>101.487</Longitude>
@@ -2431,7 +2431,7 @@
 		<Population>45966239</Population>
 	</row>
 	<row>
-		<Country> Mainland China</Country>
+		<Country>Mainland China</Country>
 		<State>Zhejiang</State>
 		<Latitude>29.1832</Latitude>
 		<Longitude>120.0934</Longitude>
@@ -2446,7 +2446,7 @@
 		<Population>54426891</Population>
 	</row>
 	<row>
-		<Country> Afghanistan</Country>
+		<Country>Afghanistan</Country>
 		<State></State>
 		<Latitude>33</Latitude>
 		<Longitude>65</Longitude>
@@ -2461,7 +2461,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Albania</Country>
+		<Country>Albania</Country>
 		<State></State>
 		<Latitude>41.1533</Latitude>
 		<Longitude>20.1683</Longitude>
@@ -2476,7 +2476,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Algeria</Country>
+		<Country>Algeria</Country>
 		<State></State>
 		<Latitude>28.0339</Latitude>
 		<Longitude>1.6596</Longitude>
@@ -2491,7 +2491,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Andorra</Country>
+		<Country>Andorra</Country>
 		<State></State>
 		<Latitude>42.5063</Latitude>
 		<Longitude>1.5218</Longitude>
@@ -2506,7 +2506,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Argentina</Country>
+		<Country>Argentina</Country>
 		<State></State>
 		<Latitude>-38.4161</Latitude>
 		<Longitude>-63.6167</Longitude>
@@ -2521,7 +2521,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Armenia</Country>
+		<Country>Armenia</Country>
 		<State></State>
 		<Latitude>40.0691</Latitude>
 		<Longitude>45.0382</Longitude>
@@ -2536,7 +2536,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Austria</Country>
+		<Country>Austria</Country>
 		<State></State>
 		<Latitude>47.5162</Latitude>
 		<Longitude>14.5501</Longitude>
@@ -2551,7 +2551,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Azerbaijan</Country>
+		<Country>Azerbaijan</Country>
 		<State></State>
 		<Latitude>40.1431</Latitude>
 		<Longitude>47.5769</Longitude>
@@ -2566,7 +2566,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Bahrain</Country>
+		<Country>Bahrain</Country>
 		<State></State>
 		<Latitude>26.0275</Latitude>
 		<Longitude>50.55</Longitude>
@@ -2581,7 +2581,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Bangladesh</Country>
+		<Country>Bangladesh</Country>
 		<State></State>
 		<Latitude>23.685</Latitude>
 		<Longitude>90.3563</Longitude>
@@ -2596,7 +2596,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Belarus</Country>
+		<Country>Belarus</Country>
 		<State></State>
 		<Latitude>53.7098</Latitude>
 		<Longitude>27.9534</Longitude>
@@ -2611,7 +2611,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Belgium</Country>
+		<Country>Belgium</Country>
 		<State></State>
 		<Latitude>50.8333</Latitude>
 		<Longitude>4</Longitude>
@@ -2626,7 +2626,7 @@
 		<Population>11515793</Population>
 	</row>
 	<row>
-		<Country> Bhutan</Country>
+		<Country>Bhutan</Country>
 		<State></State>
 		<Latitude>27.5142</Latitude>
 		<Longitude>90.4336</Longitude>
@@ -2641,7 +2641,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Bosnia and Herzegovina</Country>
+		<Country>Bosnia and Herzegovina</Country>
 		<State></State>
 		<Latitude>43.9159</Latitude>
 		<Longitude>17.6791</Longitude>
@@ -2656,7 +2656,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Brazil</Country>
+		<Country>Brazil</Country>
 		<State></State>
 		<Latitude>-14.235</Latitude>
 		<Longitude>-51.9253</Longitude>
@@ -2671,7 +2671,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Brunei</Country>
+		<Country>Brunei</Country>
 		<State></State>
 		<Latitude>4.5353</Latitude>
 		<Longitude>114.7277</Longitude>
@@ -2686,7 +2686,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Bulgaria</Country>
+		<Country>Bulgaria</Country>
 		<State></State>
 		<Latitude>42.7339</Latitude>
 		<Longitude>25.4858</Longitude>
@@ -2701,7 +2701,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Cambodia</Country>
+		<Country>Cambodia</Country>
 		<State></State>
 		<Latitude>11.55</Latitude>
 		<Longitude>104.9167</Longitude>
@@ -2716,7 +2716,7 @@
 		<Population>16631348</Population>
 	</row>
 	<row>
-		<Country> Cameroon</Country>
+		<Country>Cameroon</Country>
 		<State></State>
 		<Latitude>3.848</Latitude>
 		<Longitude>11.5021</Longitude>
@@ -2731,7 +2731,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Chile</Country>
+		<Country>Chile</Country>
 		<State></State>
 		<Latitude>-35.6751</Latitude>
 		<Longitude>-71.543</Longitude>
@@ -2746,7 +2746,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Colombia</Country>
+		<Country>Colombia</Country>
 		<State></State>
 		<Latitude>4.5709</Latitude>
 		<Longitude>-74.2973</Longitude>
@@ -2761,7 +2761,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Costa Rica</Country>
+		<Country>Costa Rica</Country>
 		<State></State>
 		<Latitude>9.7489</Latitude>
 		<Longitude>-83.7534</Longitude>
@@ -2776,7 +2776,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Croatia</Country>
+		<Country>Croatia</Country>
 		<State></State>
 		<Latitude>45.1</Latitude>
 		<Longitude>15.2</Longitude>
@@ -2791,7 +2791,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Cyprus</Country>
+		<Country>Cyprus</Country>
 		<State></State>
 		<Latitude>35.1264</Latitude>
 		<Longitude>33.4299</Longitude>
@@ -2806,7 +2806,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Czech Republic</Country>
+		<Country>Czech Republic</Country>
 		<State></State>
 		<Latitude>49.8175</Latitude>
 		<Longitude>15.473</Longitude>
@@ -2821,7 +2821,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Denmark</Country>
+		<Country>Denmark</Country>
 		<State></State>
 		<Latitude>56.2639</Latitude>
 		<Longitude>9.5018</Longitude>
@@ -2836,7 +2836,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Dominican Republic</Country>
+		<Country>Dominican Republic</Country>
 		<State></State>
 		<Latitude>18.7357</Latitude>
 		<Longitude>-70.1627</Longitude>
@@ -2851,7 +2851,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Ecuador</Country>
+		<Country>Ecuador</Country>
 		<State></State>
 		<Latitude>-1.8312</Latitude>
 		<Longitude>-78.1834</Longitude>
@@ -2866,7 +2866,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Egypt</Country>
+		<Country>Egypt</Country>
 		<State></State>
 		<Latitude>26</Latitude>
 		<Longitude>30</Longitude>
@@ -2881,7 +2881,7 @@
 		<Population>97550000</Population>
 	</row>
 	<row>
-		<Country> Estonia</Country>
+		<Country>Estonia</Country>
 		<State></State>
 		<Latitude>58.5953</Latitude>
 		<Longitude>25.0136</Longitude>
@@ -2896,7 +2896,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Faroe Islands</Country>
+		<Country>Faroe Islands</Country>
 		<State></State>
 		<Latitude>61.8926</Latitude>
 		<Longitude>-6.9118</Longitude>
@@ -2911,7 +2911,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Finland</Country>
+		<Country>Finland</Country>
 		<State></State>
 		<Latitude>64</Latitude>
 		<Longitude>26</Longitude>
@@ -2926,7 +2926,7 @@
 		<Population>5522015</Population>
 	</row>
 	<row>
-		<Country> France</Country>
+		<Country>France</Country>
 		<State></State>
 		<Latitude>47</Latitude>
 		<Longitude>2</Longitude>
@@ -2941,7 +2941,7 @@
 		<Population>67795000</Population>
 	</row>
 	<row>
-		<Country> French Guiana</Country>
+		<Country>French Guiana</Country>
 		<State></State>
 		<Latitude>3.9339</Latitude>
 		<Longitude>-53.1258</Longitude>
@@ -2956,7 +2956,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Georgia</Country>
+		<Country>Georgia</Country>
 		<State></State>
 		<Latitude>42.3154</Latitude>
 		<Longitude>43.3569</Longitude>
@@ -2971,7 +2971,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Germany</Country>
+		<Country>Germany</Country>
 		<State></State>
 		<Latitude>51</Latitude>
 		<Longitude>9</Longitude>
@@ -2986,7 +2986,7 @@
 		<Population>83073100</Population>
 	</row>
 	<row>
-		<Country> Gibraltar</Country>
+		<Country>Gibraltar</Country>
 		<State></State>
 		<Latitude>36.1408</Latitude>
 		<Longitude>-5.3536</Longitude>
@@ -3001,7 +3001,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Greece</Country>
+		<Country>Greece</Country>
 		<State></State>
 		<Latitude>39.0742</Latitude>
 		<Longitude>21.8243</Longitude>
@@ -3016,7 +3016,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Hungary</Country>
+		<Country>Hungary</Country>
 		<State></State>
 		<Latitude>47.1625</Latitude>
 		<Longitude>19.5033</Longitude>
@@ -3031,7 +3031,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Iceland</Country>
+		<Country>Iceland</Country>
 		<State></State>
 		<Latitude>64.9631</Latitude>
 		<Longitude>-19.0208</Longitude>
@@ -3046,7 +3046,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> India</Country>
+		<Country>India</Country>
 		<State></State>
 		<Latitude>21</Latitude>
 		<Longitude>78</Longitude>
@@ -3061,7 +3061,7 @@
 		<Population>1339000000</Population>
 	</row>
 	<row>
-		<Country> Indonesia</Country>
+		<Country>Indonesia</Country>
 		<State></State>
 		<Latitude>-0.7893</Latitude>
 		<Longitude>113.9213</Longitude>
@@ -3076,7 +3076,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Iran</Country>
+		<Country>Iran</Country>
 		<State></State>
 		<Latitude>32</Latitude>
 		<Longitude>53</Longitude>
@@ -3091,7 +3091,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Iraq</Country>
+		<Country>Iraq</Country>
 		<State></State>
 		<Latitude>33</Latitude>
 		<Longitude>44</Longitude>
@@ -3106,7 +3106,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Ireland</Country>
+		<Country>Ireland</Country>
 		<State></State>
 		<Latitude>53.1424</Latitude>
 		<Longitude>-7.6921</Longitude>
@@ -3121,7 +3121,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Israel</Country>
+		<Country>Israel</Country>
 		<State></State>
 		<Latitude>31</Latitude>
 		<Longitude>35</Longitude>
@@ -3136,7 +3136,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Italy</Country>
+		<Country>Italy</Country>
 		<State></State>
 		<Latitude>43</Latitude>
 		<Longitude>12</Longitude>
@@ -3151,7 +3151,7 @@
 		<Population>60359546</Population>
 	</row>
 	<row>
-		<Country> Japan</Country>
+		<Country>Japan</Country>
 		<State></State>
 		<Latitude>36</Latitude>
 		<Longitude>138</Longitude>
@@ -3166,7 +3166,7 @@
 		<Population>126800000</Population>
 	</row>
 	<row>
-		<Country> Jordan</Country>
+		<Country>Jordan</Country>
 		<State></State>
 		<Latitude>31.24</Latitude>
 		<Longitude>36.51</Longitude>
@@ -3181,7 +3181,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Kuwait</Country>
+		<Country>Kuwait</Country>
 		<State></State>
 		<Latitude>29.5</Latitude>
 		<Longitude>47.75</Longitude>
@@ -3196,7 +3196,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Latvia</Country>
+		<Country>Latvia</Country>
 		<State></State>
 		<Latitude>56.8796</Latitude>
 		<Longitude>24.6032</Longitude>
@@ -3211,7 +3211,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Lebanon</Country>
+		<Country>Lebanon</Country>
 		<State></State>
 		<Latitude>33.8547</Latitude>
 		<Longitude>35.8623</Longitude>
@@ -3226,7 +3226,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Liechtenstein</Country>
+		<Country>Liechtenstein</Country>
 		<State></State>
 		<Latitude>47.14</Latitude>
 		<Longitude>9.55</Longitude>
@@ -3241,7 +3241,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Lithuania</Country>
+		<Country>Lithuania</Country>
 		<State></State>
 		<Latitude>55.1694</Latitude>
 		<Longitude>23.8813</Longitude>
@@ -3256,7 +3256,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Luxembourg</Country>
+		<Country>Luxembourg</Country>
 		<State></State>
 		<Latitude>49.8153</Latitude>
 		<Longitude>6.1296</Longitude>
@@ -3271,7 +3271,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Malaysia</Country>
+		<Country>Malaysia</Country>
 		<State></State>
 		<Latitude>2.5</Latitude>
 		<Longitude>112.5</Longitude>
@@ -3286,7 +3286,7 @@
 		<Population>32772100</Population>
 	</row>
 	<row>
-		<Country> Maldives</Country>
+		<Country>Maldives</Country>
 		<State></State>
 		<Latitude>3.2028</Latitude>
 		<Longitude>73.2207</Longitude>
@@ -3301,7 +3301,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Malta</Country>
+		<Country>Malta</Country>
 		<State></State>
 		<Latitude>35.9375</Latitude>
 		<Longitude>14.3754</Longitude>
@@ -3316,7 +3316,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Martinique</Country>
+		<Country>Martinique</Country>
 		<State></State>
 		<Latitude>14.6415</Latitude>
 		<Longitude>-61.0242</Longitude>
@@ -3331,7 +3331,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Mexico</Country>
+		<Country>Mexico</Country>
 		<State></State>
 		<Latitude>23.6345</Latitude>
 		<Longitude>-102.5528</Longitude>
@@ -3346,7 +3346,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Moldova</Country>
+		<Country>Moldova</Country>
 		<State></State>
 		<Latitude>47.4116</Latitude>
 		<Longitude>28.3699</Longitude>
@@ -3361,7 +3361,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Monaco</Country>
+		<Country>Monaco</Country>
 		<State></State>
 		<Latitude>43.7333</Latitude>
 		<Longitude>7.4167</Longitude>
@@ -3376,7 +3376,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Morocco</Country>
+		<Country>Morocco</Country>
 		<State></State>
 		<Latitude>31.7917</Latitude>
 		<Longitude>-7.0926</Longitude>
@@ -3391,7 +3391,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Nepal</Country>
+		<Country>Nepal</Country>
 		<State></State>
 		<Latitude>28.1667</Latitude>
 		<Longitude>84.25</Longitude>
@@ -3406,7 +3406,7 @@
 		<Population>29</Population>
 	</row>
 	<row>
-		<Country> Netherlands</Country>
+		<Country>Netherlands</Country>
 		<State></State>
 		<Latitude>52.1326</Latitude>
 		<Longitude>5.2913</Longitude>
@@ -3421,7 +3421,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> New Zealand</Country>
+		<Country>New Zealand</Country>
 		<State></State>
 		<Latitude>-40.9006</Latitude>
 		<Longitude>174.886</Longitude>
@@ -3436,7 +3436,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Nigeria</Country>
+		<Country>Nigeria</Country>
 		<State></State>
 		<Latitude>9.082</Latitude>
 		<Longitude>8.6753</Longitude>
@@ -3451,7 +3451,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> North Macedonia</Country>
+		<Country>North Macedonia</Country>
 		<State></State>
 		<Latitude>41.6086</Latitude>
 		<Longitude>21.7453</Longitude>
@@ -3466,7 +3466,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Norway</Country>
+		<Country>Norway</Country>
 		<State></State>
 		<Latitude>60.472</Latitude>
 		<Longitude>8.4689</Longitude>
@@ -3481,7 +3481,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Oman</Country>
+		<Country>Oman</Country>
 		<State></State>
 		<Latitude>21</Latitude>
 		<Longitude>57</Longitude>
@@ -3496,7 +3496,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Pakistan</Country>
+		<Country>Pakistan</Country>
 		<State></State>
 		<Latitude>30.3753</Latitude>
 		<Longitude>69.3451</Longitude>
@@ -3511,7 +3511,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Palestine</Country>
+		<Country>Palestine</Country>
 		<State></State>
 		<Latitude>31.9522</Latitude>
 		<Longitude>35.2332</Longitude>
@@ -3526,7 +3526,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Paraguay</Country>
+		<Country>Paraguay</Country>
 		<State></State>
 		<Latitude>-23.4425</Latitude>
 		<Longitude>-58.4438</Longitude>
@@ -3541,7 +3541,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Peru</Country>
+		<Country>Peru</Country>
 		<State></State>
 		<Latitude>-9.19</Latitude>
 		<Longitude>-75.0152</Longitude>
@@ -3556,7 +3556,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Philippines</Country>
+		<Country>Philippines</Country>
 		<State></State>
 		<Latitude>13</Latitude>
 		<Longitude>122</Longitude>
@@ -3571,7 +3571,7 @@
 		<Population>109180815</Population>
 	</row>
 	<row>
-		<Country> Poland</Country>
+		<Country>Poland</Country>
 		<State></State>
 		<Latitude>51.9194</Latitude>
 		<Longitude>19.1451</Longitude>
@@ -3586,7 +3586,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Portugal</Country>
+		<Country>Portugal</Country>
 		<State></State>
 		<Latitude>39.3999</Latitude>
 		<Longitude>-8.2245</Longitude>
@@ -3601,7 +3601,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Qatar</Country>
+		<Country>Qatar</Country>
 		<State></State>
 		<Latitude>25.3548</Latitude>
 		<Longitude>51.1839</Longitude>
@@ -3616,7 +3616,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Romania</Country>
+		<Country>Romania</Country>
 		<State></State>
 		<Latitude>45.9432</Latitude>
 		<Longitude>24.9668</Longitude>
@@ -3631,7 +3631,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Russia</Country>
+		<Country>Russia</Country>
 		<State></State>
 		<Latitude>60</Latitude>
 		<Longitude>90</Longitude>
@@ -3646,7 +3646,7 @@
 		<Population>144500000</Population>
 	</row>
 	<row>
-		<Country> Saint Barthelemy</Country>
+		<Country>Saint Barthelemy</Country>
 		<State></State>
 		<Latitude>17.9</Latitude>
 		<Longitude>-62.8333</Longitude>
@@ -3661,7 +3661,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> San Marino</Country>
+		<Country>San Marino</Country>
 		<State></State>
 		<Latitude>43.9424</Latitude>
 		<Longitude>12.4578</Longitude>
@@ -3676,7 +3676,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Saudi Arabia</Country>
+		<Country>Saudi Arabia</Country>
 		<State></State>
 		<Latitude>24</Latitude>
 		<Longitude>45</Longitude>
@@ -3691,7 +3691,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Senegal</Country>
+		<Country>Senegal</Country>
 		<State></State>
 		<Latitude>14.4974</Latitude>
 		<Longitude>-14.4524</Longitude>
@@ -3706,7 +3706,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Serbia</Country>
+		<Country>Serbia</Country>
 		<State></State>
 		<Latitude>44.0165</Latitude>
 		<Longitude>21.0059</Longitude>
@@ -3721,7 +3721,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Singapore</Country>
+		<Country>Singapore</Country>
 		<State></State>
 		<Latitude>1.2833</Latitude>
 		<Longitude>103.8333</Longitude>
@@ -3736,7 +3736,7 @@
 		<Population>5638700</Population>
 	</row>
 	<row>
-		<Country> Slovakia</Country>
+		<Country>Slovakia</Country>
 		<State></State>
 		<Latitude>48.669</Latitude>
 		<Longitude>19.699</Longitude>
@@ -3751,7 +3751,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Slovenia</Country>
+		<Country>Slovenia</Country>
 		<State></State>
 		<Latitude>46.1512</Latitude>
 		<Longitude>14.9955</Longitude>
@@ -3766,7 +3766,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> South Africa</Country>
+		<Country>South Africa</Country>
 		<State></State>
 		<Latitude>-30.5595</Latitude>
 		<Longitude>22.9375</Longitude>
@@ -3781,7 +3781,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> South Korea</Country>
+		<Country>South Korea</Country>
 		<State></State>
 		<Latitude>36</Latitude>
 		<Longitude>128</Longitude>
@@ -3796,7 +3796,7 @@
 		<Population>51470000</Population>
 	</row>
 	<row>
-		<Country> Spain</Country>
+		<Country>Spain</Country>
 		<State></State>
 		<Latitude>40</Latitude>
 		<Longitude>-4</Longitude>
@@ -3811,7 +3811,7 @@
 		<Population>46733038</Population>
 	</row>
 	<row>
-		<Country> Sri Lanka</Country>
+		<Country>Sri Lanka</Country>
 		<State></State>
 		<Latitude>7</Latitude>
 		<Longitude>81</Longitude>
@@ -3826,7 +3826,7 @@
 		<Population>22576592</Population>
 	</row>
 	<row>
-		<Country> St. Martin</Country>
+		<Country>St. Martin</Country>
 		<State></State>
 		<Latitude>18.0708</Latitude>
 		<Longitude>-63.0501</Longitude>
@@ -3841,7 +3841,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Sweden</Country>
+		<Country>Sweden</Country>
 		<State></State>
 		<Latitude>63</Latitude>
 		<Longitude>16</Longitude>
@@ -3856,7 +3856,7 @@
 		<Population>10120000</Population>
 	</row>
 	<row>
-		<Country> Switzerland</Country>
+		<Country>Switzerland</Country>
 		<State></State>
 		<Latitude>46.8182</Latitude>
 		<Longitude>8.2275</Longitude>
@@ -3871,7 +3871,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Thailand</Country>
+		<Country>Thailand</Country>
 		<State></State>
 		<Latitude>15</Latitude>
 		<Longitude>101</Longitude>
@@ -3886,7 +3886,7 @@
 		<Population>68977400</Population>
 	</row>
 	<row>
-		<Country> Togo</Country>
+		<Country>Togo</Country>
 		<State></State>
 		<Latitude>8.6195</Latitude>
 		<Longitude>0.8248</Longitude>
@@ -3901,7 +3901,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> Tunisia</Country>
+		<Country>Tunisia</Country>
 		<State></State>
 		<Latitude>34</Latitude>
 		<Longitude>9</Longitude>
@@ -3916,7 +3916,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> UK</Country>
+		<Country>UK</Country>
 		<State></State>
 		<Latitude>55</Latitude>
 		<Longitude>-3</Longitude>
@@ -3931,7 +3931,7 @@
 		<Population>67545757</Population>
 	</row>
 	<row>
-		<Country> Ukraine</Country>
+		<Country>Ukraine</Country>
 		<State></State>
 		<Latitude>48.3794</Latitude>
 		<Longitude>31.1656</Longitude>
@@ -3946,7 +3946,7 @@
 		<Population>null</Population>
 	</row>
 	<row>
-		<Country> United Arab Emirates</Country>
+		<Country>United Arab Emirates</Country>
 		<State></State>
 		<Latitude>24</Latitude>
 		<Longitude>54</Longitude>
