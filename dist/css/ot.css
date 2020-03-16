@@ -74,10 +74,12 @@ html {
 
 .ot-card-chart {
   /*height: 531px;*/
-  height: 357px;
+  /*height: 357px;*/
 }
 
 .ot-card-chart .card-body {
+  height: 310px;
+  /*height: 400px;*/
 }
 
 .ot-chart-container {
@@ -92,25 +94,28 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
-#actuateViewerContainercontainer2 {
+.ot-chart-container {
   height: 100% !important;
   
 }
-#actuateViewerContainercontainer2 > .content {
+.ot-chart-container .actuateViewerContainer{
+  height: 100% !important;
+}
+.ot-chart-container .content {
   width: 100% !important;
   height: 100% !important;
 }
-#actuateViewerContainercontainer2 > .content > .contentPanel {
+.ot-chart-container .content > .contentPanel {
   width: 100% !important;
   height: 100% !important;
 }
-#actuateViewerContainercontainer2 > .content > .contentPanel > .floatPanel {
+.ot-chart-container  .content > .contentPanel > .floatPanel {
   width: 100% !important;
   height: 100% !important;
   /*overflow-y: scroll !important;*/
   /*border: thin solid black;*/
 }
-#actuateViewerContainercontainer2 > .content > .contentPanel > .floatPanel > div {
+.ot-chart-container  .content > .contentPanel > .floatPanel > div {
   margin: 0 !important;
 }
 #container2___BIRT_ROOT > table {
@@ -351,8 +356,8 @@ tr.active {
 .sars-selector {
   /*min-height: 1078px;*/
   /*height: 1054px;*/
-  min-height: 730px;
-  height: 730px;
+  min-height: 749px;
+  height: 749px;
 }
 
 /* override the height of chart table */

@@ -432,7 +432,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   function myInit() {
     viewer1 = new actuate.Viewer('container1');
     w = jQuery("#report-1").width();
-    h = jQuery("#report-1").height();
+    h = jQuery("#report-1").height() -35;
     viewer1.setSize(w, h);
 
     viewer1.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_1.rptdesign');
