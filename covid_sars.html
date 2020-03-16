@@ -73,6 +73,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <table
                   class="table table-head-fixed text-nowrap table-hover case-vs-table">
                   <tbody id="total-confirmed-by-country">
+                  	<tr class="active ot-cases" data-country="Global"><td><span class="sars-label">SARS</span>&amp;<span class="covid-label">COVID</span></td><td>Global</td></tr>
                   </tbody>
                 </table>
               </div>
@@ -430,13 +431,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
   actuate.initialize('http://58.153.97.117:8700/iportal/', reqOps == undefined ? null : reqOps, 'Administrator', '', myInit);
 
   function myInit() {
+	  
+	  var current_country_val = $("#current_country").val();
+	  if(current_country_val != "global" && current_country_val != "Global" && current_country_val != null && current_country_val != "null")
+		  country_region_val = current_country_val;
+	  
     viewer1 = new actuate.Viewer('container1');
     w = jQuery("#report-1").width();
     h = jQuery("#report-1").height() -35;
     viewer1.setSize(w, h);
 
-    viewer1.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_1.rptdesign','1');
-    var parameterValueMap = {p_COVIDCountry: country_region_val, p_SARSCountry2: country_region_val}
+    viewer1.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_1.rptdesign');
+    var parameterValueMap = {p_Country: country_region_val}
     var parameterValues = [];
     for (
       var key in parameterValueMap) {
@@ -457,7 +463,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     viewer2 = new actuate.Viewer('container2');
     viewer2.setSize(w, h);
-    viewer2.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_2.rptdesign','1');
+    viewer2.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_2.rptdesign');
     viewer2.setParameterValues(parameterValues);
     var options2 = new actuate.viewer.UIOptions();
     options2.enableToolBar(false);
@@ -467,7 +473,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     viewer3 = new actuate.Viewer('container3');
     viewer3.setSize(w, h);
-    viewer3.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_3.rptdesign','1');
+    viewer3.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_3.rptdesign');
     viewer3.setParameterValues(parameterValues);
     var options3 = new actuate.viewer.UIOptions();
     options3.enableToolBar(false);
@@ -476,7 +482,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     viewer4 = new actuate.Viewer('container4');
     viewer4.setSize(w, h);
-    viewer4.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_4.rptdesign','1');
+    viewer4.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_4.rptdesign');
     viewer4.setParameterValues(parameterValues);
     var options4 = new actuate.viewer.UIOptions();
     options4.enableToolBar(false);
@@ -487,23 +493,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
   function updateParam(param) {
     country_region_val = param;
     myInit();
-    /*
-    var parameterValueMap = {p_COVIDCountry: country_region_val, p_SARSCountry2: country_region_val}
-    var parameterValues = [];
-    for (
-      var key in parameterValueMap) {
-      var params = new actuate.viewer.impl.ParameterValue();
-      params.setName(key);
-      if (parameterValueMap[key] != null) {
-        params.setValue(parameterValueMap[key]);
-      } else {
-        params.setValueIsNull(true);
-      }
-      parameterValues.push(params);
-    }
-    viewer1.setParameterValues(parameterValues);
-    viewer1.submit();
-     */
   }
 
 
@@ -540,6 +529,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
       var country = $this.data('country');
       jQuery("tr.active").removeClass("active");
       $this.addClass("active");
+      
+      $("#current_country").val($.trim(country));
 
       updateTitle(country);
       updateParam(country);
