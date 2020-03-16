@@ -64,9 +64,11 @@ function renderTable() {
   var countriesByConfirmed = _.sortBy(countriesArray, ['cases.COVIDCount', 'name']).reverse();
   for (var key in countriesByConfirmed) {
     var country = countriesByConfirmed[key];
-
-    if (country.name == "global" || country.name == "Global")
-      continue;
+    
+    if ($.trim(country.name) == "global" || $.trim(country.name)  == "Global"){
+    	 continue;
+    }
+     
 
     if (country.cases.SARSCount == null || country.cases.SARSCount == "null") {
 
