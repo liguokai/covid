@@ -73,6 +73,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <table
                   class="table table-head-fixed text-nowrap table-hover case-vs-table">
                   <tbody id="total-confirmed-by-country">
+                  	<tr class="active ot-cases" data-country="Global"><td><span class="sars-label">SARS</span>&amp;<span class="covid-label">COVID</span></td><td>Global</td></tr>
                   </tbody>
                 </table>
               </div>
@@ -430,13 +431,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
   actuate.initialize('http://58.153.97.117:8700/iportal/', reqOps == undefined ? null : reqOps, 'Administrator', '', myInit);
 
   function myInit() {
+	  
+	  var current_country_val = $("#current_country").val();
+	  if(current_country_val != "global" && current_country_val != "Global" && current_country_val != null && current_country_val != "null")
+		  country_region_val = current_country_val;
+	  
     viewer1 = new actuate.Viewer('container1');
     w = jQuery("#report-1").width();
     h = jQuery("#report-1").height() -35;
     viewer1.setSize(w, h);
 
     viewer1.setReportDesign('/Applications/COR20_APAC/Report Designs/Chart_SARS_vs_COVID_1.rptdesign');
-    var parameterValueMap = {p_COVIDCountry: country_region_val, p_SARSCountry2: country_region_val}
+    var parameterValueMap = {p_Country: country_region_val}
     var parameterValues = [];
     for (
       var key in parameterValueMap) {
@@ -523,6 +529,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
       var country = $this.data('country');
       jQuery("tr.active").removeClass("active");
       $this.addClass("active");
+      
+      $("#current_country").val($.trim(country));
 
       updateTitle(country);
       updateParam(country);
