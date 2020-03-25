@@ -246,7 +246,8 @@ tr.active {
 }
 
 
-.table.case-table {
+.table.case-table,
+.table.case-vs-table{
   margin: -1px;
 }
 
@@ -286,6 +287,13 @@ tr.active {
   color: #3578ad;
   font-weight: bold;
   margin-right: 2px;
+}
+.case-vs-table tbody tr.active{
+  background-color: blue !important;
+}
+.case-vs-table tbody tr:hover {
+  color: inherit;
+  background-color: blue !important;
 }
 .case-vs-table .covid-label{
   color: #9ecc4c;
